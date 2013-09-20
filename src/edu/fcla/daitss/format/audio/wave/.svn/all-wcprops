@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/audio/wave
+END
+WaveLimitations.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/audio/wave/WaveLimitations.java
+END
+Wave.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/audio/wave/Wave.java
+END
+WaveAudio.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/audio/wave/WaveAudio.java
+END
+WaveAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/audio/wave/WaveAnomalies.java
+END

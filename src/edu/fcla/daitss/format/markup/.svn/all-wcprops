@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/1416/daitss/trunk/src/edu/fcla/daitss/format/markup
+END
+XMLDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLDocument.java
+END
+XML.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XML.java
+END
+MLAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/MLAnomalies.java
+END
+XMLWriterFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLWriterFilter.java
+END
+XPaths.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XPaths.java
+END
+MLDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/MLDocument.java
+END
+METSDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1251/daitss/trunk/src/edu/fcla/daitss/format/markup/METSDocument.java
+END
+METSDescriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/1416/daitss/trunk/src/edu/fcla/daitss/format/markup/METSDescriptor.java
+END
+XMLMetadataFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLMetadataFilter.java
+END
+MLFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/MLFile.java
+END
+XMLReducer.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLReducer.java
+END
+XMLWriterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLWriterException.java
+END
+NamespaceURI.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/NamespaceURI.java
+END
+JAXPDOMParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/JAXPDOMParser.java
+END
+SubstandardMETSException.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/SubstandardMETSException.java
+END
+XMLLinkFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1357/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLLinkFilter.java
+END
+XMLSAXParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLSAXParser.java
+END
+SimplePrefixResolver.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/SimplePrefixResolver.java
+END
+XMLAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/markup/XMLAnomalies.java
+END

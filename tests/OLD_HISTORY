@@ -1,0 +1,459 @@
+commit 1c1e26f59176033060fcbdd3283750369e01eb38
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Apr 10 16:27:24 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Apr 10 16:27:24 2008 -0400
+
+    carols test from upstream
+
+commit b363d23cd713edd9e843b0b13842be032fe6c865
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Wed Apr 9 18:25:19 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Wed Apr 9 18:25:19 2008 -0400
+
+    undoing mistake factoring
+
+commit 88d5716bace2b898915bf8372f88bffd643aef8a
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Wed Apr 9 12:03:31 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Wed Apr 9 12:03:31 2008 -0400
+
+    logs-dir specified for tarchive testing
+
+commit f801558db589296ecb5949858abd428dbe6aed17
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Apr 8 18:10:46 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Apr 8 18:10:46 2008 -0400
+
+    new test passing
+
+commit 2ff6bc496d2a68b41266b3a39c30ca2f42d872cd
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Apr 8 17:55:35 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Apr 8 17:55:35 2008 -0400
+
+    new tests passing
+
+commit 8faea53f3b66c6b031434b72c1fed05f16783dda
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Apr 8 16:29:24 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Apr 8 16:29:24 2008 -0400
+
+    test passing
+
+commit 6f7d6995fd232193406ea39b4cdcd73de70b60d8
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Apr 8 15:39:42 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Apr 8 15:39:42 2008 -0400
+
+    test is passing
+
+commit 566a070ad555b6b4f69e92a85d4d1e02427eb119
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Apr 8 15:26:20 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Apr 8 15:26:20 2008 -0400
+
+    using String#expect for testing
+    testing if silos before and after have the same urls, but different md5s
+
+commit 40e055596c62698a1664335ef218ac2a4a2d7b8b
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Apr 7 12:22:08 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Apr 7 12:22:08 2008 -0400
+
+    more criteria for the test
+
+commit 11e33c1405cb3af1e5e5e0c75ccac813c98fcd11
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Apr 7 12:16:58 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Apr 7 12:16:58 2008 -0400
+
+    test case passing locally
+
+commit 43d3617c6c5969349a7fdc34c7202600ba8dab51
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Apr 7 12:04:34 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Apr 7 12:04:34 2008 -0400
+
+    test case for some active silos
+
+commit fbf538a4d93566d88604b8a4a286c81a8abc6d43
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Apr 3 17:32:04 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Apr 3 17:32:04 2008 -0400
+
+    cleaning up deleted stuff; moved script to bin under better name
+
+commit d5a2365dc40483c7bb82d28555b697abe0575b7f
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Apr 3 17:30:31 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Apr 3 17:30:31 2008 -0400
+
+    refactoring common packages to take up less space
+
+commit 18e4750c8cdc1fdcf45fe7594124e6547aed7937
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Apr 3 16:15:04 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Apr 3 16:15:04 2008 -0400
+
+    stage is outside of this
+
+commit c2153fdac37dcb615910321bfa04d97c8d051322
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Apr 3 16:14:38 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Apr 3 16:14:38 2008 -0400
+
+    new config profile stage
+    env.sh cleaned up
+    clamdscan is no longer a link
+
+commit b803ac7f7f47858b7dbb00002cd42d6ee5d8656b
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Mar 27 16:34:19 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Mar 27 16:34:19 2008 -0400
+
+    changed the tarballing dir to staging
+
+commit 36258ac0c922b44592ab24c25e48d4f7c9647804
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Mar 27 16:31:02 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Mar 27 16:31:02 2008 -0400
+
+    uploads everything to the staging area of tarchive
+
+commit e79a4d156c5e6ca652e65f031919e1257891a912
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Wed Mar 26 18:21:28 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Wed Mar 26 18:21:28 2008 -0400
+
+    no more links to share/global/daitss.properties
+    if different properties are needed put only those entries in local.properties
+
+commit c6ae4b9e1e6f881d17f47b6ca2a0ca9f71e552c1
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Wed Mar 26 14:06:27 2008 -0400
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Wed Mar 26 14:06:27 2008 -0400
+
+    support for clamdscan in the mock environment
+
+commit 7374da2d0ad627452b313b17cb4b8b5443e26b81
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 15:09:03 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 15:09:03 2008 -0500
+
+    cleaning up daitss & franco
+
+commit 7e4c981d4327f8e11d75820ae00cf54c58ff1863
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 14:47:19 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 14:47:19 2008 -0500
+
+    should call bin/go and env.sh will be picked up
+
+commit a98603b5dca9e71eec3b9db7ff3c37697648ddd8
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 14:46:15 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 14:46:15 2008 -0500
+
+    put a commented test tape silo
+
+commit 11097329e0ca005b538a7e8317757b450d1b61ca
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 14:38:29 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 14:38:29 2008 -0500
+
+    go now looks at env.sh
+
+commit 7e4b442e81ea2a3bdfba50274ef20395637ff049
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 14:10:57 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 14:10:57 2008 -0500
+
+    cleaning up tools
+
+commit 9b51b30a4bdb7091c20ad3fde4a7d5056e542321
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 14:02:30 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 14:02:30 2008 -0500
+
+    cleaning up tools
+
+commit 3b7a53c4095284ef4e687e1bff0d0a10f1251b42
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 14:00:48 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 14:00:48 2008 -0500
+
+    pending reports like the rest of 'em
+
+commit d69269e49d83021fd461c1cf95f09dde0be1d534
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 13:50:51 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 13:50:51 2008 -0500
+
+    pending the virus tests
+
+commit c4a54a4cef8aea4739d2ea0a5252ba00ded1aedc
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Mar 7 13:26:02 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Mar 7 13:26:02 2008 -0500
+
+    env changes, daitss property changed for one specific test
+
+commit 67594fc8adb99195d96b0c703d1f5d5d8ce62e7e
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Wed Feb 27 14:51:27 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Wed Feb 27 14:51:27 2008 -0500
+
+    cleaning up perms
+
+commit 1549bf7f19e486e9622d619bad88cdadfe96f74e
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Wed Feb 27 14:12:39 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Wed Feb 27 14:12:39 2008 -0500
+
+    cleaning up stuff before svn tag
+
+commit 9651ee11c4e99bea88eb3a7101c95a2522fb5a0f
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 17:18:19 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 17:18:19 2008 -0500
+
+    mock ghostscript
+
+commit 65e79036a7476c4fc60cd3064b5c1c81fab59b55
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 17:15:57 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 17:15:57 2008 -0500
+
+    changed the MOCK_EXIT_CODE env var to be more specific
+
+commit 539cd08d93e020a045f119a0f6d05f191c9e6406
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 16:27:26 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 16:27:26 2008 -0500
+
+    local.sql sets proper pres levels
+    spelling mistake in run.rb
+
+commit 18404b8d72f1ec3582e5647f94c551960d38f434
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 16:21:05 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 16:21:05 2008 -0500
+
+    local sql changes, now passing
+
+commit b14b5752bf7d525fbb4b93c7fb862acffd9a75d2
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 16:08:49 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 16:08:49 2008 -0500
+
+    making test pending because its not implemented yet
+
+commit ab9488723aa975ae398a6b8e032bf63581fbf6ea
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 16:06:37 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 16:06:37 2008 -0500
+
+    removing temp file
+
+commit caf9472eb3c85f7d286ff67966561e2b110b0855
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 16:05:17 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 16:05:17 2008 -0500
+
+    rolling own disseminations
+    script to run tests
+    cleaned out obsolete files
+    renamed some things
+
+commit d86b9de78f0c1beb0b9b1b437f67172b618fcb03
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Tue Feb 26 02:08:21 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Tue Feb 26 02:08:21 2008 -0500
+
+    removed obsolete init.sql
+    added output request entry for permissions into global.sql
+
+commit 6e50a41f6fa04f1234f801eaf6fc44e01121713e
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Feb 25 23:48:38 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Feb 25 23:48:38 2008 -0500
+
+    removed common packages dir, there were only 2 links to one package.
+    i plan on doing a better package refactor later
+
+commit a02ed61d5003873406db930880f7a64e8bfd9bda
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Feb 25 23:47:41 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Feb 25 23:47:41 2008 -0500
+
+    cleaning up unused script for converting to hypertar style tests
+
+commit b276e527f8eac457d711bc196a14c4e544e0b1b7
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Feb 25 23:42:55 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Feb 25 23:42:55 2008 -0500
+
+    all tests did not crash at least once
+    database is loaded from migrations first, then setup-files/global.sql, then the local.sql in the test dir
+
+commit 828e8f5e54fd58274a8a979f711e88aa35a9db82
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Mon Feb 25 17:05:47 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Mon Feb 25 17:05:47 2008 -0500
+
+    moving non crashing tests into the ingest cases
+    made TODO for db sql files
+
+commit 27d1ad3d9717a338401cf324cf1e23c2c1ff5187
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Feb 22 11:04:08 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Feb 22 11:04:08 2008 -0500
+
+    cleaning up
+
+commit 3f7bbe86931f640633c1f3972388dba987a2e85c
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Fri Feb 22 11:03:01 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Fri Feb 22 11:03:01 2008 -0500
+
+    moving more stuff to ingest
+
+commit 47fd82ecfc0c1a6c50ecf878e8529eed5218ddc0
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 17:15:50 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 17:15:50 2008 -0500
+
+    moved more non crashing tests into the ingest dir
+
+commit 6aa9b8798941dc04dceebb45acaf1389b2e34647
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 16:41:05 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 16:41:05 2008 -0500
+
+    cleaning up
+
+commit 5f5caed096cf3dc166c0ccb8cb45c9d82fd6ed32
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 16:39:50 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 16:39:50 2008 -0500
+
+    moving passing tests to ingest
+
+commit 1f64cbd2969f2be75494c1b291441a6cd26de547
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 14:14:39 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 14:14:39 2008 -0500
+
+    cleanup of cruft
+
+commit c587148c8b9af19fa5f83e476ec4ed66e27097ce
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 14:14:27 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 14:14:27 2008 -0500
+
+    script to convert from old to new
+
+commit 88b3eb68549da58fc209137792c355a6529a296e
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 14:13:36 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 14:13:36 2008 -0500
+
+    broke ingest into two parts: working and old (imported from main branch)
+
+commit 157d39aadd2c78145e61efa2f1e5b7b9fd173421
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 14:07:21 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 14:07:21 2008 -0500
+
+    ingest/webcache work with the hypertar tests
+
+commit c12e39444bc2d9965e1e1e534635beda91969f24
+Author:     franco <flaz@ufl.edu>
+AuthorDate: Thu Feb 21 13:52:53 2008 -0500
+Commit:     franco <flaz@ufl.edu>
+CommitDate: Thu Feb 21 13:52:53 2008 -0500
+
+    ignore file
+
+commit 1e081ef0261e6451c2d39cd76ab539d6fd718ba8
+Author:     franco <franco@e2ae85e3-cf20-0410-855b-be2d16f42433>
+AuthorDate: Wed Feb 20 20:17:24 2008 +0000
+Commit:     franco <franco@e2ae85e3-cf20-0410-855b-be2d16f42433>
+CommitDate: Wed Feb 20 20:17:24 2008 +0000
+
+    formally branching the tests
+    
+    
+    git-svn-id: svn+ssh://oss.fcla.edu/var/www/repos/daitss-tests/branches/http-tar-storage@1074 e2ae85e3-cf20-0410-855b-be2d16f42433
+
+commit d50966da6a504be2c4b3040419ed64fd325e061d
+Author:     franco <franco@e2ae85e3-cf20-0410-855b-be2d16f42433>
+AuthorDate: Wed Feb 20 20:12:51 2008 +0000
+Commit:     franco <franco@e2ae85e3-cf20-0410-855b-be2d16f42433>
+CommitDate: Wed Feb 20 20:12:51 2008 +0000
+
+    moving this to the (new) trunk
+    
+    
+    git-svn-id: svn+ssh://oss.fcla.edu/var/www/repos/daitss-tests/trunk@1073 e2ae85e3-cf20-0410-855b-be2d16f42433
+
+commit 368f74a82e8a23d26b9632ea43326c0f2c047f7d
+Author:     franco <franco@e2ae85e3-cf20-0410-855b-be2d16f42433>
+AuthorDate: Wed Feb 20 19:38:41 2008 +0000
+Commit:     franco <franco@e2ae85e3-cf20-0410-855b-be2d16f42433>
+CommitDate: Wed Feb 20 19:38:41 2008 +0000
+
+    setting this up right
+    
+    git-svn-id: svn+ssh://oss.fcla.edu/var/www/repos/daitss-tests/trunk@1072 e2ae85e3-cf20-0410-855b-be2d16f42433

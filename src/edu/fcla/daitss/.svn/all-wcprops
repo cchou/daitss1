@@ -1,0 +1,95 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/1416/daitss/trunk/src/edu/fcla/daitss
+END
+NoInitialDescriptorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/NoInitialDescriptorException.java
+END
+Withdrawal.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/Withdrawal.java
+END
+Dissemination.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1326/daitss/trunk/src/edu/fcla/daitss/Dissemination.java
+END
+PermissionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/PermissionException.java
+END
+ArchiveWorker.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/ArchiveWorker.java
+END
+ArchiveManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/ArchiveManager.java
+END
+InvalidPackageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/InvalidPackageException.java
+END
+NotArchivedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/NotArchivedException.java
+END
+WithdrawalException.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/WithdrawalException.java
+END
+WithdrawnException.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/WithdrawnException.java
+END
+EmptyPackageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/EmptyPackageException.java
+END
+Ingestor.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/Ingestor.java
+END
+UnknownPackageException.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/UnknownPackageException.java
+END
+PackageUnreadableException.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/PackageUnreadableException.java
+END
+WithdrawalPermissionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/WithdrawalPermissionException.java
+END

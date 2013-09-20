@@ -1,0 +1,83 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1401/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf
+END
+PdfFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfFilter.java
+END
+PdfFont.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfFont.java
+END
+PdfAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfAnomalies.java
+END
+PdfObjectCaster.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfObjectCaster.java
+END
+PdfFonts.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfFonts.java
+END
+PdfAnnotation.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfAnnotation.java
+END
+PdfInhibitors.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfInhibitors.java
+END
+PdfLimitations.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfLimitations.java
+END
+PdfAction.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfAction.java
+END
+PdfDocument.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfDocument.java
+END
+Pdf.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1401/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/Pdf.java
+END
+PdfExternalReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfExternalReference.java
+END
+PdfProfiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/miscfile/pdf/PdfProfiles.java
+END

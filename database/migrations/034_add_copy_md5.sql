@@ -1,0 +1,2 @@
+alter table COPY add MD5 char(32) not null;
+UPDATE DATABASE_VERSION SET MIGRATION_NUMBER=34;

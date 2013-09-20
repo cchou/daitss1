@@ -1,0 +1,1028 @@
+##
+## These are the customizable daitss variables.
+## 
+## Last Modified: March 22, 2007
+##
+
+
+## Environment-Specific Properties
+
+# Description: Defines the local time zone. It is recommended that the time zone be set to 
+# Greenwich Mean Time (GMT) as this simplifies logging, and clock changes due to Daylight
+# Savings time do not have to be accounted for. 
+# Values: A single time zone in ISO 8601 format. 
+
+TIME_ZONE=GMT
+
+
+## Database Properties
+
+# Description: This variable defines which relational database system to use. As of DAITSS 1.2, 
+# the only supported database is MySQL. 
+# Values: mysql
+
+DB_IMPEMENTATION=mysql
+
+# Description: Specifies the database driver DAITSS is to use. 
+# Values: As of DAITSS 1.2., the only valid database driver is com.mysql.jdbc.Driver. It is 
+# included with the DAITSS source as a library.
+
+DB_DRIVER=com.mysql.jdbc.Driver
+
+# Description: Specifies the address of the database server. The suffix 
+# ?zeroDateTimeBehavior=convertToNull is necessary for DAITSS to operate correctly -- it 
+# instructs the database server to convert empty string date values into proper NULL date values.
+# Values: The general expected format is: jdbc://mysql://hostname/database_name?zeroDateTimeBehavior=convertToNull 
+# Example: Given a server hostname of myserver and a database name of daitss, one possible
+# DB_CONNECTION_URL value is jdbc:mysql://myserver/daitss?zeroDateTimeBehavior=convertToNull
+
+DB_CONNECTION_URL=jdbc:mysql://localhost/daitss?zeroDateTimeBehavior=convertToNull
+
+# Description: Specifies the database username DAITSS will connect as. The database user specified
+# must have SELECT, UPDATE, INSERT, and DELETE priviliges. 
+# Values: A valid MySQL username
+
+DB_USER=root
+
+# Description: Specifies the database password for the database user defined in DB_USER.
+# Values: The valid MySQL password for DB_USER.
+
+DB_PASSWD=
+
+
+## Dissemination Properties
+
+## These variables configure SSH settings for Dissemination. Dissemination places disseminated
+## packages in the directory specified by DISSEMINATION_OUTPUT_PATH on the specifed remote host.
+
+
+# Description: Specifies the user account for the remote host
+# Values: A valid user name on the remote host with write privliges to the directory specified in
+# DISSEMINATION_OUTPUT_PATH
+
+DISSEMINATION_SCP_USER=daitss
+
+# Description: Indentifies the remote host
+# Values: IP Address or hostname identifiying the remote host
+
+DISSEMINATION_SCP_HOST=fcsun6e0
+
+# Description: Specifies the private key file.
+# Values: A valid, absolute path to the private key file on the local filesystem.
+
+DISSEMINATION_SSH_IDENTITY=/opt/daitss/config/id_dsa
+
+# Description: Specifies the file containing the known SSH hosts. File must contain the identity
+# of the host specified in DISSEMINATION_SCP_HOST.
+# Values: A valid, absolute path to the known hosts file on the local filesystem.
+
+DISSEMINATION_SSH_KNOWN_HOSTS=/opt/daitss/config/known_hosts
+
+# Description: Specifies the path on the remote host where to place disseminated packages.
+# Values: A valid, absolute path.
+
+DISSEMINATION_OUTPUT_PATH="/ftpdl/${ACCOUNT_CODE}/disseminations"
+
+# Description: the directory where dissemination-specific log files are stored.
+# Values: a valid file system path.
+
+DISSEMINATE_LOG=$DAITSS_LOGS_PATH$dissemination/
+
+
+## Report Properties
+##
+
+## A report (an XML document, and in the case of an error, some additional
+## text) is mailed by DAITSS after each ingest, dissemination, or withdrawal.  It is 
+## delivered to the per-account  email address described by the REPORT_EMAIL column 
+## in the ACCOUNT table.  The values here configure the mail to a local site and 
+## specifies additional recipients.
+
+
+# Description: the hostname of the SMTP server; usually localhost or the local
+# mail hub.
+# Values: a valid hostname
+
+REPORT_MAIL_HOST=localhost
+
+# Description: identifies user information used connect to the SMTP server (that
+# is, durring the initial handshake that constitutes the envelope information).
+# Values: a valid email address; normally, identical to the REPORT_MAIL_FROM below
+
+REPORT_MAIL_USER=daitss@localhost
+
+# Description: timeout to connect to SMTP server
+# Values: number of seconds to wait to connect to the SMTP server at host REPORT_MAIL_HOST
+
+REPORT_MAIL_TIMEOUT=60
+
+
+# Description: value for the Reply-to header
+# Values: any valid email address
+REPORT_MAIL_REPLY_TO=foo@bar.baz
+
+# Description: a debgging flag that logs the progress of mailing a report.
+# Values: either "true" or "false"
+
+REPORT_MAIL_KEEP_LOG=false
+
+# Description: the text used in subject lines, the interpolated value ${FILE_NAME} can be included
+# Values: short text string
+
+REPORT_MAIL_SUBJECT_DEFAULT=DAITSS Archive Report: ${FILE_NAME}
+
+# Description: all mailed reports are BCC'd to this address.
+# Values: a valid email address
+
+REPORT_MAIL_BCC=daitss@localhost
+
+# Description: the address that the mail will appear to come from; replies to the message
+# will delivered here (note: some mail servers, e.g. qmail, will use the envelope address
+# set above in REPORT_MAIL_USER instead).
+# Values: a valid email address
+
+REPORT_MAIL_FROM=daitss@localhost
+
+# Description: controls what events are reported; ingests are always
+# reported.
+# Values: a comma separated list from the following set of event codes 
+#
+#   CPD: indicates that a downgrade to BIT level preservation occurred
+#   CPU: indicates that an upgrade to FULL level preservation occurred
+#     N: a normalization event
+#     M: a migration event  
+#     D: a dissemination event
+
+REPORT_EVENT_FILTERS=N, M, CPD, CPU, D
+
+# Description: The name of the report stylesheet used to displayed the
+# mailed XML report; recipients of the mailed XML file will need to
+# retrieve this style sheet from your site, and place it where
+# appropriate for the particulat application they use to view the
+# mailed report.  A sample stylesheet is delivered with the DAITSS
+# installation.
+# Values: a filename.
+
+REPORT_STYLESHEET=daitss_report_xhtml.xsl
+
+
+
+
+## System Properties
+## NOTE: ALL PATHS NEED TO END WITH FILE SEPARATORS
+
+# Description: the directory where DAITSS is installed.
+# Values: a valid file system path.
+
+DAITSS_HOME=/opt/daitss/
+
+# Description: the top-level directory where DAITSS process its packages.  Inside this path 
+# are directories where information packages are queued for prep and ingest, placed during 
+# processing and after ingestion or rejection. 
+# Values: a valid file system path.
+
+DAITSS_DATA_PATH=/var/daitss/
+
+# Description: the top-level directory where DAITSS will put temporary files.
+# Values: a valid file system path.
+
+TEMP_DIR=$DAITSS_DATA_PATH$tmp/
+
+# Description: the top-level directory where DAITSS caches web pages as files.
+# Values: a valid file system path.
+
+WEBCACHE_DIR=$DAITSS_DATA_PATH$webcache/
+
+# Description: The amount of time a file in the webcache cached before refreshing
+# Values: an integer representing seconds
+WEBCACHE_EXP=604800000
+
+# Description: a comma separated list of pairs of public Ids and systemIds, 
+# the specified systemIds will be substituted for any given systemId when 
+# resolving entities specified by the publidId while validating. 
+# Values: a coma separated list of space separated pairs of double quoted publicIds and systemIds.
+
+RESOLVER_LOCATIONS="-//W3C//DTD XMLSCHEMA 200102//EN" "http://www.w3.org/2001/XMLSchema.dtd", "datatypes" "http://www.w3.org/2001/datatypes.dtd"
+
+# Description: the directory where DAITSS log files are located.
+# Values: a valid file system path. 
+
+DAITSS_LOGS_PATH=/var/log/daitss/
+
+# Description: the  directory of unit test log files
+# Values: a valid file system path.
+
+UNIT_TEST_LOG=$DAITSS_LOGS_PATH$unit_test/
+
+# Description: the directory where information packages are waiting to be ingested.
+# Values: a valid file system path.
+
+INGEST_INPATH=$DAITSS_DATA_PATH$ingest/in/
+
+# Description: the directory where ingest-specific log files are stored.
+# Values: a valid file system path.
+
+INGEST_LOG=$DAITSS_LOGS_PATH$ingest/
+
+# Description: the  directory where an information packages are placed after a successful ingest.
+# Values: a valid file system path.
+
+INGEST_OUTPATH=$DAITSS_DATA_PATH$ingest/out/
+
+# Description: the directory where an information package are placed during the ingest operation.
+# Values: a valid file system path.
+
+INGEST_WORKPATH=$DAITSS_DATA_PATH$ingest/work/
+
+# Description: the directory where an information packageare placed after a rejection
+# following an ingest attemp.
+# Values: a valid file system path.
+
+INGEST_REJECTPATH=$DAITSS_DATA_PATH$ingest/reject/
+
+# Description: the directory where information package are waiting for re-ingest.  
+# The dissemination will retrieve the requested information package from the storage and
+# place the information package in this directory to be re-ingested.
+# Values: a valid file system path.
+
+REINGEST_INPATH=$DAITSS_DATA_PATH$ingest/rin/
+
+# Description: the directory where withdrawal-specific log files are stored.
+# Values: a valid file system path.
+
+WITHDRAWAL_LOG=$DAITSS_LOGS_PATH$withdrawal/
+
+# Description: the directory where DAITSS global files are stored.  Localized versions 
+# of all global files are stored locally to reduce redundant transformations.
+# Values: a valid file system path.
+
+LOCAL_GLOBAL_DIR=$DAITSS_DATA_PATH$global/
+
+# Description: The host of the DAITSS OIDServer.
+# Values: in the form of //hostname.domainname:port#/keyServer
+
+RMI_URL=//localhost/keyServer
+
+# Description: The TCP/IP port where DAITSS connect to OIDServer, via Java RMI.
+# Values: an open TCP/IP port
+
+RMI_PORT=1100
+
+# The directory where DAITSS OIDServer logs are kept.
+# Values: a valid file system path.
+
+KEYSERVER_LOG=$DAITSS_LOGS_PATH$service/
+
+
+## Programs & Commands
+
+# Description: the path to the FFIdent formats description file.
+# Values: a valid local file path
+
+FFIDENT_CONFIG_PATH=$DAITSS_HOME$config/ffident/formats.txt
+
+# Description: the path to the JHOVE config file is located.
+# Values: a valid local file path
+
+JHOVE_CONFIG=$DAITSS_HOME$config/jhove/jhove.conf
+
+# Description: the path to a command line virus check utility that takes a file as a parameter.
+# Values: a valid local file path
+
+VIRUS_CMD=clamscan --quiet
+
+# Description: the exit code returned from VIRUS_CMD when an file is infected.
+# Values: 3 for f-prot, 1 for clam antivirus
+
+VIRUS_EXIT_CODE_INFECTED=1
+
+# Description: the exit code returned from VIRUS_CMD when an file is not infected.
+# Values: 0 for f-prot and clam antivirus
+
+VIRUS_EXIT_CODE_CLEAN=0
+
+# Description: the command to split a pdf into a list of tiffs.
+# Values: see documentationfor ghostscript.
+
+PDF_TO_TIFF_CMD=gs -sDEVICE=tiff12nc -sOutputFile=%OUTPUT_FILE% -r150 -dBATCH -dNOPAUSE %INPUT_FILE%
+
+# Description: the command to convert video and audio bitstreams in an AVI file.
+# Values: see the documentation for mencoder and mplayer.
+
+AVI_NORM_CMD=mencoder %INPUT_FILE% -o %OUTPUT_FILE% -oac %AVI_AUDIO_NORM% -ovc lavc -lavcopts vcodec=%AVI_VIDEO_NORM%  
+
+# Description: the command to convert video and audio bitstreams in a QuickTime file.
+# Values: see the documentation for libquicktime.
+
+QUICKTIME_NORM_CMD=lqt_transcode -ac %QUICKTIME_AUDIO_NORM% -vc %QUICKTIME_VIDEO_NORM% %INPUT_FILE% %OUTPUT_FILE%   
+
+# Description: the command to convert bitstream in a wave file.
+# Values: see the documentation for ffmpeg.
+
+WAVE_NORM_CMD=ffmpeg -i %INPUT_FILE% -sameq -acodec %WAVE_AUDIO_NORM% %OUTPUT_FILE%
+
+# The command to convert jpg file to jp2
+# Description: the command to convert jpg file to jp2.
+# Values: see the documentation for jasper.
+
+JPEG_MIG_CMD=jasper -f %INPUT_FILE% -t jpg -F %OUTPUT_FILE% -T jp2
+
+
+
+
+## Pre-Processor Properties
+
+# Description: Specifies the path where information packages are queued for Prep.
+# Values: A valid, absolute path
+
+PREPROCESSOR_INPATH=$DAITSS_DATA_PATH$prep/in/
+
+# Description: Specifies the path where the log files for Prep are stored.
+# Values: A valid, absolute path
+
+PREPROCESSOR_LOG=$DAITSS_LOGS_PATH$prep/
+
+# Description: Specifies the path where information packages are placed following a successful Prep.
+# Values: A valid, absolute path
+
+PREPROCESSOR_OUTPATH=$DAITSS_DATA_PATH$prep/out/
+
+# Description: Specifies the path where information packages are placed during the Prep process.
+# Values: A valid, absolute path
+
+PREPROCESSOR_WORKPATH=$DAITSS_DATA_PATH$prep/work/
+
+# Description: Specifies the absolute path where information packages are placed following an unsuccessful Prep
+# operation.
+# Values: A valid, absolute path
+
+PREPROCESSOR_REJECTPATH=$DAITSS_DATA_PATH$prep/reject/
+
+
+
+
+## Fixity Properties
+
+
+# Description: The path to the directory where fixity log files are to be stored
+# Values: A valid, absolute path
+
+FIXITY_CHECK_LOG=$DAITSS_LOGS_PATH$fixity/
+
+## Storage Policies
+##
+## DAITSS is designed to deposit an AIP into a subdirectory for
+## subsequent storage.  Currently, the only supported storage engine
+## is IBM's Tivoli Storage Manager (TSM), a client/server storage
+## system.  To use TSM, DAITSS requires that a TSM client be installed
+## and configured on the host ingesting packages.  See the note below
+## in the WRITE_TO_STORAGE section on how to configure DAITSS for a
+## locally developed storage engine.
+
+
+# Description: whether to store a processed AIP with the Tivoli
+# Storage manager.  The AIP is placed in the absolute directory path
+# defined by the variable INGEST_OUTPATH above.  The variable
+# DELETE_INGESTED_FROM_OUT_DIR determines whether to leave the AIP in
+# that directory after storing.  If a site has its own method of
+# storage, a you would want to set DELETE_INGESTED_FROM_OUT_DIR to
+# false, WRITE_TO_STORAGE to false, and process the AIPs from 
+# INGEST_OUTPATH yourself.
+# Values: "true" or "false"
+
+WRITE_TO_STORAGE=true
+
+## Tivoli Storage Manager (TSM)
+##
+## DAITSS will use TSM if WRITE_TO_STORAGE is set to "true". DAITSS
+## uses the TSM storage managment classes to define storage pools.
+## Best practice is to use several redundant storage pools specified by
+## TSM management classes.  These management classes should be
+## arranged so that they use disjoint sets of tapes, and at least one
+## should be geographically distant from the others. All enabled
+## storage classes defined in the table STORAGE_INSTANCE is invoked by
+## DAITSS in the storage step. An example of this table is:
+##
+## +----+--------+----------------------+---------+---------------------------------------------+
+## | ID | METHOD | INSTANCE             | ENABLED | DESCRIPTION                                 |
+## +----+--------+----------------------+---------+---------------------------------------------+
+## |  1 | TIVOLI | darchive@adsm:LOCAL2 | TRUE    | TSM management class LOCAL2 (Gainesville 2) | 
+## |  2 | TIVOLI | darchive@adsm:LOCAL1 | TRUE    | TSM management class LOCAL1 (Gainesville 1) | 
+## |  3 | TIVOLI | darchive@adsm:REMOTE | TRUE    | TSM management class REMOTE (Tallahassee 1) | 
+## +----+--------+----------------------+---------+---------------------------------------------+
+
+
+# Description: the command to launch the TSM client.
+# Values: a system command to launch the TSM client.
+# Examples: sudo dsmc; sudo /usr/bin/dsmc ...
+
+TSM_COMMAND=sudo /usr/bin/dsmc
+
+## Environment-Neutral Properties
+
+# Description: ARCHIVE_ACTION is deprecated. Do not modify.
+# Values: Deprecated. Do not modify.
+
+ARCHIVE_ACTION=ACTION_NORMALIZE
+
+# Description: Determines whether to include info messages in stdout
+# Values: true, false
+
+VERBOSE_STDOUT=true
+
+# Description: Determines whether to suppress all printed message. If set to true, then 
+# VERBOSE_STDOUT will be ignored
+# Values: true, false
+
+QUIET_MODE=false
+
+# Description: Determines whether to include info messages in log
+# Values: true, false
+
+VERBOSE_LOG=true
+
+
+
+
+## File/Package Handling
+
+# Description: Whether to copy rejected information packages from the ingest/work directory to the reject 
+# directory after an successful ingest attemp.
+# Values: true, false
+
+COPY_REJECTS_TO_REJECT_DIR=true
+
+# Description: Whether to delete rejected information packages from the ingest/work directory
+# Values: true, false
+
+DELETE_REJECTS_FROM_WORK_DIR=true
+
+# Description: Whether to delete successfully ingested packages from the ingest/in directory
+# following ingestion.
+# Values: true, false
+
+DELETE_INGESTED_FROM_IN_DIR=true
+
+# Description: Whether successfully ingested information packages will be deleted from the work 
+# directory following ingestion.
+# Values: true, false
+
+DELETE_INGESTED_FROM_WORK_DIR=true
+
+# Description: Whether to delete ingested packages from the ingest/out directory after ingesting them.  
+# If WRITE_TO_STORAGE is set to true, this means removing the package from the ingest/out 
+# directory after the package has been written to storage. If WRITE_TO_STORAGE is set 
+# to false,  the the information package will be deleted entirely.  It is recommended 
+# that this option be set to true only in a production environment where all information 
+# packages are written to storage following ingest.
+# Values: true, false
+
+DELETE_INGESTED_FROM_OUT_DIR=false
+
+## Global Files
+## Description: Lists all the global files for DAITSS.  In general, it should not be 
+## necessary to modify this list of files.  It is recommended that the files be kept in 
+## alphabetical order for ease of maintenance. 
+## Value: files should be delimited by a comma followed by a backslash(,\).  
+
+GLOBAL_FILES=daitss.xsd,\
+daitssAdmin.xsd,\
+daitssArchiveLogic.xsd,\
+daitssAviFile.xsd,\
+daitssBilling.xsd,\
+daitssBitstream.xsd,\
+daitssBitstreamBsProfile.xsd,\
+daitssBoolean.xsd,\
+daitssBsAudio.xsd,\
+daitssBsImage.xsd,\
+daitssBsImageJpeg.xsd,\
+daitssBsImageTiff.xsd,\
+daitssBsMarkup.xsd,\
+daitssBsPdf.xsd,\
+daitssBsPdfAction.xsd,\
+daitssBsPdfAnnotation.xsd,\
+daitssBsPdfFilter.xsd,\
+daitssBsProfile.xsd,\
+daitssBsTable.xsd,\
+daitssBsText.xsd,\
+daitssBsVideo.xsd,\
+daitssCompression.xsd,\
+daitssContact.xsd,\
+daitssDataFile.xsd,\
+daitssDataFileFormatAttribute.xsd,\
+daitssDataFileSevereElement.xsd,\
+daitssDataTypes.xsd,\
+daitssDate.xsd,\
+daitssDistributed.xsd,\
+daitssEnum.xsd,\
+daitssEvent.xsd,\
+daitssFormat.xsd,\
+daitssFormatAttribute.xsd,\
+daitssFormatSpecification.xsd,\
+daitssGlobalFile.xsd,\
+daitssIntEntity.xsd,\
+daitssIntEntityGlobalFile.xsd,\
+daitssMediaType.xsd,\
+daitssMessageDigest.xsd,\
+daitssMessageDigestType.xsd,\
+daitssNumber.xsd,\
+daitssOSP.xsd,\
+daitssPdfAction.xsd,\
+daitssPdfAnnotation.xsd,\
+daitssPdfFilter.xsd,\
+daitssRelationship.xsd,\
+daitssSevereElement.xsd,\
+daitssSeverity.xsd,\
+daitssSpecification.xsd,\
+daitssStoragePrep.xsd,\
+daitssString.xsd,\
+daitssStorageDesc.xsd,\
+daitssStorageDescPrep.xsd,\
+daitssStorageInstance.xsd,\
+daitssStoragePrep.xsd,\
+datatypes.dtd,\
+mets.xsd,\
+mods-3-0.xsd,\
+MXF.dtd,\
+palmm.xsd,\
+rightsmd.xsd,\
+simpledc20021212.xsd,\
+techmd.xsd,\
+xlink.xsd,\
+xml.xsd,\
+XMLSchema.dtd,\
+XMLSchema.xsd
+
+
+
+
+## Accounts & Projects
+
+# Description: The account under which all archive generated entities are organized.
+# Values: a valid account code.
+
+DAITSS_ACCOUNT=FDA
+
+# Description: The subaccount under which all archive generated entities are organized.
+# Values: a valid subaccount code.
+
+DAITSS_SUBACCOUNT=FDA
+
+# Description: The project under which all archive generated entities are organized.
+# Values: a valid project code.
+
+DAITSS_PROJECT=FDA
+
+
+## File Policies
+
+# Description: prefix to all AIP descriptor filenames.
+# Values: any valid file name.
+
+AIP_DESC_NAME=AIP
+
+# Description: prefix to all DIP descriptor filenames.
+# Values: any valid file name.
+
+DIP_DESC_NAME=DIP
+
+# Description: prefix to all GFP descriptor filenames.
+# Values: any valid file name.
+
+GFP_DESC_NAME=GFP
+
+# Description: The limit of anomalies recognized before gathering more information is stopped.
+# Values: any positive integer.
+
+ANOMALIES_TOO_MANY=500
+
+# Description: if true, packages that contain a file that fails a virus check is rejected.
+# Values: true, false.
+
+PACKAGE_REJECT_VIRUS=true
+
+# Description: if true, virus checks will be performed on DAITSS generated files.
+# Values: true, false.
+
+VIRUS_CHECK_ORIGIN_ARCHIVE=false
+
+# Description: if true, files' type will be determined at the start extracting metadata.
+# Values: true, false.
+
+ENFORCE_FILE_TYPE_CHECK=false
+
+
+## MessageDigests
+##
+## Description: Message digests are used by DAITSS to ensure message
+## integrity.  All specified digests may be calculated and included in
+## the METS descriptor.  The following values should not be modified.
+
+# Description: The number of message digest algorithms to use.  If there are
+# N number of of algorithms, this file must have property keywirds MD_TYPE_1,
+# MD_TYPE_2 .. MD_TYPE_N.
+# Values: 1, 2, ...
+
+MD_NUM=2
+
+# Description: the name of message digest algorthms used by DAITSS
+# Values: Currently, "md5" or "sha-1".
+
+# Description: MessageDigest algorithm types
+# These are the 2 MessageDigest types used by the Archive. The first one
+# is considered the primary algorithm. Both types may be calculated for 
+# every file ingested. The values used here MUST be the values of constants
+# defined in the ArchiveMessageDigest class.
+# Values: md5, sha-1
+
+MD_TYPE_1=sha-1
+MD_TYPE_2=md5
+
+
+## Harvesting Policies
+##
+## Description: Under some circumstances resources that are linked to
+## from withing submitted files, but not present in the SIP, may be
+## downloaded from the Internets and added to the package. The file
+## DATISS typically downloads are external references declared in XML
+## files. This section describes the variables used for fine tuning
+## that behavior.
+
+
+# Description: Whether or not we want to harvest all links in XML
+# descriptor files (SIP Descriptors, AIP Descriptors, DIP Descriptors)
+# regardless of the values set for the XML-specific harvesting
+# policies that follow this section. This allows the archive to treat
+# XML descriptor files specially as compared to other XML files
+# ingested into the archive. If this value is set to false then the
+# harvesting policies set for the other HARVEST_XML_* policies are
+# used for XML descriptors - otherwise those variables are ignored.
+# Values: "true" or "false"
+
+HARVEST_XML_DESCRIPTORS_ALL=true
+
+# Description: whether or not to harvest DTD files' linked-to files that were
+# specified in general entity declarations. These declarations have the following
+# syntax, where externalID is the URI of an external reference:
+# <!ENTITY entityName SYSTEM externalID> or 
+# <!ENTITY entityName PUBLIC publicID externalID>
+# Values: "true" or "false"
+
+HARVEST_DTD_G_ENTITIES=true
+
+# Description: whether or not to harvest DTD files' linked-to files that were
+# specified in parameter entity declarations. These declarations have the following
+# syntax, where  externalID is the URI of an external reference:
+# <!ENTITY % entityName SYSTEM externalID> or 
+# <!ENTITY % entityName PUBLIC publicID externalID>
+# Values: "true" or "false"
+
+HARVEST_DTD_P_ENTITIES=true
+
+# Description: whether or not to harvest DTD files' linked-to files that were
+# specified in notation declarations. These declarations have the following 
+# syntax, where externalID is the URI  of an external reference:
+# <!NOTATION notationName SYSTEM externalID> or
+# <!NOTATION notationName PUBLIC publicID externalID> or
+# <!NOTATION notationName PUBLIC publicID>
+# Values: "true" or "false"
+
+HARVEST_DTD_NOTATIONS=false
+
+# Description: whether or not to harvest XML files' linked-to DTDs in the
+# XML file's Document Type Declaration
+# Values: "true" or "false"
+
+HARVEST_XML_DTD=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the value of the schemaLocation attribute in the
+# XMLSchema instance namespace
+# Values: "true" or "false"
+
+HARVEST_XML_XSI_SLOC=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the value of the noNamespaceSchemaLocation attribute
+# in the XMLSchema instance namespace
+# Values: "true" or "false"
+
+HARVEST_XML_XSI_NOSLOC=true
+
+# Description: whether or not to harvest XML files' linked-to files
+# when they are the value of the href attribute in the XLink namespace
+# Values: "true" or "false"
+
+HARVEST_XML_XLINK_HREF=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are a reference to an external file in a general entity
+# declaration in an internal DTD
+# Values: "true" or "false"
+
+HARVEST_XML_GENTS=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are a reference to an external file in a parameter entity
+# declaration in an internal DTD
+# Values: "true" or "false"
+
+HARVEST_XML_PENTS=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are a reference to an external file in a notation
+# declaration in an internal DTD
+# Values: "true" or "false"
+
+HARVEST_XML_NOTS=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the schemaLocation attribute of an import element in
+# an XML Schema document
+# Values: "true" or "false"
+
+HARVEST_XML_IMPORT_SLOC=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the schemaLocation attribute of an include element in
+# an XML Schema document
+# Values: "true" or "false"
+
+HARVEST_XML_INCLUDE_SLOC=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the schemaLocation attribute of a redefine element in
+# an XML Schema document
+# Values: "true" or "false"
+
+HARVEST_XML_REDEFINE_SLOC=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the value of the href attribute of a processing
+# instruction whose target is xml-stylesheet
+# Values: "true" or "false"
+
+HARVEST_XML_PI_HREF=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the value of the href attribute of an import element
+# in an XSLT namespace
+# Values: "true" or "false"
+
+HARVEST_XML_XSLT_IMPORT_HREF=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the value of the href attribute of an include element
+# in an XSLT namespace.
+# Values: "true" or "false"
+
+HARVEST_XML_XSLT_INCLUDE_HREF=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the parameter of the document function in an XSLT
+# stylesheet.
+# Values: "true" or "false"
+
+HARVEST_XML_XSLT_DOCFUNC=true
+
+# Description: whether or not to harvest XML files' linked-to schemas
+# when they are the value of the href attribute of an include element
+# in an XInclude namespace
+# Values: "true" or "false"
+
+HARVEST_XML_XINCLUDE_HREF=true
+
+
+
+
+## Migration and Normalization Policies
+## These policies are superceded by preservation levels set in formal agreements.
+
+# Description: Format to which AVI 1.0 files are normalized
+# Values: NONE, AVI_NORM_1
+
+NORM_VIDEO_AVI_1_0_FORMAT=AVI_NORM_1
+
+# Description: Format to which Adobe JPEG files are migrated 
+# Values: NONE, JPEG_JP2_1
+
+MIG_IMG_JPEG_ADOBE_FORMAT=NONE
+
+# Description: Format to which JFIF JPEG files are migrated 
+# Values: NONE, JPEG_JP2_1
+
+MIG_IMG_JPEG_JFIF_FORMAT=NONE
+
+# Description: Format to which JPEG files are migrated 
+# Values: NONE, JPEG_JP2_1
+
+MIG_IMG_JPEG_UNKNOWN_FORMAT=NONE
+
+# Description: Format to which PDF 1.0 files are localized 
+# Values: PDF_LOC_1
+
+LOC_APP_PDF_1_0_FORMAT=NONE
+
+# Description: Format to which PDF 1.0 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_0_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.1 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_1_FORMAT=NONE
+
+# Description: Format to which PDF 1.1 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_1_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.2 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_2_FORMAT=NONE
+
+# Description: Format to which PDF 1.2 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_2_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.3 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_3_FORMAT=NONE
+
+# Description: Format to which PDF 1.3 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_3_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.4 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_4_FORMAT=NONE
+
+# Description: Format to which PDF 1.4 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_4_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.5 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_5_FORMAT=NONE
+
+# Format to which PDF 1.5 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_5_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.6 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_6_FORMAT=NONE
+
+# Description: Format to which PDF 1.6 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_6_FORMAT=PDF_NORM_1
+
+# Description: Format to which PDF 1.7 files are localized 
+# Values: NONE, PDF_LOC_1
+
+LOC_APP_PDF_1_7_FORMAT=NONE
+
+# Description: Format to which PDF 1.7 files are normalized
+# Values: NONE, PDF_NORM_1
+
+NORM_APP_PDF_1_7_FORMAT=PDF_NORM_1
+
+# Description: Format to which QuickTime files are normalized
+# Values: NONE, QUICKTIME_NORM_1
+
+NORM_VIDEO_QUICKTIME_FORMAT=QUICKTIME_NORM_1
+
+# Description: Format to which Wave files are normalized
+# Values: NONE, NORM_WAVE_1
+
+NORM_AUDIO_WAVE_FORMAT=WAVE_NORM_1
+
+# Description: Format to which XML 1.0 files are localized 
+# Values: NONE, XML_LOC_1
+
+LOC_APP_XML_1_0_FORMAT=XML_LOC_1
+
+# Description: Format to which XML DTD 1.0 files are localized 
+# Values: NONE, XMLDTD_LOC_1
+
+LOC_APP_XMLDTD_1_0_FORMAT=XMLDTD_LOC_1
+
+
+
+
+## XML NAMESPACES
+## Description: these are namespace URIs that need to be recognized by the XML parser. 
+## This allow lists of URIs to be bounded to the same namespace. In case a namespace URI 
+## becomes obsolete and a newer URI is published, DAITSS XML parser will be able to recognize 
+## both of them. Mutiple URIs should be separated by the '|' character without white spaces. 
+## Ex: NS_X=http://www.x.org/1|http://www.x.org/2
+
+# Description: Library of Congress' METS namespace URI
+
+NS_METS=http://www.loc.gov/METS/
+
+# Description: Florida Digital Archive's namespace URI
+
+NS_DAITSS=http://www.fcla.edu/dls/md/daitss/
+
+# Description: XInclude namespace
+
+NS_XINCLUDE=http://www.w3.org/2001/XInclude
+
+# Description: W3C XML Schema namespace URI
+
+NS_XMLSCHEMA=http://www.w3.org/2001/XMLSchema
+
+# Description: W3C XML Schema Instance namespace URI
+
+NS_XMLSCHEMA_INSTANCE=http://www.w3.org/2001/XMLSchema-instance
+
+# Description: XSL namespace
+
+NS_XSL=http://www.w3.org/1999/XSL/Transform|http://www.w3.org/TR/WD-xsl
+
+# Description: W3C XLink namespace URI
+
+NS_XLINK=http://www.w3.org/1999/xlink
+
+
+
+
+## METS DESCRIPTOR FILE
+## Description: The namespace values and URIs for creating a METS descriptor file.
+
+# Description: Namespace prefix used for MODS in xpaths.
+
+DES_MODS_NS_URI=http://www.loc.gov/mods/v3
+
+# Description: namespace prefix used for schema instance
+
+DES_SCHEMAINSTANCE_NS=xmlns:xsi
+
+# Description: Xlink namespace URI
+
+DES_XLINK_NS_URI=http://www.w3.org/1999/xlink
+
+# Descripton: namespace prefix used for dublin core in xpaths.
+
+DES_DC_NS_URI=http://purl.org/dc/elements/1.1/
+
+# Description: namespace prefix used for techmd in xpaths.
+
+DES_TECHMD_NS_URI=http://www.fcla.edu/dls/md/techmd/
+
+# Description: namespace prefix used for palmm in xpaths.
+
+DES_PALMM_NS_URI=http://www.fcla.edu/dls/md/palmm/
+
+# Description: namespace prefix used for rightsmd in xpaths.
+
+DES_RIGHTSMD_NS_URI=http://www.fcla.edu/dls/md/rightsmd/
+
+# Description: namespace for XML schema instance
+
+DES_SCHEMAINSTANCE_NS_URI=http://www.w3.org/2001/XMLSchema-instance
+
+# Descripton: location of the METS schema
+
+DES_METS_SCHEMA=http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version17/mets.v1-7.xsd
+
+# Description: location of the Dublin Core schema
+
+DES_DC_SCHEMA=http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd
+
+# Description: location of the TechMD schema
+
+DES_TECHMD_SCHEMA=http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+
+# Description: location of the Palmm schema
+
+DES_PALMM_SCHEMA=http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+
+# Description: location of the RightsMD schema
+
+DES_RIGHTSMD_SCHEMA=http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd
+
+# Description: location of the DAITSS schema
+
+DES_DAITSS_SCHEMA=http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/dev/daitss.xsd
+
+# Description: location of the DAITSS report schema
+
+DES_DAITSS_REPORT_SCHEMA=http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/dev/daitssReport.xsd
+
+# Description: location of the schema document.
+
+DES_SCHEMA_LOCATION=xsi:schemaLocation
+

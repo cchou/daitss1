@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams
+END
+Xml_localize.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/Xml_localize.sxd
+END
+DataFile_transformStart.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_transformStart.sxd
+END
+SIP.ingest.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/SIP.ingest.sxd
+END
+SIPList_process.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/SIPList_process.sxd
+END
+reject_package.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/reject_package.sxd
+END
+Pdf_normalize.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/Pdf_normalize.sxd
+END
+DataFile_normalize.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_normalize.sxd
+END
+DataFile_transformEnd.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_transformEnd.sxd
+END
+DataFile_localize.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_localize.sxd
+END
+Jpeg_migrate.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/Jpeg_migrate.sxd
+END
+preprocessor_ingest.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/preprocessor_ingest.sxd
+END
+DataFileFactory_createDataFile3.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFileFactory_createDataFile3.sxd
+END
+DataFile_retrieveLinks2.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_retrieveLinks2.sxd
+END
+DataFileFactory_createDataFile3_b.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFileFactory_createDataFile3_b.sxd
+END
+DataFileFactory_createDataFile3_c.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFileFactory_createDataFile3_c.sxd
+END
+SIP_migrate.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/SIP_migrate.sxd
+END
+DataFile_extractMetadata.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_extractMetadata.sxd
+END
+SIPList_build.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/SIPList_build.sxd
+END
+OIDServer_getNextDFID2.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/OIDServer_getNextDFID2.sxd
+END
+SIP_build.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/SIP_build.sxd
+END
+DataFileFactory_importGlobalFile.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFileFactory_importGlobalFile.sxd
+END
+XmlDtd_localize.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/XmlDtd_localize.sxd
+END
+Link_getDfByLink.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/Link_getDfByLink.sxd
+END
+Link_retrieveLink.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/Link_retrieveLink.sxd
+END
+DataFile_migrate.sxd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/312/daitss/trunk/docs/developer/UML/activityDiagrams/DataFile_migrate.sxd
+END

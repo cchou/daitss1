@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/prep
+END
+EmptyPackageFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/EmptyPackageFilter.java
+END
+ContentExistsFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/ContentExistsFilter.java
+END
+Filter.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/Filter.java
+END
+DescriptorNameFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/DescriptorNameFilter.java
+END
+PreProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/prep/PreProcessor.java
+END
+MissingDescriptorException.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/MissingDescriptorException.java
+END
+FilePruner.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/FilePruner.java
+END
+DescriptorExistenceFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/DescriptorExistenceFilter.java
+END
+MessageDigestTypeFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/MessageDigestTypeFilter.java
+END
+DescriptorFormatFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/787/daitss/trunk/src/edu/fcla/daitss/prep/DescriptorFormatFilter.java
+END
+AccountInfoFilter.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/prep/AccountInfoFilter.java
+END

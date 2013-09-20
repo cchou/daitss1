@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 43
+/repos/!svn/ver/1343/daitss/trunk/tests/lib
+END
+queries.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/1253/daitss/trunk/tests/lib/queries.rb
+END
+testutils.rb
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/1202/daitss/trunk/tests/lib/testutils.rb
+END
+config.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/1202/daitss/trunk/tests/lib/config.rb
+END
+smtpd.rb
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/1247/daitss/trunk/tests/lib/smtpd.rb
+END
+daitss.rb
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/repos/!svn/ver/1343/daitss/trunk/tests/lib/daitss.rb
+END
+testenv.rb
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/1202/daitss/trunk/tests/lib/testenv.rb
+END
+ReadMe
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/!svn/ver/1202/daitss/trunk/tests/lib/ReadMe
+END

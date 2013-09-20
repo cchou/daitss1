@@ -1,0 +1,35 @@
+// open policty
+grant {
+        // Allow everything for now
+        permission java.security.AllPermission;
+};
+
+// restricted policy
+// grant {
+//     // needed to read the DAITSS_HOME env. variable
+//     permission java.lang.RuntimePermission "getenv.DAITSS_HOME";
+// 
+//     // needed to establish connections to darchive from darchive
+//     permission java.net.SocketPermission "localhost:1024-65535", "connect,accept,listen,resolve";
+//        
+//     // needed by development machines to connect to the database on darchive
+//     permission java.net.SocketPermission "darchive.fcla.edu:1024-65535", "connect,resolve";
+// 
+//     // needed to access packages and descriptors in the data queues
+//     permission java.io.FilePermission "/var/daitss/-", "read,write";
+//                                                                 
+//     // needed to read the src/bin files as well as config and resources
+//     permission java.io.FilePermission "/opt/daitss/-", "read";
+//    
+//     // needed by Log to write to the log files
+//     permission java.io.FilePermission "/var/log/daitss/-", "read,write";
+//    
+//     // needed to determine the default system native encoding
+//     permission java.util.PropertyPermission "file.encoding","read";
+//    
+//     // needed by OIDServer to create a new security manager
+//     permission java.lang.RuntimePermission "createSecurityManager";
+//    
+//     // needed by OIDServer to set the security manager
+//     permission java.lang.RuntimePermission "setSecurityManager";
+// };

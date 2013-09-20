@@ -1,0 +1,510 @@
+<?xml version="1.0" standalone="no"?>
+<!-- Version 1.2 -->
+<!-- 
+	Sample instance document for DAITSS preservation metadata schemas. 
+	CHANGE HISTORY
+	CTV-08/27/2004
+-->
+<daitss:daitss xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+	xsi:schemaLocation="http://www.fcla.edu/dls/md/daitss/dev/daitss.xsd">
+
+	<daitss:ACCOUNT>
+		<daitss:CODE>UF</daitss:CODE>
+		<daitss:NAME>University of Florida</daitss:NAME>
+		<daitss:DESCRIPTION>Digital Library Center at University of Florida Libraries</daitss:DESCRIPTION>
+		<daitss:ADMIN_CONTACT>1</daitss:ADMIN_CONTACT>
+		<daitss:TECH_CONTACT>2</daitss:TECH_CONTACT>
+		<daitss:REPORT_EMAIL>fclctv@cns.ufl.edu</daitss:REPORT_EMAIL>
+	</daitss:ACCOUNT>
+
+	<daitss:ACCOUNT_PROJECT>
+		<daitss:ID>101</daitss:ID>
+		<daitss:ACCOUNT>UF</daitss:ACCOUNT>
+		<daitss:PROJECT>FHP</daitss:PROJECT>
+	</daitss:ACCOUNT_PROJECT>
+
+	<daitss:ACTION_PLAN>
+		<daitss:ID>123</daitss:ID>
+		<daitss:LOCATION>BIN_1</daitss:LOCATION>
+		<daitss:BACKGROUND_DOC>XML Background stuff</daitss:BACKGROUND_DOC>
+		<daitss:BACKGROUND_DOC_LOCATION>BIN_2</daitss:BACKGROUND_DOC_LOCATION>
+		<daitss:CREATE_DATE>2004-10-10</daitss:CREATE_DATE>
+		<daitss:REVIEW_DATE>2005-10-10</daitss:REVIEW_DATE>
+		<daitss:LAST_REVISION_DATE>2005-01-25</daitss:LAST_REVISION_DATE>
+		<daitss:DESCRIPTION>A general description</daitss:DESCRIPTION>
+	</daitss:ACTION_PLAN>
+
+	<daitss:ADMIN>
+		<daitss:OID>F12345678_AAAAAA</daitss:OID>
+		<daitss:INGEST_TIME>2000-05-25 00:00:00</daitss:INGEST_TIME>
+		<daitss:ACCOUNT_PROJECT>1</daitss:ACCOUNT_PROJECT>
+		<daitss:SUB_ACCOUNT>1</daitss:SUB_ACCOUNT>		
+	</daitss:ADMIN>
+	
+	<daitss:AGREEMENT_INFO ACCOUNT="UF" SUB_ACCOUNT="LAW" PROJECT="FHP"/>
+
+	<daitss:ARCHIVE_LOGIC>
+		<daitss:ID>1</daitss:ID>
+		<daitss:ACCOUNT_PROJECT>1</daitss:ACCOUNT_PROJECT>
+		<daitss:START_DATE>2004-05-12</daitss:START_DATE>
+		<daitss:MEDIA_TYPE>image</daitss:MEDIA_TYPE>
+		<daitss:PRES_LEVEL>NONE</daitss:PRES_LEVEL>
+	</daitss:ARCHIVE_LOGIC>
+
+	<daitss:AVI_FILE>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:MAX_DATA_RATE>1</daitss:MAX_DATA_RATE>
+		<daitss:TOTAL_FRAMES>1</daitss:TOTAL_FRAMES>
+		<daitss:NO_OF_STREAMS>1</daitss:NO_OF_STREAMS>
+		<daitss:INTIAL_FRAMES>1</daitss:INTIAL_FRAMES>
+		<daitss:DURATION>00:00:01</daitss:DURATION>
+		<daitss:HAS_INDEX>TRUE</daitss:HAS_INDEX>
+		<daitss:MUST_USE_INDEX>FALSE</daitss:MUST_USE_INDEX>
+		<daitss:IS_INTERLEAVED>FALSE</daitss:IS_INTERLEAVED>
+		<daitss:WAS_CAPTURED>FALSE</daitss:WAS_CAPTURED>
+		<daitss:COPYRIGHTED>FALSE</daitss:COPYRIGHTED>
+	</daitss:AVI_FILE>
+
+	<daitss:BILLING>
+		<daitss:CODE>12345678</daitss:CODE>
+		<daitss:ACCOUNT_PROJECT>1</daitss:ACCOUNT_PROJECT>
+		<daitss:START_DATE>2004-10-10</daitss:START_DATE>
+		<daitss:END_DATE>2004-01-01</daitss:END_DATE>
+		<daitss:RATE_1>1234567A</daitss:RATE_1>
+		<daitss:RATE_2>1234567B</daitss:RATE_2>
+	</daitss:BILLING>
+
+	<daitss:BITSTREAM>
+		<daitss:DFID>F20040101_ABCDEF</daitss:DFID>
+		<daitss:BSID>F20040101_ABCDEF_9999999</daitss:BSID>
+		<daitss:SEQUENCE>9999999</daitss:SEQUENCE>
+		<daitss:LOCATION>1</daitss:LOCATION>
+		<daitss:LOCATION_TYPE>BYTE_OFFSET</daitss:LOCATION_TYPE>
+		<daitss:COMPRESSION>0</daitss:COMPRESSION>
+		<daitss:BS_TABLE></daitss:BS_TABLE>
+		<daitss:ROLE>DOC_MAIN</daitss:ROLE>
+	</daitss:BITSTREAM>
+
+	<daitss:BITSTREAM_BS_PROFILE>
+		<daitss:BSID>F20040101_ABCDEF_9999999</daitss:BSID>
+		<daitss:PROFILE>JPEG PROFILE 1</daitss:PROFILE>
+	</daitss:BITSTREAM_BS_PROFILE>
+
+	<daitss:BS_AUDIO>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:ENCODING>encoding</daitss:ENCODING>
+		<daitss:SAMPLE_RATE>1</daitss:SAMPLE_RATE>
+		<daitss:SAMPLE_SIZE>1</daitss:SAMPLE_SIZE>
+		<daitss:NO_OF_CHANNELS>1</daitss:NO_OF_CHANNELS>
+		<daitss:FRAME_RATE>1</daitss:FRAME_RATE>
+		<daitss:FRAME_SIZE>1</daitss:FRAME_SIZE>
+		<daitss:LENGTH>1</daitss:LENGTH>
+		<daitss:DATA_QUALITY>1</daitss:DATA_QUALITY>
+		<daitss:DATA_RATE>1</daitss:DATA_RATE>
+		<daitss:BITRATE_MODE>CBR</daitss:BITRATE_MODE>
+		<daitss:ENABLED>FALSE</daitss:ENABLED>
+	</daitss:BS_AUDIO>
+
+	<daitss:BS_AUDIO_WAVE>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:VALID_BITS_PER_SAMPLE>0</daitss:VALID_BITS_PER_SAMPLE>
+		<daitss:SAMPLES_PER_BLOCK>0</daitss:SAMPLES_PER_BLOCK>
+	</daitss:BS_AUDIO_WAVE>
+	
+	<daitss:BS_IMAGE>
+  			<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+  			<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+  			<daitss:BITS_PER_SAMPLE>8,8,8</daitss:BITS_PER_SAMPLE>
+  			<daitss:HAS_INTERNAL_CLUT>FALSE</daitss:HAS_INTERNAL_CLUT>
+  			<daitss:EXTRA_SAMPLES></daitss:EXTRA_SAMPLES>
+  			<daitss:ORIENTATION>RT</daitss:ORIENTATION>
+  			<daitss:COLOR_SPACE>1</daitss:COLOR_SPACE>
+  			<daitss:IMAGE_WIDTH>100</daitss:IMAGE_WIDTH>
+  			<daitss:IMAGE_LENGTH>400</daitss:IMAGE_LENGTH>
+  			<daitss:HAS_ICC_PROFILE>UNKNOWN</daitss:HAS_ICC_PROFILE>
+  			<daitss:NUM_COMPONENTS>1</daitss:NUM_COMPONENTS>
+  			<daitss:RES_UNIT>CM</daitss:RES_UNIT>
+  			<daitss:RES_HORZ>123.356</daitss:RES_HORZ>
+  			<daitss:RES_VERT>234.456</daitss:RES_VERT>
+  			<daitss:SAMPLING_HOR>i'm a sampling frequency</daitss:SAMPLING_HOR>
+  			<daitss:SAMPLING_VER>me too</daitss:SAMPLING_VER>
+  			<!--<daitss:BS_TABLE></daitss:BS_TABLE>-->
+  	</daitss:BS_IMAGE>
+  	
+	<daitss:BS_IMAGE_JPEG>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:JPEG_PROCESS>PROG_ARITH</daitss:JPEG_PROCESS>
+		<daitss:PIXEL_ASPECT_RATIO>0</daitss:PIXEL_ASPECT_RATIO>
+	</daitss:BS_IMAGE_JPEG>  	
+
+	<daitss:BS_IMAGE_JPEG2000>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:HAS_ROI>UNKNOWN</daitss:HAS_ROI>
+		<daitss:PROG_ORDER>UNKNOWN</daitss:PROG_ORDER>
+		<daitss:NUM_TILES>0</daitss:NUM_TILES>
+		<daitss:TILE_LENGTH>0</daitss:TILE_LENGTH>
+		<daitss:TILE_WIDTH>0</daitss:TILE_WIDTH>
+		<daitss:WAVELET_TRANF_TYPE>UNKNOWN</daitss:WAVELET_TRANF_TYPE>
+	</daitss:BS_IMAGE_JPEG2000>  	
+  	
+	<daitss:BS_IMAGE_TIFF>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:HAS_CHROMATICITIES>TRUE</daitss:HAS_CHROMATICITIES>
+		<daitss:NUM_STRIPS>100</daitss:NUM_STRIPS>
+		<daitss:NUM_TILES>0</daitss:NUM_TILES>
+		<daitss:PLANAR_CONFIG>CHUNKY</daitss:PLANAR_CONFIG>
+		<daitss:STORAGE_SEGMENT>TILE</daitss:STORAGE_SEGMENT>
+		<daitss:MAX_STRIP_BYTES>8</daitss:MAX_STRIP_BYTES>
+		<daitss:ROWS_PER_STRIP>100</daitss:ROWS_PER_STRIP>
+		<daitss:MAX_TILE_BYTES>8</daitss:MAX_TILE_BYTES>
+		<daitss:TILE_LENGTH>100</daitss:TILE_LENGTH>
+		<daitss:TILE_WIDTH>100</daitss:TILE_WIDTH>		
+	</daitss:BS_IMAGE_TIFF>  	
+  	
+	<daitss:BS_MARKUP>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:MARKUP_BASIS>XML</daitss:MARKUP_BASIS>
+		<daitss:SCHEMA_TYPE>W3C_XML_SCHEMA</daitss:SCHEMA_TYPE>
+		<daitss:MARKUP_LANGUAGE>daitss</daitss:MARKUP_LANGUAGE>
+		<daitss:SCHEMA_DFID>F20040101_AAAAAB</daitss:SCHEMA_DFID>
+		<daitss:VALID>TRUE</daitss:VALID>
+		<daitss:CHARSET>latin-1</daitss:CHARSET>
+		<daitss:CHARSET_ORIGIN>ARCHIVE</daitss:CHARSET_ORIGIN>
+	</daitss:BS_MARKUP>
+
+	<daitss:BS_PDF>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:NATL_LANG>francais</daitss:NATL_LANG>
+		<daitss:NUM_PAGES>10</daitss:NUM_PAGES>
+		<daitss:HAS_OUTLINE>UNKNOWN</daitss:HAS_OUTLINE>
+		<daitss:HAS_IMAGES>TRUE</daitss:HAS_IMAGES>
+		<daitss:HAS_METADATA>FALSE</daitss:HAS_METADATA>		
+	</daitss:BS_PDF>
+
+	<daitss:BS_PDF_ACTION>
+		<daitss:BSID>F20040506_DJGHBC_1</daitss:BSID>
+		<daitss:PDF_ACTION>Pdf Action 1</daitss:PDF_ACTION>
+	</daitss:BS_PDF_ACTION>
+
+	<daitss:BS_PDF_ANNOTATION>
+		<daitss:BSID>F20040506_DJGHBC_1</daitss:BSID>
+		<daitss:PDF_ANNOTATION>Pdf Annotation 1</daitss:PDF_ANNOTATION>
+	</daitss:BS_PDF_ANNOTATION>	
+
+	<daitss:BS_PDF_FILTER>
+		<daitss:BSID>F20040506_DJGHBC_1</daitss:BSID>
+		<daitss:PDF_FILTER>Pdf Filter 1</daitss:PDF_FILTER>
+	</daitss:BS_PDF_FILTER>
+
+	<daitss:BS_PROFILE>
+		<daitss:NAME>JPEG PROFILE 1</daitss:NAME>
+		<daitss:DESCRIPTION>blah blah blah</daitss:DESCRIPTION>
+		<daitss:SPECIFICATION>1021349182</daitss:SPECIFICATION>
+	</daitss:BS_PROFILE>
+
+	<daitss:BS_TABLE>
+		<daitss:NAME>BS_IMAGE</daitss:NAME>
+		<daitss:DESCRIPTION></daitss:DESCRIPTION>
+	</daitss:BS_TABLE>
+	
+	<daitss:BS_TEXT>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:CHARSET>latin-1</daitss:CHARSET>
+		<daitss:CHARSET_ORIGIN>DEPOSITOR</daitss:CHARSET_ORIGIN>
+		<daitss:LINE_BREAK>CRLF</daitss:LINE_BREAK>
+		<daitss:NATL_LANG>English</daitss:NATL_LANG>
+		<daitss:NUM_LINES>5001</daitss:NUM_LINES>
+	</daitss:BS_TEXT>	
+	
+	<daitss:BS_TEXT_CSV>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:NUM_OF_ROWS>1</daitss:NUM_OF_ROWS>
+		<daitss:NUM_OF_COLUMNS>1</daitss:NUM_OF_COLUMNS>
+	</daitss:BS_TEXT_CSV>	
+
+	<daitss:BS_VIDEO>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:BSID>F20040101_AAAAAA_1</daitss:BSID>
+		<daitss:ENCODING>encoding</daitss:ENCODING>
+		<daitss:FRAME_RATE>1</daitss:FRAME_RATE>
+		<daitss:BITS_PER_PIXEL>1</daitss:BITS_PER_PIXEL>
+		<daitss:FRAME_HEIGHT>1</daitss:FRAME_HEIGHT>
+		<daitss:FRAME_WIDTH>1</daitss:FRAME_WIDTH>
+		<daitss:RES_UNIT>IN</daitss:RES_UNIT>
+		<daitss:RES_HORZ>0</daitss:RES_HORZ>
+		<daitss:RES_VERT>0</daitss:RES_VERT>		
+		<daitss:LENGTH>1</daitss:LENGTH>
+		<daitss:DATA_QUALITY>1</daitss:DATA_QUALITY>
+		<daitss:DATA_RATE>1</daitss:DATA_RATE>
+		<daitss:BITRATE_MODE>VBR</daitss:BITRATE_MODE>
+		<daitss:ENABLED>TRUE</daitss:ENABLED>
+	</daitss:BS_VIDEO>
+
+	<daitss:COMPRESSION>
+		<daitss:CODE>1</daitss:CODE>
+		<daitss:DESCRIPTION></daitss:DESCRIPTION>
+	</daitss:COMPRESSION>
+
+	<daitss:CONTACT>
+		<daitss:ID>1</daitss:ID>
+		<daitss:NAME>John Doe</daitss:NAME>
+		<daitss:ADDR_L1>FCLA</daitss:ADDR_L1>
+		<daitss:ADDR_L2>5830 NW 39TH AVE</daitss:ADDR_L2>
+		<daitss:ADDR_L3>Gainesville, FL 32606</daitss:ADDR_L3>
+		<daitss:EMAIL>fclctv@cns.ufl.edu</daitss:EMAIL>
+		<daitss:PHONE>352-392-9020</daitss:PHONE>
+	</daitss:CONTACT>
+	
+	<daitss:DATA_FILE>
+		<daitss:DFID>F12345678_AAAAAA</daitss:DFID>	
+		<daitss:IEID>E12345678_AAAAAA</daitss:IEID>
+		<daitss:CREATE_DATE>2004-05-12 00:00:00</daitss:CREATE_DATE>
+		<daitss:FILE_COPY_DATE>2000-05-25 00:00:00</daitss:FILE_COPY_DATE>
+		<daitss:DIP_VERSION>F12345678_AAAAAA</daitss:DIP_VERSION>
+		<daitss:ORIGIN>UNKNOWN</daitss:ORIGIN>
+		<daitss:ORIG_URI>test</daitss:ORIG_URI>
+		<daitss:PACKAGE_PATH>E12345678_AAAAAA/title.ext</daitss:PACKAGE_PATH>
+		<daitss:FILE_TITLE>title</daitss:FILE_TITLE>
+		<daitss:FILE_EXT>ext</daitss:FILE_EXT>
+		<daitss:FORMAT>0123456789</daitss:FORMAT>
+		<daitss:CONTENT_TYPE>content type</daitss:CONTENT_TYPE>
+		<daitss:CREATOR_PROG>program name</daitss:CREATOR_PROG>
+		<daitss:SIZE>9223372036854775807</daitss:SIZE>
+		<daitss:BYTE_ORDER>LE</daitss:BYTE_ORDER>
+		<daitss:IS_ROOT>TRUE</daitss:IS_ROOT>
+		<daitss:IS_GLOBAL>TRUE</daitss:IS_GLOBAL>
+		<daitss:IS_OBSOLETE>TRUE</daitss:IS_OBSOLETE>
+		<daitss:CAN_DELETE>TRUE</daitss:CAN_DELETE>
+		<daitss:ROLE>SCHEMA</daitss:ROLE>
+		<daitss:PRES_LEVEL>BIT</daitss:PRES_LEVEL>
+	</daitss:DATA_FILE>
+	
+	<daitss:DATA_FILE_FORMAT_ATTRIBUTE>
+		<daitss:DFID>F20040404_SKFUGH</daitss:DFID>
+		<daitss:FORMAT_ATTRIBUTE>JPEG_ATT_1</daitss:FORMAT_ATTRIBUTE>
+	</daitss:DATA_FILE_FORMAT_ATTRIBUTE>	
+	
+	<daitss:DATA_FILE_SEVERE_ELEMENT>
+		<daitss:DFID>F20040404_SKFUGH</daitss:DFID>
+		<daitss:SEVERE_ELEMENT>ANOMALY_1</daitss:SEVERE_ELEMENT>
+	</daitss:DATA_FILE_SEVERE_ELEMENT>	
+
+	<daitss:DISTRIBUTED>
+		<daitss:PARENT>F20040404_AAAAAB</daitss:PARENT>
+		<daitss:LINKS>http://www.loc.gov/METS/mets.xsd|links/F20040723_AAAAAA65.xsd]</daitss:LINKS>
+		<daitss:BROKEN_LINKS></daitss:BROKEN_LINKS>
+		<daitss:IGNORED_LINKS></daitss:IGNORED_LINKS>
+	</daitss:DISTRIBUTED>
+
+	<daitss:DOCUMENT_LOCATION>
+		<daitss:CODE>CABINET_1</daitss:CODE>
+		<daitss:TYPE>PHYSICAL</daitss:TYPE>
+		<daitss:DESCRIPTION>The cabinet in office #40</daitss:DESCRIPTION>
+	</daitss:DOCUMENT_LOCATION>
+
+	<daitss:EVENT>
+		<daitss:ID>1</daitss:ID>
+		<daitss:OID>E20041230_AAAAAA</daitss:OID>
+		<daitss:EVENT_TYPE>I</daitss:EVENT_TYPE>
+		<daitss:DATE_TIME>2004-04-04 12:12:12</daitss:DATE_TIME>
+		<daitss:EVENT_PROCEDURE>ingest</daitss:EVENT_PROCEDURE>
+		<daitss:OUTCOME>SUCCESS</daitss:OUTCOME>
+		<daitss:NOTE></daitss:NOTE>
+	</daitss:EVENT>
+
+	<daitss:FORMAT>
+		<daitss:CODE>asdjkbadsf</daitss:CODE>
+		<daitss:MEDIA_TYPE>image/tiff</daitss:MEDIA_TYPE>
+		<daitss:MEDIA_TYPE_VERSION>6.0</daitss:MEDIA_TYPE_VERSION>
+		<daitss:VARIATION></daitss:VARIATION>
+		<daitss:IS_SUPPORTED>TRUE</daitss:IS_SUPPORTED>
+		<daitss:ACTION_PLAN>123</daitss:ACTION_PLAN>
+	</daitss:FORMAT>
+
+	<daitss:FORMAT_ATTRIBUTE>
+		<daitss:NAME>JPEG_ATT_1</daitss:NAME>
+		<daitss:FORMAT>0000000001</daitss:FORMAT>
+		<daitss:DESCRIPTION>atrtibute name</daitss:DESCRIPTION>
+	</daitss:FORMAT_ATTRIBUTE>
+	
+	<daitss:FORMAT_SPECIFICATION>
+		<daitss:FORMAT>asdjkbadsf</daitss:FORMAT>
+		<daitss:SPECIFICATION>123123</daitss:SPECIFICATION>
+		<daitss:AUTHORITY_LEVEL>PRIMARY</daitss:AUTHORITY_LEVEL>
+	</daitss:FORMAT_SPECIFICATION>	
+
+	<daitss:GLOBAL_FILE>
+		<daitss:DFID>F21000404_ABCDEF</daitss:DFID>
+		<daitss:USE_COUNT>1000000000000000</daitss:USE_COUNT>
+	</daitss:GLOBAL_FILE>	
+	
+	<daitss:INT_ENTITY>
+		<daitss:IEID>E22220202_MSJSOD</daitss:IEID>
+		<daitss:PACKAGE_NAME>UF12345678</daitss:PACKAGE_NAME>
+		<daitss:EXT_REC>AAA1234</daitss:EXT_REC>
+		<daitss:EXT_REC_TYPE>notis</daitss:EXT_REC_TYPE>
+		<daitss:ENTITY_ID>AE12345678</daitss:ENTITY_ID>
+		<daitss:VOL>1</daitss:VOL>
+		<daitss:ISSUE>000</daitss:ISSUE>
+		<daitss:TITLE>Fear and Loathing at the Library</daitss:TITLE>
+	</daitss:INT_ENTITY>	
+	
+	<daitss:INT_ENTITY_GLOBAL_FILE>
+		<daitss:IEID>E20040404_DFKFOG</daitss:IEID>
+		<daitss:DFID>F20040404_ASDLKJ</daitss:DFID>
+	</daitss:INT_ENTITY_GLOBAL_FILE>	
+	
+	<daitss:MEDIA_TYPE>
+		<daitss:TYPE>image/tiff</daitss:TYPE>
+		<daitss:DESCRIPTION>mime type for TIFF images</daitss:DESCRIPTION>
+	</daitss:MEDIA_TYPE>	
+	
+	<daitss:MESSAGE_DIGEST>
+		<daitss:DFID>F20040404_YTHDJU</daitss:DFID>
+		<daitss:CODE>SHA-1</daitss:CODE>
+		<daitss:VALUE>123-08sd;gjasd-09123ksdf</daitss:VALUE>
+		<daitss:ORIGIN>ARCHIVE</daitss:ORIGIN>
+	</daitss:MESSAGE_DIGEST>	
+	
+	<daitss:MESSAGE_DIGEST_TYPE>
+		<daitss:CODE>SHA-1</daitss:CODE>
+		<daitss:DESCRIPTION>sha-1 message digest algorithm</daitss:DESCRIPTION>
+	</daitss:MESSAGE_DIGEST_TYPE>	
+
+	<daitss:OUTPUT_REQUEST>
+		<daitss:ID>1</daitss:ID>
+		<daitss:ACCOUNT>UF</daitss:ACCOUNT>
+		<daitss:CONTACT>2</daitss:CONTACT>
+		<daitss:CAN_REQUEST_REPORT>TRUE</daitss:CAN_REQUEST_REPORT>
+		<daitss:CAN_REQUEST_DISSEMINATION>FALSE</daitss:CAN_REQUEST_DISSEMINATION>
+		<daitss:CAN_REQUEST_WITHDRAWAL>FALSE</daitss:CAN_REQUEST_WITHDRAWAL>
+	</daitss:OUTPUT_REQUEST>
+
+	<daitss:PDF_ACTION>
+		<daitss:NAME>ACTION_1</daitss:NAME>
+		<daitss:TYPE>DOCUMENT</daitss:TYPE>
+		<daitss:DESCRIPTION>blah blah blah</daitss:DESCRIPTION>
+	</daitss:PDF_ACTION>
+
+	<daitss:PDF_ANNOTATION>
+		<daitss:NAME>Pdf Annotation 1</daitss:NAME>
+		<daitss:DESCRIPTION>blah blah blah</daitss:DESCRIPTION>
+	</daitss:PDF_ANNOTATION>
+	
+	<daitss:PDF_FILTER>
+		<daitss:NAME>Pdf Filter 1</daitss:NAME>
+		<daitss:DESCRIPTION>blah blah blah</daitss:DESCRIPTION>
+	</daitss:PDF_FILTER>	
+	
+	<daitss:PROJECT>
+		<daitss:CODE>FHP</daitss:CODE>
+		<daitss:DESCRIPTION>Florida Heritage Collection</daitss:DESCRIPTION>
+	</daitss:PROJECT>
+	
+	<daitss:QUICKTIME_FILE>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:DURATION>00:00:01</daitss:DURATION>
+		<daitss:HAS_DISPLAY_MATRIX>TRUE</daitss:HAS_DISPLAY_MATRIX>
+		<daitss:HAS_USER_DATA>FALSE</daitss:HAS_USER_DATA>
+		<daitss:HAS_COLORTABLE>FALSE</daitss:HAS_COLORTABLE>
+		<daitss:HAS_COMPRESSED_RESOURCE>FALSE</daitss:HAS_COMPRESSED_RESOURCE>
+	</daitss:QUICKTIME_FILE>
+	
+	<daitss:RELATIONSHIP>
+		<daitss:DFID_1>F20040404_ASDFGH</daitss:DFID_1>
+		<daitss:REL_TYPE>CHILD_OF</daitss:REL_TYPE>
+		<daitss:DFID_2>F20040306_SDFGKL</daitss:DFID_2>
+		<daitss:EVENT_ID>12</daitss:EVENT_ID>
+	</daitss:RELATIONSHIP>
+	
+	<daitss:SEVERE_ELEMENT>
+		<daitss:CODE>ANOMALY_1</daitss:CODE>
+		<daitss:TYPE>ANOMALY</daitss:TYPE>
+		<daitss:SEVERITY>BIT</daitss:SEVERITY>
+		<daitss:DESCRIPTION>blah blah blah</daitss:DESCRIPTION>
+	</daitss:SEVERE_ELEMENT>	
+	
+	<daitss:SEVERITY>
+		<daitss:CODE>REJECT</daitss:CODE>
+		<daitss:DESCRIPTION>this thing is bad enough to cause a package to be rejected</daitss:DESCRIPTION>
+	</daitss:SEVERITY>	
+	
+	<daitss:SPECIFICATION>
+		<daitss:ID>234</daitss:ID>
+		<daitss:NUMBER>ISO-8859-15</daitss:NUMBER>
+		<daitss:NAME>SpecName</daitss:NAME>
+		<daitss:DESCRIPTION>spec for tiff</daitss:DESCRIPTION>
+		<daitss:DATE>2004-01-01</daitss:DATE>
+		<daitss:MEDIUM>CD</daitss:MEDIUM>
+		<daitss:SUBJECT>image</daitss:SUBJECT>
+		<daitss:AUTHOR_LIST>author1</daitss:AUTHOR_LIST>
+		<daitss:PUBLISHER_LIST>publisher1</daitss:PUBLISHER_LIST>
+		<daitss:LOCATION>BIN_1</daitss:LOCATION>
+		<daitss:PAGE_COUNT>200</daitss:PAGE_COUNT>
+	</daitss:SPECIFICATION>
+
+
+	<daitss:STORAGE_DESC>
+		<daitss:ID>1</daitss:ID>
+		<daitss:DFID>F20040404_ASDLKJ</daitss:DFID>
+		<daitss:STORAGE_INSTANCE>2</daitss:STORAGE_INSTANCE>
+		<daitss:IDENTIFIER>/E123456/F20040404_ASDLKJ</daitss:IDENTIFIER>
+	</daitss:STORAGE_DESC>	
+
+	<daitss:STORAGE_DESC_PREP>
+		<daitss:ID>1231412</daitss:ID>
+		<daitss:STORAGE_DESC>12462</daitss:STORAGE_DESC>
+		<daitss:PROCESS>GZIP</daitss:PROCESS>
+		<daitss:SEQUENCE>1</daitss:SEQUENCE>
+	</daitss:STORAGE_DESC_PREP>
+
+
+	<daitss:STORAGE_INSTANCE>
+		<daitss:ID>1</daitss:ID>
+		<daitss:METHOD>TIVOLI</daitss:METHOD>
+		<daitss:INSTANCE>/standard/</daitss:INSTANCE>
+		<daitss:ENABLED>TRUE</daitss:ENABLED>
+		<daitss:DESCRIPTION>tsm storage manager</daitss:DESCRIPTION>
+	</daitss:STORAGE_INSTANCE>
+
+	<daitss:STORAGE_PREP>
+		<daitss:PROCESS>GZIP</daitss:PROCESS>
+		<daitss:DESCRIPTION>Compression using the gzip algorithm</daitss:DESCRIPTION>
+		<daitss:INVERSE>UNGZIP</daitss:INVERSE>
+	</daitss:STORAGE_PREP>	
+	
+	<daitss:SUB_ACCOUNT>
+		<daitss:ID>12</daitss:ID>
+		<daitss:CODE>UFLAW</daitss:CODE>
+		<daitss:DESCRIPTION>Law stuff</daitss:DESCRIPTION>
+		<daitss:ACCOUNT>UF</daitss:ACCOUNT>
+	</daitss:SUB_ACCOUNT>
+	
+	<daitss:SUPPORTING_SPECIFICATION>
+		<daitss:SPECIFICATION>1</daitss:SPECIFICATION>
+		<daitss:SUPPORTING_SPECIFICATION>4</daitss:SUPPORTING_SPECIFICATION>
+	</daitss:SUPPORTING_SPECIFICATION>
+
+	<daitss:WAVE_FILE>
+		<daitss:DFID>F20040101_AAAAAA</daitss:DFID>
+		<daitss:HAS_FACT_CHUNK>FALSE</daitss:HAS_FACT_CHUNK>
+		<daitss:HAS_PLAYLIST_CHUNK>FALSE</daitss:HAS_PLAYLIST_CHUNK>
+		<daitss:HAS_LABEL_CHUNK>FALSE</daitss:HAS_LABEL_CHUNK>
+		<daitss:HAS_NOTE_CHUNK>FALSE</daitss:HAS_NOTE_CHUNK>
+		<daitss:HAS_LTXT_CHUNK>FALSE</daitss:HAS_LTXT_CHUNK>
+		<daitss:HAS_FILE_CHUNK>FALSE</daitss:HAS_FILE_CHUNK>
+		<daitss:HAS_SAMPLE_CHUNK>FALSE</daitss:HAS_SAMPLE_CHUNK>
+		<daitss:HAS_INSTRUMENT_CHUNK>FALSE</daitss:HAS_INSTRUMENT_CHUNK>
+		<daitss:HAS_CUE_CHUNK>FALSE</daitss:HAS_CUE_CHUNK>
+	</daitss:WAVE_FILE>
+</daitss:daitss>

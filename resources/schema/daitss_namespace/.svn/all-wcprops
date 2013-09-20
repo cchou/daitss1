@@ -1,0 +1,425 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/860/daitss/trunk/resources/schema/daitss_namespace
+END
+daitssAviFile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssAviFile.xsd
+END
+instanceDoc.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/704/daitss/trunk/resources/schema/daitss_namespace/instanceDoc.xml
+END
+daitssBsTextCSV.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/704/daitss/trunk/resources/schema/daitss_namespace/daitssBsTextCSV.xsd
+END
+daitssMessageDigestType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssMessageDigestType.xsd
+END
+daitssNumber.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/401/daitss/trunk/resources/schema/daitss_namespace/daitssNumber.xsd
+END
+daitssStorageInstance.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssStorageInstance.xsd
+END
+daitssStoragePrep.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssStoragePrep.xsd
+END
+daitssDataFileSevereElement.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDataFileSevereElement.xsd
+END
+daitssWaveFile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssWaveFile.xsd
+END
+daitssSevereElement.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssSevereElement.xsd
+END
+daitssPdfAction.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssPdfAction.xsd
+END
+daitssDocumentLocation.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDocumentLocation.xsd
+END
+daitssIntEntityGlobalFile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssIntEntityGlobalFile.xsd
+END
+daitssBsAudioWave.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsAudioWave.xsd
+END
+daitssDataFile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDataFile.xsd
+END
+daitssReport.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssReport.xsd
+END
+daitssSupportingSpecification.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssSupportingSpecification.xsd
+END
+daitssDate.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDate.xsd
+END
+daitssMediaType.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssMediaType.xsd
+END
+daitssEvent.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssEvent.xsd
+END
+daitssDistributed.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDistributed.xsd
+END
+daitssMessageDigest.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssMessageDigest.xsd
+END
+daitssIntEntity.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/860/daitss/trunk/resources/schema/daitss_namespace/daitssIntEntity.xsd
+END
+daitssAdmin.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssAdmin.xsd
+END
+daitssFormat.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssFormat.xsd
+END
+daitssActionPlan.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssActionPlan.xsd
+END
+daitssFormatSpecification.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssFormatSpecification.xsd
+END
+daitssStorageDescPrep.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssStorageDescPrep.xsd
+END
+daitssBsPdfAction.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsPdfAction.xsd
+END
+daitssBitstreamBsProfile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBitstreamBsProfile.xsd
+END
+daitssRelationship.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssRelationship.xsd
+END
+daitssDataFileFormatAttribute.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDataFileFormatAttribute.xsd
+END
+daitssSubAccount.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssSubAccount.xsd
+END
+daitssBsText.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsText.xsd
+END
+daitssTemplate.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssTemplate.xsd
+END
+daitssFormatAttribute.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssFormatAttribute.xsd
+END
+daitssBsTable.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsTable.xsd
+END
+daitssBsImageJpeg.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsImageJpeg.xsd
+END
+daitssPdfFilter.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssPdfFilter.xsd
+END
+daitssBsImageJpeg2000.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsImageJpeg2000.xsd
+END
+daitssBilling.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBilling.xsd
+END
+daitssSpecification.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssSpecification.xsd
+END
+daitssAgreementInfo.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssAgreementInfo.xsd
+END
+daitssAccountProject.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssAccountProject.xsd
+END
+daitssBsMarkup.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsMarkup.xsd
+END
+daitssBsProfile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsProfile.xsd
+END
+daitssQuickTimeFile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssQuickTimeFile.xsd
+END
+daitssBsPdf.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/403/daitss/trunk/resources/schema/daitss_namespace/daitssBsPdf.xsd
+END
+daitssArchiveLogic.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssArchiveLogic.xsd
+END
+daitssGlobalFile.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssGlobalFile.xsd
+END
+daitssBsPdfFilter.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsPdfFilter.xsd
+END
+daitssPdfAnnotation.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssPdfAnnotation.xsd
+END
+daitssProject.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssProject.xsd
+END
+daitssBsImage.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsImage.xsd
+END
+daitssOutputRequest.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssOutputRequest.xsd
+END
+daitssSeverity.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssSeverity.xsd
+END
+daitss.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/654/daitss/trunk/resources/schema/daitss_namespace/daitss.xsd
+END
+daitssBoolean.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBoolean.xsd
+END
+daitssBsImageTiff.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsImageTiff.xsd
+END
+daitssBsAudio.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsAudio.xsd
+END
+daitssBsPdfAnnotation.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsPdfAnnotation.xsd
+END
+daitssBitstream.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBitstream.xsd
+END
+daitssBsVideo.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssBsVideo.xsd
+END
+daitssContact.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssContact.xsd
+END
+daitssAccount.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssAccount.xsd
+END
+daitssDataTypes.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssDataTypes.xsd
+END
+daitssCompression.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssCompression.xsd
+END
+daitssStorageDesc.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssStorageDesc.xsd
+END
+daitssEnum.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssEnum.xsd
+END
+daitssString.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/312/daitss/trunk/resources/schema/daitss_namespace/daitssString.xsd
+END

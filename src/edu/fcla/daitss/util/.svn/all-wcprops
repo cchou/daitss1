@@ -1,0 +1,113 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/1338/daitss/trunk/src/edu/fcla/daitss/util
+END
+JhoveEngine.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/JhoveEngine.java
+END
+LogEntry.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/LogEntry.java
+END
+StringUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/StringUtil.java
+END
+DisseminationDelivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1333/daitss/trunk/src/edu/fcla/daitss/util/DisseminationDelivery.java
+END
+ExternalProgram.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/ExternalProgram.java
+END
+FileUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/FileUtil.java
+END
+AlphaComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/AlphaComparator.java
+END
+ReaderConsumer.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/ReaderConsumer.java
+END
+Informer.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1338/daitss/trunk/src/edu/fcla/daitss/util/Informer.java
+END
+Log.java
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/Log.java
+END
+WebCacheUtils.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/695/daitss/trunk/src/edu/fcla/daitss/util/WebCacheUtils.java
+END
+VirusFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/VirusFoundException.java
+END
+ByteReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/602/daitss/trunk/src/edu/fcla/daitss/util/ByteReader.java
+END
+Procedure.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/Procedure.java
+END
+ByteDecoder.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/util/ByteDecoder.java
+END
+DateTimeUtil.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1268/daitss/trunk/src/edu/fcla/daitss/util/DateTimeUtil.java
+END
+VirusChecker.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/util/VirusChecker.java
+END
+ArchiveProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/728/daitss/trunk/src/edu/fcla/daitss/util/ArchiveProperties.java
+END

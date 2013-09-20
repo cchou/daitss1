@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd
+END
+ExternalID.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/ExternalID.java
+END
+CommentHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/CommentHandler.java
+END
+AttributeHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/AttributeHandler.java
+END
+DTDSyntaxException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDSyntaxException.java
+END
+DTDSubset.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDSubset.java
+END
+Attribute.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/Attribute.java
+END
+DTDAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDAnomalies.java
+END
+PIHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/PIHandler.java
+END
+DTDWriter.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDWriter.java
+END
+EntityHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/EntityHandler.java
+END
+DTD.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTD.java
+END
+DTDFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDFile.java
+END
+Entity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/Entity.java
+END
+AttList.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/AttList.java
+END
+DTDWriterException.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDWriterException.java
+END
+ElementHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/ElementHandler.java
+END
+DTDParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDParser.java
+END
+Element.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/Element.java
+END
+NotationHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/NotationHandler.java
+END
+Notation.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/Notation.java
+END
+DTDSource.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDSource.java
+END
+DTDTextParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDTextParser.java
+END
+DTDUrl.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/text/dtd/DTDUrl.java
+END

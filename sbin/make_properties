@@ -1,0 +1,201 @@
+#!/bin/bash
+
+# Gererate a reasonable set of daitss properties
+
+out_file='./daitss.properties.generated'
+echo "output will be written to $out_file"
+if [ -f $out_file ] ; then
+	read -p "$out_file exists, overwrite? y/n " overwrite
+	if [ $overwrite = "y" ] 
+		then rm $out_file
+		
+		else 
+		echo "aborting"
+		exit 0
+	fi
+fi
+
+# ask the user for a property and set it to $value
+ask_property () 
+{
+	term=$1
+	read -p "$term? " value
+}
+
+# write a given entry to the config file
+write_property ()
+{
+	entry=$1
+	echo $entry >> $out_file
+}
+
+# convenience funcion to ask and write simple properties
+make_property () 
+{
+	term="$1"
+	entry="$2"
+	ask_property "$term"
+	write_property "$entry=$value"
+}
+
+write_property 'TIME_ZONE=GMT'
+write_property 'DB_IMPEMENTATION=mysql'
+write_property 'DB_DRIVER=com.mysql.jdbc.Driver'
+
+make_property 'database user' 'DB_USER'
+make_property 'database password' 'DB_PASSWD'
+
+ask_property 'database name'
+db_name=$value
+ask_property 'database host'
+db_host=$value
+write_property "DB_CONNECTION_URL=jdbc:mysql://${db_host}/${db_name}?zeroDateTimeBehavior=convertToNull"
+
+make_property 'default account' 'DAITSS_ACCOUNT'
+make_property 'default project' 'DAITSS_PROJECT=FDA'
+
+make_property 'mail outgoing server' 'REPORT_MAIL_HOST'
+make_property 'mail user (for outgoing server)' 'REPORT_MAIL_USER'
+make_property 'mail from address' 'REPORT_MAIL_FROM'
+make_property 'mail bcc address' 'REPORT_MAIL_BCC'
+
+make_property 'events to report (only these event codes will be reported)' 'REPORT_EVENT_FILTERS'
+
+write_property 'REPORT_MAIL_KEEP_LOG=FALSE'
+write_property 'REPORT_MAIL_TIMEOUT=60'
+write_property 'REPORT_MAIL_SUBJECT_DEFAULT=DAITSS Archive Report: ${FILE_NAME}'
+write_property 'REPORT_STYLESHEET=daitss_report_xhtml.xsl'
+
+make_property 'data dir (/var/daitss is a good choice)' 'DAITSS_DATA_PATH'
+make_property 'logs dir (/var/log/daitss is a good choice)' 'DAITSS_LOGS_PATH'
+
+write_property 'TEMP_DIR=$DAITSS_DATA_PATH$tmp/'
+write_property 'WEBCACHE_DIR=$DAITSS_DATA_PATH$webcache/'
+write_property 'WEBCACHE_EXP=604800000'
+write_property 'UNIT_TEST_LOG=$DAITSS_LOGS_PATH$unit_test/'
+write_property 'INGEST_INPATH=$DAITSS_DATA_PATH$ingest/in/'
+write_property 'INGEST_LOG=$DAITSS_LOGS_PATH$ingest/'
+write_property 'INGEST_OUTPATH=$DAITSS_DATA_PATH$ingest/out/'
+write_property 'INGEST_WORKPATH=$DAITSS_DATA_PATH$ingest/work/'
+write_property 'INGEST_REJECTPATH=$DAITSS_DATA_PATH$ingest/reject/'
+write_property 'REINGEST_INPATH=$DAITSS_DATA_PATH$ingest/rin/'
+write_property 'WITHDRAWAL_LOG=$DAITSS_LOGS_PATH$withdrawal/'
+write_property 'LOCAL_GLOBAL_DIR=$DAITSS_DATA_PATH$global/'
+write_property 'RMI_URL=//localhost/keyServer'
+write_property 'RMI_PORT=1100'
+write_property 'KEYSERVER_LOG=$DAITSS_LOGS_PATH$service/'
+write_property 'PREPROCESSOR_INPATH=$DAITSS_DATA_PATH$prep/in/'
+write_property 'PREPROCESSOR_LOG=$DAITSS_LOGS_PATH$prep/'
+write_property 'PREPROCESSOR_OUTPATH=$DAITSS_DATA_PATH$prep/out/'
+write_property 'PREPROCESSOR_WORKPATH=$DAITSS_DATA_PATH$prep/work/'
+write_property 'PREPROCESSOR_REJECTPATH=$DAITSS_DATA_PATH$prep/reject/'
+write_property 'FIXITY_CHECK_LOG=$DAITSS_LOGS_PATH$fixity/'
+write_property 'DISSEMINATION_LOG=$DAITSS_LOGS_PATH$dissemination/'
+write_property 'DISSEMINATION_OUTPUT_PATH=$DAITSS_DATA_PATH$dissemination/out/'
+
+write_property 'RESOLVER_LOCATIONS="-//W3C//DTD XMLSCHEMA 200102//EN" "http://www.w3.org/2001/XMLSchema.dtd", "datatypes" "http://www.w3.org/2001/datatypes.dtd"'
+
+write_property 'WRITE_TO_STORAGE=true'
+
+write_property 'FFIDENT_CONFIG_PATH=$DAITSS_HOME$config/ffident/formats.txt'
+write_property 'JHOVE_CONFIG=$DAITSS_HOME$config/jhove/jhove.conf'
+
+write_property 'VIRUS_CMD=clamdscan --quiet'
+write_property 'VIRUS_EXIT_CODE_INFECTED=1'
+write_property 'VIRUS_EXIT_CODE_CLEAN=0'
+write_property 'PDF_TO_TIFF_CMD=gs -sDEVICE=tiff12nc -sOutputFile=%OUTPUT_FILE% -r150 -dBATCH -dNOPAUSE %INPUT_FILE%'
+write_property 'AVI_NORM_CMD=mencoder %INPUT_FILE% -o %OUTPUT_FILE% -oac %AVI_AUDIO_NORM% -ovc lavc -lavcopts vcodec=%AVI_VIDEO_NORM%'
+write_property 'QUICKTIME_NORM_CMD=lqt_transcode -ac %QUICKTIME_AUDIO_NORM% -vc %QUICKTIME_VIDEO_NORM% %INPUT_FILE% %OUTPUT_FILE%   '
+write_property 'WAVE_NORM_CMD=ffmpeg -i %INPUT_FILE% -sameq -acodec %WAVE_AUDIO_NORM% %OUTPUT_FILE%'
+write_property 'JPEG_MIG_CMD=jasper -f %INPUT_FILE% -t jpg -F %OUTPUT_FILE% -T jp2'
+
+write_property 'TSM_COMMAND=sudo /usr/bin/dsmc'
+write_property 'ARCHIVE_ACTION=ACTION_NORMALIZE'
+write_property 'VERBOSE_STDOUT=true'
+write_property 'QUIET_MODE=false'
+write_property 'VERBOSE_LOG=true'
+write_property 'COPY_REJECTS_TO_REJECT_DIR=true'
+write_property 'DELETE_REJECTS_FROM_WORK_DIR=true'
+write_property 'DELETE_INGESTED_FROM_IN_DIR=true'
+write_property 'DELETE_INGESTED_FROM_WORK_DIR=true'
+write_property 'DELETE_INGESTED_FROM_OUT_DIR=false'
+write_property 'GLOBAL_FILES=daitss.xsd,daitssAdmin.xsd,daitssArchiveLogic.xsd,daitssAviFile.xsd,daitssBilling.xsd,daitssBitstream.xsd,daitssBitstreamBsProfile.xsd,daitssBoolean.xsd,daitssBsAudio.xsd,daitssBsImage.xsd,daitssBsImageJpeg.xsd,daitssBsImageTiff.xsd,daitssBsMarkup.xsd,daitssBsPdf.xsd,daitssBsPdfAction.xsd,daitssBsPdfAnnotation.xsd,daitssBsPdfFilter.xsd,daitssBsProfile.xsd,daitssBsTable.xsd,daitssBsText.xsd,daitssBsVideo.xsd,daitssCompression.xsd,daitssContact.xsd,daitssDataFile.xsd,daitssDataFileFormatAttribute.xsd,daitssDataFileSevereElement.xsd,daitssDataTypes.xsd,daitssDate.xsd,daitssDistributed.xsd,daitssEnum.xsd,daitssEvent.xsd,daitssFormat.xsd,daitssFormatAttribute.xsd,daitssFormatSpecification.xsd,daitssGlobalFile.xsd,daitssIntEntity.xsd,daitssIntEntityGlobalFile.xsd,daitssMediaType.xsd,daitssMessageDigest.xsd,daitssMessageDigestType.xsd,daitssNumber.xsd,daitssOSP.xsd,daitssPdfAction.xsd,daitssPdfAnnotation.xsd,daitssPdfFilter.xsd,daitssRelationship.xsd,daitssSevereElement.xsd,daitssSeverity.xsd,daitssSpecification.xsd,daitssStoragePrep.xsd,daitssString.xsd,daitssStorageDesc.xsd,daitssStorageDescPrep.xsd,daitssStorageInstance.xsd,daitssStoragePrep.xsd,datatypes.dtd,mets.xsd,mods-3-0.xsd,MXF.dtd,palmm.xsd,rightsmd.xsd,simpledc20021212.xsd,techmd.xsd,xlink.xsd,xml.xsd,XMLSchema.dtd,XMLSchema.xsd'
+
+write_property 'AIP_DESC_NAME=AIP'
+write_property 'DIP_DESC_NAME=DIP'
+write_property 'GFP_DESC_NAME=GFP'
+write_property 'ANOMALIES_TOO_MANY=500'
+write_property 'PACKAGE_REJECT_VIRUS=true'
+write_property 'VIRUS_CHECK_ORIGIN_ARCHIVE=false'
+write_property 'ENFORCE_FILE_TYPE_CHECK=false'
+
+write_property 'MD_NUM=2'
+write_property 'MD_TYPE_1=sha-1'
+write_property 'MD_TYPE_2=md5'
+
+write_property 'HARVEST_XML_DESCRIPTORS_ALL=true'
+write_property 'HARVEST_DTD_G_ENTITIES=true'
+write_property 'HARVEST_DTD_P_ENTITIES=true'
+write_property 'HARVEST_DTD_NOTATIONS=false'
+write_property 'HARVEST_XML_DTD=true'
+write_property 'HARVEST_XML_XSI_SLOC=true'
+write_property 'HARVEST_XML_XSI_NOSLOC=true'
+write_property 'HARVEST_XML_XLINK_HREF=true'
+write_property 'HARVEST_XML_GENTS=true'
+write_property 'HARVEST_XML_PENTS=true'
+write_property 'HARVEST_XML_NOTS=true'
+write_property 'HARVEST_XML_IMPORT_SLOC=true'
+write_property 'HARVEST_XML_INCLUDE_SLOC=true'
+write_property 'HARVEST_XML_REDEFINE_SLOC=true'
+write_property 'HARVEST_XML_PI_HREF=true'
+write_property 'HARVEST_XML_XSLT_IMPORT_HREF=true'
+write_property 'HARVEST_XML_XSLT_INCLUDE_HREF=true'
+write_property 'HARVEST_XML_XSLT_DOCFUNC=true'
+write_property 'HARVEST_XML_XINCLUDE_HREF=true'
+
+write_property 'NORM_VIDEO_AVI_1_0_FORMAT=AVI_NORM_1'
+write_property 'MIG_IMG_JPEG_ADOBE_FORMAT=NONE'
+write_property 'MIG_IMG_JPEG_JFIF_FORMAT=NONE'
+write_property 'MIG_IMG_JPEG_UNKNOWN_FORMAT=NONE'
+write_property 'LOC_APP_PDF_1_0_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_0_FORMAT=PDF_NORM_1'
+write_property 'LOC_APP_PDF_1_1_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_1_FORMAT=PDF_NORM_1'
+write_property 'LOC_APP_PDF_1_2_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_2_FORMAT=PDF_NORM_1'
+write_property 'LOC_APP_PDF_1_3_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_3_FORMAT=PDF_NORM_1'
+write_property 'LOC_APP_PDF_1_4_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_4_FORMAT=PDF_NORM_1'
+write_property 'LOC_APP_PDF_1_5_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_5_FORMAT=PDF_NORM_1'
+write_property 'LOC_APP_PDF_1_6_FORMAT=NONE'
+write_property 'NORM_APP_PDF_1_6_FORMAT=PDF_NORM_1'
+write_property 'NORM_VIDEO_QUICKTIME_FORMAT=QUICKTIME_NORM_1'
+write_property 'NORM_AUDIO_WAVE_FORMAT=WAVE_NORM_1'
+write_property 'LOC_APP_XML_1_0_FORMAT=XML_LOC_1'
+write_property 'LOC_APP_XMLDTD_1_0_FORMAT=XMLDTD_LOC_1'
+write_property 'NS_METS=http://www.loc.gov/METS/'
+write_property 'NS_DAITSS=http://www.fcla.edu/dls/md/daitss/'
+write_property 'NS_XINCLUDE=http://www.w3.org/2001/XInclude'
+write_property 'NS_XMLSCHEMA=http://www.w3.org/2001/XMLSchema'
+write_property 'NS_XMLSCHEMA_INSTANCE=http://www.w3.org/2001/XMLSchema-instance'
+write_property 'NS_XSL=http://www.w3.org/1999/XSL/Transform|http://www.w3.org/TR/WD-xsl'
+write_property 'NS_XLINK=http://www.w3.org/1999/xlink'
+
+write_property 'DES_MODS_NS_URI=http://www.loc.gov/mods/v3'
+write_property 'DES_SCHEMAINSTANCE_NS=xmlns:xsi'
+write_property 'DES_XLINK_NS_URI=http://www.w3.org/1999/xlink'
+write_property 'DES_DC_NS_URI=http://purl.org/dc/elements/1.1/'
+write_property 'DES_TECHMD_NS_URI=http://www.fcla.edu/dls/md/techmd/'
+write_property 'DES_PALMM_NS_URI=http://www.fcla.edu/dls/md/palmm/'
+write_property 'DES_RIGHTSMD_NS_URI=http://www.fcla.edu/dls/md/rightsmd/'
+write_property 'DES_SCHEMAINSTANCE_NS_URI=http://www.w3.org/2001/XMLSchema-instance'
+write_property 'DES_METS_SCHEMA=http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version14/mets.xsd'
+write_property 'DES_DC_SCHEMA=http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd'
+write_property 'DES_TECHMD_SCHEMA=http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd'
+write_property 'DES_PALMM_SCHEMA=http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd'
+write_property 'DES_RIGHTSMD_SCHEMA=http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd'
+write_property 'DES_DAITSS_SCHEMA=http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/dev/daitss.xsd'
+write_property 'DES_DAITSS_REPORT_SCHEMA=http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/dev/daitssReport.xsd'
+write_property 'DES_SCHEMA_LOCATION=xsi:schemaLocation'

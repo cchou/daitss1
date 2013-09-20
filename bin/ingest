@@ -1,0 +1,152 @@
+#!/bin/bash
+
+# DAITSS Ingestor script
+
+# parse command line
+# ensure that command line arg is present and either set to:
+
+# start - start ingestor
+# kill - end ingestor process
+# status - echo back whether or not ingestor is currently running
+# zap - delete temporary file if present
+# clean - delete anything in work directory
+
+pid_file=/tmp/ingestorPID
+
+
+trap "rm -f  $pid_file" 0 1 2 15
+
+# daitss config file location
+
+export DAITSS_HOME=${DAITSS_HOME:=/opt/daitss}
+
+export DAITSS_CONFIG_FILE="$DAITSS_HOME/config/daitss.properties"
+
+JVM_ARGS="-Xmx128M"
+
+if [ ! -f $DAITSS_CONFIG_FILE ]; then
+    echo Cannot find the DAITSS configration file, $DAITSS_CONFIG_FILE. Giving up.
+    exit 0
+fi
+
+DATA_FILES_LOCATION=`cat $DAITSS_CONFIG_FILE | grep DAITSS_DATA_PATH= | awk '{split($0,a,"="); print a[2]}'`
+
+# make sure parameter passed in
+
+if [ ! -n "$1" ]
+       then
+               echo "Missing paramter."
+               echo "Try ingest help for more information."
+               exit
+
+
+       #start
+       elif [ "$1" == "start" ]
+               then
+                       if [ -f "$pid_file" ]
+                               then
+                                       echo "Ingestor start: Ingestor is already running!"
+                                       exit
+                       fi
+
+                       # otherwise, grab all jars to put in classpath
+
+                       for j in `find $DAITSS_HOME/lib/ -type f | grep .jar`;do
+                               jars=$jars:$j
+                       done;
+
+                       # store PID in temp file
+                       echo $$ > $pid_file
+
+                       echo "Ingestor start: Starting Ingestor..."
+
+                       # start ingestor
+                       java $JVM_ARGS -classpath $jars edu.fcla.daitss.Ingestor
+                       java_exit_val=$?
+
+                       # after ingestor runs, remove file
+                       echo "Ingestor start: Ingestor has run its course. Ending Ingestor..."
+                       rm -f $pid_file
+
+                       exit $java_exit_val
+
+       # kill
+       elif [ "$1" == "kill" ]
+               then
+                       # if running
+                       if [ -f "$pid_file" ]
+                               then
+                                       # get PID from file, kill PID,and them remove temp file
+                                       echo "Ingestor kill: killing Ingestor..."
+                                       kill `cat $pid_file`
+                                       rm -f $pid_file
+                                       echo "Ingestor killed."
+                                       exit
+                               else
+                                       # otherwise, inform that file is not found
+                                       echo "Ingestor kill: Ingestor is not currently running."
+                                       exit
+                       fi
+
+
+
+       # status
+       elif [ $1 == "status" ]
+               then
+                       # if running
+                       if [ -f "$pid_file" ]
+                               then
+                                       echo "Ingestor status: running "
+                                       exit
+                               else
+                                       echo "Ingestor status: not running "
+                                       exit
+                       fi
+
+       # zap
+       elif [ $1 == "zap" ]
+               then
+                       # if running
+                       if [ -f "$pid_file" ]
+                               then
+                                       echo "Ingestor zap: temporary file deleted"
+                                       rm -f $pid_file
+                                       exit
+                               else
+                                       echo "Ingestor zap: temporary file not found"
+                                       exit
+                       fi
+
+       # clean
+       elif [ $1 == "clean" ]
+               then
+                       echo "Ingestor clean: cleaning work directory"
+                       rm -rf $DATA_FILES_LOCATION/ingest/work/*
+                       echo "Work directory files deleted"
+                       exit
+
+       # information
+       elif [ $1 == "help" ]
+               then
+                        echo "DAITSS, Copyright (C) 2007 University of Florida"
+                        echo "DAITSS comes with ABSOLUTELY NO WARRANTY."
+                        echo "This is free software, and you are welcome to redistribute it"
+                        echo "under certain conditions."
+                        echo ""
+                       echo "Usage: ingest [ OPTION ]"
+                       echo "Runs the DAITSS ingestor."
+                       echo -e "\nOptions:\n"
+                       echo "start - start the ingestor"
+                       echo "kill - immediately terminate the ingestor"
+                       echo "status - display whether ingestor is currently running"
+                       echo "zap - remove temporary files"
+                       echo "clean - delete anything in work directory"
+                       echo "help - display usage/help information"
+
+       # any other, display usage
+       else
+               echo "Invalid option: $1"
+               echo "Try ingest help for more information."
+               exit
+
+fi

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/repos/!svn/ver/1399/daitss/trunk/tests/share
+END
+global.properties
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/repos/!svn/ver/1365/daitss/trunk/tests/share/global.properties
+END
+global.sql
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/repos/!svn/ver/1399/daitss/trunk/tests/share/global.sql
+END

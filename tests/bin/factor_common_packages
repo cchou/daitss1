@@ -1,0 +1,37 @@
+#!/bin/zsh
+
+# 
+# FDA0000200
+# FDA0000200/2004TDG_75.jpg
+# FDA0000200/DSC04975_small.jpg
+# FDA0000200/FDA0000200.xml
+
+p_name=FDA0000200
+find . -type d -name $p_name | while read p ; do
+
+	same=0
+	ls sort $p 2> /dev/null | while read f ; do
+		case $f in
+			"2004TDG_75.jpg") 
+				same=$(cat $p/$f | md5 | grep -c 'efeb702392880c491a294e65fdcac1f9')
+				;;
+				
+			"DSC04975_small.jpg") 
+				same=$(cat $p/$f | md5 | grep -c '42ea013588a1ddbdc0dafb85dab12845')
+				;;
+				
+			"FDA0000200.xml")
+				same=$(cat $p/$f | md5 | grep -c 'ef83e1179942b077bb456677a4e3630c')
+				;;
+			*)
+				same=0
+				;;
+		esac
+	done
+
+	if [[ $same -eq 1 ]] ; then
+		mv "$p" "$p.tmp"
+		ln -s ../../../../share/packages/$p_name $p
+		echo "$p is factored out"		
+	fi
+done

@@ -1,0 +1,58 @@
+#!/usr/bin/ruby
+
+require 'time'
+
+class Result
+  
+  attr_reader :name, :time, :pass, :fail
+  attr_writer :time
+  
+  def initialize(name)
+    @name = name
+    @pass = []
+    @fail = []
+    @crash
+  end
+  
+  def load_example!(status, message)
+    
+    case status
+    when 'OK'
+      @pass << message
+    when 'NG'
+      @fail << message
+    end
+    
+  end
+  
+  def load_crash!
+  end
+  
+  def percent
+    pass.size.to_f / (pass.size + fail.size).to_f
+  end
+    
+end
+
+results = []
+
+STDIN.each "\n#" do |stanza|
+  lines = stanza.split("\n")
+
+  if lines[0] =~ /^#? ([\d-]+ [\d:]+) (.+)/
+    r = Result.new $2
+    r.time = Time.parse $1
+    lines[1..-1].each do |line|
+      
+      if line =~ /^(OK|NG)\s+[\w-]+\s+(.+)$/
+        r.load_example! $1, $2
+      end
+
+    end
+    
+    puts "#{r.name}: #{r.percent}" unless %w{begin end}.include? r.name
+  end
+  
+  
+  
+end

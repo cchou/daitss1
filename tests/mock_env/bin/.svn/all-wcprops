@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 52
+/repos/!svn/ver/1331/daitss/trunk/tests/mock_env/bin
+END
+clamscan
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/1202/daitss/trunk/tests/mock_env/bin/clamscan
+END
+clamdscan
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/repos/!svn/ver/1202/daitss/trunk/tests/mock_env/bin/clamdscan
+END
+gs
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/!svn/ver/1331/daitss/trunk/tests/mock_env/bin/gs
+END

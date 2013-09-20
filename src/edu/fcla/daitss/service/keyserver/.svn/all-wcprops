@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1412/daitss/trunk/src/edu/fcla/daitss/service/keyserver
+END
+KeyServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/service/keyserver/KeyServer.java
+END
+OIDServer_Stub.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/service/keyserver/OIDServer_Stub.java
+END
+OIDServer.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1412/daitss/trunk/src/edu/fcla/daitss/service/keyserver/OIDServer.java
+END

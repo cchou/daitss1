@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/693/daitss/trunk/src/edu/fcla/daitss/severe/element
+END
+SevereElement.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/severe/element/SevereElement.java
+END
+MetadataConflicts.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/severe/element/MetadataConflicts.java
+END
+SevereElements.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/severe/element/SevereElements.java
+END
+Anomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/634/daitss/trunk/src/edu/fcla/daitss/severe/element/Anomalies.java
+END
+Severity.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/severe/element/Severity.java
+END
+Inhibitors.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/severe/element/Inhibitors.java
+END
+Limitations.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/693/daitss/trunk/src/edu/fcla/daitss/severe/element/Limitations.java
+END
+Quirks.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/severe/element/Quirks.java
+END

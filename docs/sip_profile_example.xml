@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF8"
+standalone="no"?>
+<!METS
+sample document. >
+<!Root
+element contains namespace declarations, prefix associations, schema locations,
+EntityID and entity type>
+<mets:mets xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance"
+xmlns:mets="http://www.loc.gov/METS/"
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+xmlns:palmm="http://www.fcla.edu/dls/md/palmm/"
+xmlns:techmd="http://www.fcla.edu/dls/md/techmd/"ID att
+xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd
+http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd"
+OBJID="UF00003061"
+TYPE="monograph">
+<!Header
+includes PackageID and document creation and modification dates >
+<mets:metsHdr ID="UF00003061" CREATEDATE="20021212T19:
+44:55Z"
+LASTMODDATE="20021212T19:
+44:55Z">
+<!Multiple
+agents were involved in the creation of this document >
+<mets:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+<mets:name>UF</mets:name>
+</mets:agent>
+<mets:agent ROLE="CREATOR" TYPE="OTHER" OTHERTYPE="SOFTWARE">
+<mets:name>MXFClient</mets:name>
+</mets:agent>
+<mets:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
+<mets:name>Smith, Jean</mets:name>
+</mets:agent>
+</mets:metsHdr>
+<!All
+extension metadata sections contain unique ID attribute values >
+<!Reference
+to external bib record >
+<mets:dmdSec ID="DMD1">
+<mets:mdRef ID="AAA3563" LOCTYPE="OTHER"
+OTHERLOCTYPE="FCLANOTIS:QF" MDTYPE="MARC"/>
+</mets:dmdSec>
+<!Title
+information contained in separate dmdSec >
+<mets:dmdSec ID="DMD2">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="DC">
+<mets:xmlData>
+<dc:title>Crop statistics</dc:title>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:dmdSec>
+<!amdSec
+contains numerous techMD sections, each uniquely identified. Metadata values were
+created to illustrate that configurations get their own techMD sections and no 2
+configurations are the same. Values do not necessarily represent realworld
+objects.>
+<mets:amdSec ID="AMD1">
+<!ORDER
+OF MD SECS IS IMPORTANT (techMD, rightsMD, sourceMD,
+digiprovMD)>
+<mets:techMD ID="TMD1">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:compression NAME="LZW"/>
+<techmd:image>
+<techmd:storage SEGMENT="STRIP"
+PLANARCONFIGURATION="PLANAR"/>
+<!note
+the use of unit >
+<techmd:dimensions X="1515" Y="2550"
+UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap> ID att
+</mets:techMD>
+<mets:techMD ID="TMD2">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:creationMethod SOFTWARE="Adobe Photoshop 7.0"/>
+<techmd:compression NAME="LZW"/>
+<techmd:image>
+<techmd:dimensions X="2331" Y="1497" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD3">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="731" Y="1090" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD4">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="692" Y="1116" UNIT="PIXEL"/>
+</techmd:imge>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD5">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="704" Y="1116" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD6">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="712" Y="1138" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD7">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="1110" Y="750" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD8">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="1120" Y="694" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD9">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:image>
+<techmd:dimensions X="1102" Y="688" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD10">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:creationMethod SOFTWARE="Adobe Photoshop 7.0"/>
+<techmd:image>
+<techmd:dimensions X="1136" Y="688" UNIT="PIXEL"/>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:techMD ID="TMD11">
+<mets:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER"
+OTHERMDTYPE="TECHMD">
+<mets:xmlData>
+<techmd:compression NAME="UNCOMPRESSED"/>
+<techmd:image>
+<techmd:bitDepth>8</techmd:bitDepth>
+<techmd:storage SEGMENT="STRIP"
+PLANARCONFIGURATION="UNKNOWN"/>
+<techmd:samplingFrequency UNIT="INCH" X="150"
+Y="150"/>
+<techmd:colorSpace>BlackIsZero</techmd:colorSpace>
+<techmd:descreening>test</techmd:descreening>
+</techmd:image>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:techMD>
+<mets:digiprovMD ID="DPMD1">
+<mets:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+<mets:xmlData>
+<!daitss
+root element always used to enclose daitss metadata.
+All descriptors need agreement information>
+<daitss:daitss>
+<daitss:AGREEMENT_INFO ACCOUNT="UF"
+PROJECT="FHP"></daitss:AGREEMENT_INFO>
+</daitss:daitss>
+</mets:xmlData>
+</mets:mdWrap>
+</mets:digiprovMD>
+</mets:amdSec>
+<mets:fileSec>
+<!fileSec
+is grouped by format >
+<mets:fileGrp>
+<!TIFF
+group >
+<mets:fileGrp>
+<!file
+element includes some technical metadata. xlink:href is used to
+point to content files using relative system paths.
+Optional GROUPID is used to relate different representations
+of underlying content components (tiffs and jpegs of the
+same page). Optional SEQ attribute is also used. Notice
+references to extension metadata sections using ADMID
+attribute>
+<mets:file ID="FID1" MIMETYPE="image/tif" SEQ="1"
+CREATED="20020327T15:
+23:43Z" SIZE="1944630"
+CHECKSUMTYPE="MD5"
+CHECKSUM="0ec86a907d3730a100c1584bc7d57311"
+GROUPID="GID1" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="1.tif"/>
+</mets:file>
+<mets:file ID="FID2" MIMETYPE="image/tif" SEQ="2"
+CREATED="20021212T19:
+40:29Z" SIZE="2207484"
+CHECKSUMTYPE="MD5"
+CHECKSUM="6deb84123c143c8f6f3af58006bfa460"
+GROUPID="GID2" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="2.tif"/>
+</mets:file>
+<mets:file ID="FID3" MIMETYPE="image/tif" SEQ="3"
+CREATED="20020212T19:
+10:56Z" SIZE="799410"
+CHECKSUMTYPE="MD5"
+CHECKSUM="6b7602121b3e17a8852bbe4e696f0ef6"
+GROUPID="GID3" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="3.tif"/>
+</mets:file>
+<mets:file ID="FID4" MIMETYPE="image/tif" SEQ="4"
+CREATED="20020212T19:
+10:56Z" SIZE="776582"
+CHECKSUMTYPE="MD5"
+CHECKSUM="e44c7f0aedbed16209f50f5443aa6f80"
+GROUPID="GID4" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="4.tif"/>
+</mets:file>
+<mets:file ID="FID5" MIMETYPE="image/tif" SEQ="5"
+CREATED="20020212T19:
+10:56Z" SIZE="789480"
+CHECKSUMTYPE="MD5"
+CHECKSUM="20808dde0856ce099475fb4bdb554299"
+GROUPID="GID5" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="5.tif"/>
+</mets:file>
+<mets:file ID="FID6" MIMETYPE="image/tif" SEQ="6"
+CREATED="20020212T19:
+10:56Z" SIZE="814428"
+CHECKSUMTYPE="MD5"
+CHECKSUM="8e55aa1d6419b0b44d7456b19dae5afd"
+GROUPID="GID6" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="6.tif"/>
+</mets:file>
+<mets:file ID="FID7" MIMETYPE="image/tif" SEQ="7"
+CREATED="20020212T19:
+10:57Z" SIZE="836530"
+CHECKSUMTYPE="MD5"
+CHECKSUM="4916870a838ff69bfe19d577fc4aceaf"
+GROUPID="GID7" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="7.tif"/>
+</mets:file>
+<mets:file ID="FID8" MIMETYPE="image/tif" SEQ="8"
+CREATED="20020212T19:
+10:57Z" SIZE="780180"
+CHECKSUMTYPE="MD5"
+CHECKSUM="784f1af4a75461d7b3003aff0dba5f37"
+GROUPID="GID8" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="8.tif"/>
+</mets:file>
+<mets:file ID="FID9" MIMETYPE="image/tif" SEQ="9"
+CREATED="20020212T19:
+10:57Z" SIZE="760700"
+CHECKSUMTYPE="MD5"
+CHECKSUM="f42870ede3ef3257295ce30a08080874"
+GROUPID="GID9" ADMID="TMD1">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="9.tif"/>
+</mets:file>
+<mets:file ID="FID10" MIMETYPE="image/tif" SEQ="10"
+CREATED="20021212T19:
+35:59Z" SIZE="791256"
+CHECKSUMTYPE="MD5"
+CHECKSUM="a8835d0b1d690c2301f1be8accb0ed09"
+GROUPID="GID10" ADMID="TMD11">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="10.tif"/>
+</mets:file>
+</mets:fileGrp>
+<!JPEG
+group >
+<mets:fileGrp>
+<mets:file ID="FID11" MIMETYPE="image/jpeg" SEQ="1"
+CREATED="20020327T16:
+35:59Z" SIZE="332536"
+CHECKSUMTYPE="MD5"
+CHECKSUM="c761e933f046c458c513f320d70294a3"
+GROUPID="GID1" ADMID="TMD2">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="1.jpg"/>
+</mets:file>
+<mets:file ID="FID12" MIMETYPE="image/jpeg" SEQ="2"
+CREATED="20021212T19:
+42:19Z" SIZE="439443"
+CHECKSUMTYPE="MD5"
+CHECKSUM="2b45213e8671ebb6fa2a48b2cc2d13af"
+GROUPID="GID2" ADMID="TMD3">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="2.jpg"/>
+</mets:file>
+<mets:file ID="FID13" MIMETYPE="image/jpeg" SEQ="3"
+CREATED="20020212T19:
+16:58Z" SIZE="205727"
+CHECKSUMTYPE="MD5"
+CHECKSUM="e4bfe541eccc170813cdab2b3c94670e"
+GROUPID="GID3" ADMID="TMD4">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="3.jpg"/>
+</mets:file>
+<mets:file ID="FID14" MIMETYPE="image/jpeg" SEQ="4"
+CREATED="20020212T19:
+16:59Z" SIZE="369010"
+CHECKSUMTYPE="MD5"
+CHECKSUM="fe33b906687b0f3f287f2f22b9d3930d"
+GROUPID="GID4" ADMID="TMD5">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="4.jpg"/>
+</mets:file>
+<mets:file ID="FID15" MIMETYPE="image/jpeg" SEQ="5"
+CREATED="20020212T19:
+16:59Z" SIZE="363068"
+CHECKSUMTYPE="MD5"
+CHECKSUM="c95b00f0d34fe768df79267c3ff61b4b"
+GROUPID="GID5" ADMID="TMD6">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="5.jpg"/>
+</mets:file>
+<mets:file ID="FID16" MIMETYPE="image/jpeg" SEQ="6"
+CREATED="20020212T19:
+17:00Z" SIZE="386208"
+CHECKSUMTYPE="MD5"
+CHECKSUM="ef8e9f9a026157b52c5e49f60f1fd35a"
+GROUPID="GID6" ADMID="TMD7">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="6.jpg"/>
+</mets:file>
+<mets:file ID="FID17" MIMETYPE="image/jpeg" SEQ="7"
+CREATED="20020212T19:
+17:00Z" SIZE="194642"
+CHECKSUMTYPE="MD5"
+CHECKSUM="0545493d78da431483d9f80064a8d14a"
+GROUPID="GID7" ADMID="TMD8">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="7.jpg"/>
+</mets:file>
+<mets:file ID="FID18" MIMETYPE="image/jpeg" SEQ="8"
+CREATED="20020212T19:
+17:01Z" SIZE="119067"
+CHECKSUMTYPE="MD5"
+CHECKSUM="3317a0d513cd607ca835d488fc2ae81d"
+GROUPID="GID8" ADMID="TMD9">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="8.jpg"/>
+</mets:file>
+<mets:file ID="FID19" MIMETYPE="image/jpeg" SEQ="9"
+CREATED="20020212T19:
+17:01Z" SIZE="105762"
+CHECKSUMTYPE="MD5"
+CHECKSUM="f71ba489de1304c9d69ba7eb6b501c83"
+GROUPID="GID9" ADMID="TMD10">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM" xlink:href="9.jpg"/>
+</mets:file>
+<mets:file ID="FID20" MIMETYPE="image/jpeg" SEQ="10"
+CREATED="20021212T19:
+36:19Z" SIZE="334606"
+CHECKSUMTYPE="MD5"
+CHECKSUM="e4691d0bc7dce121231e6f565d4bb73c"
+GROUPID="GID10" ADMID="TMD10">
+<mets:FLocat LOCTYPE="OTHER"
+OTHERLOCTYPE="SYSTEM"
+xlink:href="10.jpg"/>
+</mets:file>
+</mets:fileGrp>
+</mets:fileGrp>
+</mets:fileSec>
+<!structMap
+includes optional information that will not be processed by the archive, but will be
+preserved. fptr is used to reference all file elements. Note the references to the dmdSecs
+that apply to the entire representation and so appear in the top level div.>
+<mets:structMap>
+<mets:div ORDER="0" TYPE="monograph" LABEL="Crop statistics"
+DMDID="DMD1 DMD2">
+<mets:div ORDER="1" ORDERLABEL="ONE" TYPE="cover"
+LABEL="Front Cover">
+<mets:div ORDER="1" TYPE="page">
+<mets:fptr FILEID="FID1"/>
+<mets:fptr FILEID="FID11"/>
+</mets:div>
+</mets:div>
+<mets:div ORDER="2" TYPE="chapter" LABEL="Summary of Carlot
+Shipments of Fruits and Vegetables from Florida">
+<mets:div ORDER="1" TYPE="page">
+<mets:fptr FILEID="FID1"/>
+<mets:fptr FILEID="FID12"/>
+</mets:div>
+</mets:div>
+<mets:div ORDER="3" TYPE="chapter" LABEL="Carlot Inspections
+Applied at Shipping Points for the 192930
+Season">
+<mets:div ORDER="1" TYPE="page">
+<mets:fptr FILEID="FID3"/>
+<mets:fptr FILEID="FID13"/>
+</mets:div>
+</mets:div>
+<mets:div ORDER="4" TYPE="chapter" LABEL="Florida Truck Crop
+Acreage Report">
+<mets:div ORDER="1" TYPE="page">
+<mets:fptr FILEID="FID4"/>
+<mets:fptr FILEID="FID14"/>
+</mets:div>
+</mets:div>
+<mets:div ORDER="5" TYPE="chapter" LABEL="Annual Fruit and
+Vegetable Report of Commissioner">
+<mets:div ORDER="1" TYPE="page">
+<mets:fptr FILEID="FID5"/>
+<mets:fptr FILEID="FID15"/>
+</mets:div>
+<mets:div ORDER="2" TYPE="page">
+<mets:fptr FILEID="FID6"/>
+<mets:fptr FILEID="FID16"/>
+</mets:div>
+<mets:div ORDER="3" TYPE="page">
+<mets:fptr FILEID="FID7"/>
+<mets:fptr FILEID="FID17"/>
+</mets:div>
+<mets:div ORDER="4" TYPE="page">
+<mets:fptr FILEID="FID8"/>
+<mets:fptr FILEID="FID18"/>
+</mets:div>
+<mets:div ORDER="5" TYPE="page">
+<mets:fptr FILEID="FID9"/>
+<mets:fptr FILEID="FID19"/>
+</mets:div>
+<mets:div ORDER="6" TYPE="page">
+<mets:fptr FILEID="FID10"/>
+<mets:fptr FILEID="FID20"/>
+</mets:div>
+</mets:div>
+</mets:div>
+</mets:structMap>
+</mets:mets>

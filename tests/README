@@ -1,0 +1,5 @@
+source env.sh
+kick off storage services by running rake launch from ../opt/store
+ensure rc.daitss is running
+ensure that workflow directories are cleaned out
+run ./bin/go to run all tests

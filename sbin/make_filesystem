@@ -1,0 +1,56 @@
+#!/bin/bash
+
+if [ ! -d "$DAITSS_HOME" ] ; then
+	echo "DAITSS_HOME: '$DAITSS_HOME' is not a valid directory"
+	exit 1
+fi
+
+config_file=$DAITSS_HOME/config/daitss.properties
+if [ ! -r "$config_file" ] ; then
+	echo "$config_file is does not exist or is not readable"
+	exit 1
+fi
+
+get_daitss_property() {
+	property_name=$1
+	echo $(grep "^$1=" $config_file | sed -e "s/$1=\(.*\)$/\1/")
+}
+
+make_dir() {
+	dir=$1
+	echo -n "$dir "
+	if [ ! -d $dir ]
+		then mkdir -p $dir || exit 1
+		else echo "(exists)"
+	fi
+}
+
+## Setup the DAITSS filesystem ( /var/daitss )
+
+# create dirs for data if needed
+echo "* data dirs ..."
+data_dir=$(get_daitss_property DAITSS_DATA_PATH)
+if [ ! -d $data_dir ]; then
+	echo "DAITSS_DATA_PATH $data_dir does not exist"
+	exit 1
+fi
+cd $data_dir
+grep '\$DAITSS_DATA_PATH\$' $config_file | sed -e 's/.*\$DAITSS_DATA_PATH\$\(.*\)\//\1/' | while read f 
+do
+	make_dir $f
+done
+echo
+
+# create dirs for logs if needed
+echo "* log dirs ..."
+log_dir=$(get_daitss_property DAITSS_LOGS_PATH)
+if [ ! -d $log_dir ]; then
+	echo "DAITSS_LOGS_PATH $log_dir does not exist"
+	exit 1
+fi
+cd $log_dir
+grep '\$DAITSS_LOGS_PATH\$' $config_file | sed -e 's/.*\$DAITSS_LOGS_PATH\$\(.*\)\//\1/' | while read f 
+do
+	make_dir $f
+done
+echo

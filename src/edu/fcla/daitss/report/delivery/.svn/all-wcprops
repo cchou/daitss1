@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1246/daitss/trunk/src/edu/fcla/daitss/report/delivery
+END
+DeliveryException.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/report/delivery/DeliveryException.java
+END
+Delivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/report/delivery/Delivery.java
+END
+EmailDelivery.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1246/daitss/trunk/src/edu/fcla/daitss/report/delivery/EmailDelivery.java
+END

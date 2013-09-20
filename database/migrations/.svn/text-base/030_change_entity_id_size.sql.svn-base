@@ -1,0 +1,3 @@
+-- drop the content type field from data file
+ALTER TABLE `INT_ENTITY` MODIFY COLUMN `ENTITY_ID` varchar(32);
+UPDATE DATABASE_VERSION SET MIGRATION_NUMBER=31;

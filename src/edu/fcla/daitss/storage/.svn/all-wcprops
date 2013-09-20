@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/repos/!svn/ver/1405/daitss/trunk/src/edu/fcla/daitss/storage
+END
+StorageHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/1405/daitss/trunk/src/edu/fcla/daitss/storage/StorageHelper.java
+END
+TarException.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/storage/TarException.java
+END
+Tar.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/storage/Tar.java
+END
+Sandbox.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/storage/Sandbox.java
+END

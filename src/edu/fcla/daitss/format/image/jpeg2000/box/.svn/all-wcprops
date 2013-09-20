@@ -1,0 +1,167 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box
+END
+ColorSpecification_jpx.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ColorSpecification_jpx.java
+END
+XML.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/XML.java
+END
+Resolution.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Resolution.java
+END
+Jp2Header.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Jp2Header.java
+END
+ContigCodestream_jp2.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ContigCodestream_jp2.java
+END
+ContiguousCodestream.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ContiguousCodestream.java
+END
+ImageHeader_jp2.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ImageHeader_jp2.java
+END
+Uuid.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Uuid.java
+END
+Opacity.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Opacity.java
+END
+Jpeg2000Signature.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Jpeg2000Signature.java
+END
+ImageHeader_jpx.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ImageHeader_jpx.java
+END
+ComponentMapping.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ComponentMapping.java
+END
+ColorSpecification.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ColorSpecification.java
+END
+Jp2Header_jp2.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Jp2Header_jp2.java
+END
+Label.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Label.java
+END
+FileType.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/FileType.java
+END
+ChannelDefinition.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ChannelDefinition.java
+END
+UuidInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/UuidInfo.java
+END
+Jp2Header_jpx.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Jp2Header_jpx.java
+END
+CaptureResolution.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/CaptureResolution.java
+END
+Box.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Box.java
+END
+Ipr.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Ipr.java
+END
+ColorSpecification_jp2.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ColorSpecification_jp2.java
+END
+BitsPerComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/BitsPerComponent.java
+END
+ImageHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/ImageHeader.java
+END
+DefaultDisplayResolution.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/DefaultDisplayResolution.java
+END
+Palette.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg2000/box/Palette.java
+END

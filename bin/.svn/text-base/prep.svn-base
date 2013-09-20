@@ -1,0 +1,211 @@
+#!/bin/bash
+
+
+# DAITSS Preparation script
+
+# parse command line
+# ensure that command line arg is present and either set to:
+
+# start - start ingestor
+# kill - end ingestor process
+# status - echo back whether or not ingestor is currently running
+# zap - delete temporary file if present
+# clean - delete anything in work directory
+
+# daitss config file location
+
+pid_file=/tmp/prepPID
+
+trap "rm -f  $pid_file" 0 1 2 15
+
+export DAITSS_HOME=${DAITSS_HOME:=/opt/daitss}
+
+export DAITSS_CONFIG_FILE="$DAITSS_HOME/config/daitss.properties"
+
+if [ ! -f $DAITSS_CONFIG_FILE ]; then
+    echo Cannot find the DAITSS configration file, $DAITSS_CONFIG_FILE. Giving up.
+    exit 0
+fi
+
+DATA_FILES_LOCATION=`cat $DAITSS_CONFIG_FILE | grep DAITSS_DATA_PATH= | awk '{split($0,a,"="); print a[2]}'`
+
+# make sure parameter passed in
+
+if [ ! -n "$1" ]
+       then
+               echo "Missing paramter."
+               echo "Try prep help for more information."
+               exit
+
+
+       # start
+       elif [ "$1" == "start" ]
+               then
+                       if [ -f "$pid_file" ]
+                               then
+                                       echo "Prep start: Prep is already running!"
+                                       exit
+                       fi
+
+
+                       # removes the $1 from the list (start|stop|reset)
+                       shift
+
+                       # handle the rest
+                       while getopts "rda:p:" options; do
+                           case $options in
+                               r ) prune_undescribed=true
+                               ;;
+
+                               d ) create_descriptors=true
+                               ;;
+
+                               a ) account=$OPTARG
+                               ;;
+
+                               p ) project=$OPTARG
+                               ;;
+
+                               * ) echo "Invalid option: $OPTARG"
+                               echo "Try prep help for more information."
+                               exit 1
+                               ;;
+
+                           esac
+                       done
+
+                       #do checks to make sure that paremeters make sense. that is, make sure that
+                       #project/account are provided together and make descriptors provided with
+                       #project/account.
+
+                       if [ "$account" -a -z "$project" ]; then
+                           echo "Error: account cannot be specified without project."
+                           exit 1;
+                       fi
+
+                       if [ "$project" -a -z "$account" ]; then
+                           echo "Error: project cannot be specified without account."
+                           exit 1;
+                       fi
+
+                       if [ "$create_descriptors" == "true" ]; then
+                           if [ -z "$account" -o -z "$project" ]; then
+                           echo "Error: descriptors cannot be generated - account and project must be specified."
+                           exit 1;
+                           fi
+                       fi
+
+                       # otherwise, grab all jars to put in classpath
+
+                       for j in `find $DAITSS_HOME/lib/ -type f | grep .jar`;do
+                               jars=$jars:$j
+                       done;
+
+                       # store PID in temp file
+                       echo $$ > $pid_file
+
+                       echo "Prep start: Starting Prep proceessing..."
+
+                       # start prep - depends on which paramenters exist
+
+                       if [ ! -z "$create_descriptors" ]; then
+                         java $JVM_ARGS -classpath $jars -Dprep.make.descriptor=$create_descriptors -Dprep.project=$project -Dprep.account=$account -Dprep.prune.undescribed.files=$prune_undescribed edu.fcla.daitss.prep.PreProcessor
+
+                           elif [ ! -z "$account" -a ! -z "$project" ]; then
+                               java $JVM_ARGS -classpath $jars -Dprep.project=$project -Dprep.account=$account -Dprep.prune.undescribed.files=$prune_undescribed edu.fcla.daitss.prep.PreProcessor
+
+                       else
+                           java $JVM_ARGS -classpath $jars -Dprep.prune.undescribed.files=$prune_undescribed edu.fcla.daitss.prep.PreProcessor
+                       fi
+
+                       # after prep runs, remove file
+                       echo "Prep start: Prep has run its course. Ending Prep..."
+                       rm  -f $pid_file
+                       exit
+
+
+       # kill
+       elif [ "$1" == "kill" ]
+               then
+                       #if running
+                       if [ -f $pid_file ]
+                               then
+                                       # get PID from file, kill PID,and them remove temp file
+                                       echo "Prep kill: killing Prep..."
+                                       kill `cat $pid_file`
+                                       rm -f $pid_file
+                                       echo "Prep killed."
+                                       exit
+                               else
+                                       # otherwise, inform that file is not found
+                                       echo "Prep kill: Prep is not currently running."
+                                       exit
+                       fi
+
+
+
+       # status
+       elif [ $1 == "status" ]
+               then
+                       # if running
+                       if [ -f "$pid_file" ]
+                               then
+                                       echo "Prep status: running "
+                                       exit
+                               else
+                                       echo "Prel status: not running "
+                                       exit
+                       fi
+
+       # zap
+       elif [ $1 == "zap" ]
+               then
+                       # if running
+                       if [ -f "$pid_file" ]
+                               then
+                                       echo "Prep zap: temporary file deleted"
+                                       rm -f $pid_file
+                                       exit
+                               else
+                                       echo "Prep zap: temporary file not found"
+                                       exit
+                       fi
+
+       # clean
+       elif [ $1 == "clean" ]
+               then
+                       echo "Prep clean: cleaning work directory"
+                       rm -rf $DATA_FILES_LOCATION/prep/work/*
+                       echo "Work directory files deleted"
+                       exit
+
+       # information
+       elif [ $1 == "help" ]
+               then
+                        echo "DAITSS, Copyright (C) 2007 University of Florida"
+                        echo "DAITSS comes with ABSOLUTELY NO WARRANTY."
+                        echo "This is free software, and you are welcome to redistribute it"
+                        echo "under certain conditions."
+                        echo ""
+                       echo "Usage: prep [ OPTION ] [ ARGS ]"
+                       echo "Runs the DAITSS preprocessor."
+                       echo -e "\nOptions:\n"
+                       echo "start - start the preprocessor"
+                       echo "kill - immediately terminate the preprocessor"
+                       echo "status - display whether prep is currently running"
+                       echo "zap - remove temporary files"
+                       echo "clean - delete anything in work directory"
+                       echo "help - display usage/help information"
+                       echo -e "\nArguments\n"
+                       echo "-d - Create descriptors for packages. Must also specify account and project."
+                       echo "-r - Prune undescribed files from the package."
+                       echo "-a acct - Specify account acct. Must also specify project."
+                       echo "-p prj - Specify project prj. Must also specify account."
+
+       # any other, display usage
+       else
+               echo "Invalid option: $1"
+               echo "Try prep help for more information."
+               exit
+
+fi

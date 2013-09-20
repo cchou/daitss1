@@ -1,0 +1,57 @@
+#!/bin/sh
+
+# Start up the Java remote object registry (rmiregisty) followed by the
+# DAITSS OID server (object identifier).
+#
+# This is very basic, but should get you started.  Install in /etc/init.d
+# and link into the runlevels.  On my system, something like this seems
+# to work
+#
+# cp rc.daitss /etc/init.d/daitss
+# ln -s /etc/init.d/daitss /etc/rc0.d/K91daitss
+# ln -s /etc/init.d/daitss /etc/rc1.d/K91daitss
+# ln -s /etc/init.d/daitss /etc/rc2.d/S91daitss
+# ln -s /etc/init.d/daitss /etc/rc3.d/S91daitss
+# ln -s /etc/init.d/daitss /etc/rc4.d/S91daitss
+# ln -s /etc/init.d/daitss /etc/rc5.d/S91daitss
+# ln -s /etc/init.d/daitss /etc/rc6.d/K91daitss
+
+
+export DAITSS_HOME=${DAITSS_HOME:=/opt/daitss}
+
+
+set -e
+
+PATH=/bin:/usr/bin:/sbin:/usr/sbin:$JAVA_HOME/bin
+
+case "$1" in
+
+  start)
+
+     rmiregistry &
+
+     sleep 1
+
+     for j in `find $DAITSS_HOME/lib/ -type f | grep .jar`;do
+         jars=$jars:$j
+     done;
+
+    java $JVM_ARGS -classpath $jars \
+    -Djava.rmi.server.codebase=file://$DAITSS_HOME/lib/daitss.jar \
+    -Djava.rmi.server.hostname=localhost \
+    -Djava.security.policy=file://$DAITSS_HOME/config/daitss.policy \
+    edu.fcla.daitss.service.keyserver.OIDServer > /dev/null 2>&1 &
+  ;;
+
+  stop)
+    kill `ps auxwww | grep OIDServer | grep -v grep | awk '{print $2}'`
+    killall rmiregistry
+  ;;
+
+  *)
+    echo "Usage: $0 {start|stop}"
+    exit 1
+    ;;
+esac
+
+exit 0

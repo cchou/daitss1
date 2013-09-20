@@ -1,0 +1,5 @@
+
+-- no longer used
+
+UPDATE DATABASE_VERSION SET MIGRATION_NUMBER=24;
+

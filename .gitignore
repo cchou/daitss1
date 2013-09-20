@@ -1,0 +1,10 @@
+.DS_Store
+*.jpage
+build
+lib/daitss.jar
+config/daitss.properties
+ABEND_*.txt
+run.err
+run.log
+run.report
+*~

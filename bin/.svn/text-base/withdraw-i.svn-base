@@ -1,0 +1,207 @@
+#!/bin/bash
+#
+#runs DAITSS withdraw
+
+#collect information from user:
+#type
+#account
+#contactid
+#IEID(s)
+
+
+export DAITSS_HOME=${DAITSS_HOME:=/opt/daitss}
+
+while true; do
+    echo
+        echo "DAITSS, Copyright (C) 2007 University of Florida"
+        echo "DAITSS comes with ABSOLUTELY NO WARRANTY."
+        echo "This is free software, and you are welcome to redistribute it"
+        echo "under certain conditions."
+        echo ""
+         echo DAITSS withdrawal
+
+    #get withdraw type
+    while true; do
+        type=${type:='contact'}
+        echo -n "What type of withdrawal is this? (contact, archive: Default: $type): "
+        read ans
+
+        if [ -z "$ans" ]; then
+            ans=$type
+        fi
+
+        if [ "$ans" == "contact" -o "$ans" == "archive" ]; then
+            type=$ans
+            break
+        fi
+    done # withdraw type
+
+    #get account name
+    while true; do
+        account=${account:=''}
+        echo -n "Please enter the DAITSS account corresponding to the packages to be withdrawn. (Default: $account): "
+        read ans
+
+        if [ -z "$ans" ]; then
+            ans=$account
+        fi
+
+
+        if [ ! -z "$ans" ]; then
+            account=$ans
+            break
+        fi
+    done # account name
+
+
+
+    #get contact id
+    while true; do
+        contact_id=${contact_id:=''}
+        echo -n "Please enter the ContactID corresponding to the packages to be withdrawn. (Default: $contact_id): "
+        read ans
+
+        if [ -z "$ans" ]; then
+            ans=$contact_id
+        fi
+
+        if [ ! -z "$ans" ]; then
+            contact_id=$ans
+            break
+        fi
+    done # get contact id
+
+
+
+    #get IEID's
+    while true; do
+        ieid_type=${ieid_type:='single'}
+        echo -n "How would you like to enter IEIDs for withdrawal? (single, file: Default: $ieid_type): "
+        read ans
+
+        if [ -z "$ans" ]; then
+            ans=$ieid_type
+        fi
+
+        if [ "$ans" == "single" -o "$ans" == "file" ]; then
+            ieid_type=$ans
+            break;
+        fi
+    done
+
+    #single IEID
+
+    if [ "$ieid_type" == "single"  ]; then
+
+        if [ -z ${ieids[1]} ]; then
+            ieids[1]=""
+        fi
+
+        while true; do
+            echo -n "Please enter the IEID of the package to withdraw. (Default: ${ieids[1]}): "
+            read ans
+
+            if [ -z $ans ]; then
+                ans=${ieids[1]}
+            fi
+
+            if [ ! -z "$ans" ]; then
+                unset ieids
+                ieids[1]=$ans
+                break;
+            fi
+        done
+    fi # end single file
+
+    #multiple IEID from file
+
+    if [ "$ieid_type" == "file" ]; then
+
+        while true; do
+            filename=${filename:=''}
+            echo -n "Please enter the name of the comma-delimited file containing the IEIDs to withdraw. (Default: $filename): "
+            read ans
+
+            if [ -z "$ans" ]; then
+                ans=$filename
+            fi
+
+            if [ ! -z "$ans" ]; then
+                filename=$ans
+            fi
+
+            #ensure file is readable and not zero length or dir
+            if [ ! -r "$filename" ]; then
+                echo "Access denied to file: $filename."
+
+            elif [ ! -s "$filename" ]; then
+                echo "File: $filename either does not exist, or has zero length."
+
+            elif [ -d "$filename" ]; then
+                echo "File: $filename is actually a directory. Please specify another."
+
+            else
+                break;
+            fi
+        done
+
+        #loop through provided file
+        count=1
+        while true; do
+            piece=`cut --fields=$count --delimiter=, $filename`
+
+            if [ -z $piece ]; then
+                break;
+            fi
+
+            ieids[$count]=$piece
+            count=$(( $count + 1 ))
+
+        done
+
+    fi # end multiple file
+
+
+    #end IEID get
+
+    #verify information
+
+    echo
+    echo "Here is the input you have provided:"
+    echo "Withdrawal type: $type"
+    echo "Account:         $account"
+    echo "Contact ID:      $contact_id"
+    echo "IEID Input:      $ieid_type"
+    echo -n "IEIDs:"
+
+    for ieid in ${ieids[@]}; do
+        echo -n " $ieid "
+    done
+
+    echo
+    echo -n "Is this accurate? (y/N): "
+    read ans
+
+    if [ "$ans" == "y" -o "$ans" == "Y" ]; then
+        break;
+    fi
+
+done # getting info from user
+
+#using collected info, build command to issue withdrawals
+
+for ieid in ${ieids[@]}; do
+    echo
+    echo "Withdrawing IEID: $ieid"
+    echo
+
+    #otherwise, grab all jars to put in classpath
+
+    for j in `find $DAITSS_HOME/lib/ -type f | grep .jar`;do
+        jars=$jars:$j
+    done;
+
+    java  $JVM_ARGS -classpath $jars -Ddaitss.withdrawal.type=$type -Ddaitss.withdrawal.ieid=$ieid -Ddaitss.withdrawal.contactId=$contact_id  edu.fcla.daitss.Withdrawal
+
+    echo "Finished withdrawing IEID: $ieid"
+done

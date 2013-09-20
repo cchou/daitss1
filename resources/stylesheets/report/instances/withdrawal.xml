@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="daitss_report_xhtml.xsl"?>
+<REPORT xmlns="http://www.fcla.edu/dls/md/daitss/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/dev/daitssReport.xsd">
+    <WITHDRAWAL IEID="E20061218_AAAAAA"
+        NOTE="Withdrawal of E20061218_AAAAAA in account FDA requested by daitss operator &lt;daitss@localhost>"
+        PACKAGE_NAME="FDA0000200" WITHDRAWAL_TIME="2006-12-18T15:59:13Z">
+        <FILE DFID="F20061218_AAAAAA" PATH="DSC04975_small.jpg" SIZE="239339">
+            <MESSAGE_DIGEST ALGORITHM="MD5">42ea013588a1ddbdc0dafb85dab12845</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">73d972a507cb845c978ac4bcb3788b356b0e4002</MESSAGE_DIGEST>
+        </FILE>
+        <FILE DFID="F20061218_AAAAAB" PATH="FDA0000200.xml" SIZE="6783">
+            <MESSAGE_DIGEST ALGORITHM="MD5">ef83e1179942b077bb456677a4e3630c</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">8cd2d5c1900e97f1b1643169ecd0633d9a698703</MESSAGE_DIGEST>
+        </FILE>
+        <FILE DFID="F20061218_AAAAAC" PATH="2004TDG_75.jpg" SIZE="154887">
+            <MESSAGE_DIGEST ALGORITHM="MD5">efeb702392880c491a294e65fdcac1f9</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">faab07949266d8098b9fa319d864456648367464</MESSAGE_DIGEST>
+        </FILE>
+        <FILE DFID="F20061218_AAAAAD" PATH="FDA0000200_LOC.xml" SIZE="7078">
+            <MESSAGE_DIGEST ALGORITHM="MD5">5ffdaf0969d8d3b60f8bca4503fd6105</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">a9b594c22d1d6679080e94b1b8b2ab5b7385ae79</MESSAGE_DIGEST>
+        </FILE>
+        <FILE DFID="F20061218_AAAAAL" PATH="AIP_20061218155902_LOC.xml" SIZE="88840">
+            <MESSAGE_DIGEST ALGORITHM="MD5">84857d4407539637935f4052421190ee</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">e5f064f410a1edcdde7f576230123e5f5fcab227</MESSAGE_DIGEST>
+        </FILE>
+    </WITHDRAWAL>
+</REPORT>

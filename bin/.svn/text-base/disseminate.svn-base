@@ -1,0 +1,162 @@
+#!/bin/bash
+
+# runs DAITSS dissemination
+
+export DAITSS_HOME=${DAITSS_HOME:=/opt/daitss}
+
+# prints out usage
+
+function usage {
+echo "DAITSS, Copyright (C) 2007 University of Florida"
+echo "DAITSS comes with ABSOLUTELY NO WARRANTY."
+echo "This is free software, and you are welcome to redistribute it"
+echo "under certain conditions."
+echo ""
+    echo "Usage: disseminate [ -c CONTACTID ] [ -i IEID | -f FILE ] [ -s STORAGE ]"
+    echo
+    echo "Options:"
+    echo
+    echo "-c: Required: Contact ID - contact ID of individual requesting the dissemination"
+    echo "-i: IEID number - IEID of package to disseminate"
+    echo "-f: Filename containing comma delimited list of IEIDs to disseminate"
+    echo "-s: Storage Instance to acess"
+    echo
+    echo "Either -i or -f must be specified."
+}
+
+# calls dissemination java command
+function call_java_command {
+    jars=$(find $DAITSS_HOME/lib/ -type f -name *.jar | tr '\n' ':')
+    properties="-Ddaitss.disseminate.ieid=$ieid -Ddaitss.disseminate.contactId=$contact_id"
+
+        if [ ! -z "$storage_instance" ] ; then
+                properties="$properties -Ddaitss.disseminate.storageInstance=$storage_instance"
+        fi
+
+    class="edu.fcla.daitss.Dissemination"
+    output_from_java=$(java $JVM_ARGS -cp $jars $properties $class 2>&1)
+}
+
+# parse command line args: type, contactid, account, ieid #, file
+while getopts "c:i:f:s:" options; do
+    case $options in
+        c ) contact_id=$OPTARG
+            ;;
+
+        i ) ieid_type='single'
+            ieid=$OPTARG
+            ;;
+
+        f ) ieid_type='file'
+            filename=$OPTARG
+            ;;
+
+        s ) storage_instance=$OPTARG
+            ;;
+
+        * ) echo "Invalid option: $OPTARG"
+            echo
+            exit 1
+            ;;
+
+    esac
+done
+
+#parameter checking
+if [ -z "$contact_id" ]; then
+    echo "Error: Must specify contact ID"
+    echo
+    usage
+    exit 1
+fi
+
+if [ ! -z "$ieid" -a ! -z "$filename" ]; then
+    echo "Error: Cannot supply both a single IEID and a filename. Please supply only either one or the other"
+    echo
+    usage
+    exit 1
+
+fi
+
+if [ -z "$ieid" -a -z "$filename" ]; then
+    echo "Error: Must supply either IEID number or a filename."
+    echo
+    usage
+    exit 1
+fi
+
+
+if [ ! -z "$filename" ] ; then
+    if [ ! -r "$filename" ] ; then
+        echo "Error: Access denied to file: $filename."
+        exit 1
+    elif [ ! -s "$filename" ] ; then
+        echo "Error: File: $filename either does not exist, or has zero length."
+        exit 1
+    elif [ -d "$filename" ] ; then
+        echo "Error: File: $filename is actually a directory. Please specify another."
+        exit 1
+    fi
+fi
+
+if [ "$ieid_type" == "single" ] ; then
+
+    if [ -z "$storage_instance" ] ; then
+        echo "Disseminating: $ieid"
+    else
+        echo "Disseminating: $ieid; From instance: $storage_instance"
+    fi
+
+    call_java_command
+
+    case $? in
+        0 ) echo $ieid disseminated
+            exit 0
+            ;;
+        1 ) echo $ieid failed dissemination:
+            echo $output_from_java
+            exit 1
+            ;;
+        2 ) echo dissemination crashed:
+            echo $output_from_java
+            exit 2
+            ;;
+    esac
+
+elif [ "$ieid_type" == "file" ] ; then
+
+    for ieid in $(sed -e 's/\s*,\s*/ /g' < $filename)
+    do
+
+        if [ -z "$storage_instance" ] ; then
+            echo "Disseminating: $ieid"
+        else
+            echo "Disseminating: $ieid; From instance: $storage_instance"
+        fi
+
+
+        call_java_command
+
+        case $? in
+            0 ) echo $ieid disseminated
+                ;;
+            1 ) echo $ieid failed dissemination:
+                echo $output_from_java
+                echo
+                failed="$failed $ieid"
+                ;;
+            2 ) echo dissemination crashed:
+                echo $output_from_java
+                echo
+                exit 2
+                ;;
+        esac
+    done
+
+    if [ ! -z "$failed" ] ; then
+        echo failed packages: $failed
+        exit 1
+    else
+        exit 0
+    fi
+fi

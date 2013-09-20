@@ -1,0 +1,11 @@
+#!/bin/zsh
+
+echo "# `date +%F\ %T` begin"
+
+cd cases
+for t in `ls */*/run.rb | sort` ;do
+	echo "# `date +%F\ %T` `dirname $t`"
+	ruby $t
+done
+
+echo "# `date +%F\ %T` end"

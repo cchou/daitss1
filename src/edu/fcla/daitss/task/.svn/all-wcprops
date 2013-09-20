@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/task
+END
+Task.java
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/task/Task.java
+END
+TaskGenerator.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/task/TaskGenerator.java
+END
+TaskManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/task/TaskManager.java
+END
+Executor.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/task/Executor.java
+END

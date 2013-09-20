@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1342/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg
+END
+JpegProcess.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg/JpegProcess.java
+END
+Jpeg.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1342/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg/Jpeg.java
+END
+JpegImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg/JpegImage.java
+END
+JpegMarkers.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg/JpegMarkers.java
+END
+JpegAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/jpeg/JpegAnomalies.java
+END

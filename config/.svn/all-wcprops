@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 40
+/repos/!svn/ver/1365/daitss/trunk/config
+END
+daitss.policy
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/1201/daitss/trunk/config/daitss.policy
+END
+daitss.properties.example
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/1365/daitss/trunk/config/daitss.properties.example
+END

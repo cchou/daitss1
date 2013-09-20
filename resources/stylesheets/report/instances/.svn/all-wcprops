@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/317/daitss/trunk/resources/stylesheets/report/instances
+END
+withdrawal.xml
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/317/daitss/trunk/resources/stylesheets/report/instances/withdrawal.xml
+END
+dissemination.xml
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/312/daitss/trunk/resources/stylesheets/report/instances/dissemination.xml
+END
+error.xml
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/312/daitss/trunk/resources/stylesheets/report/instances/error.xml
+END
+ingest.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/312/daitss/trunk/resources/stylesheets/report/instances/ingest.xml
+END

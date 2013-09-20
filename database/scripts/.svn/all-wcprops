@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 50
+/repos/!svn/ver/1390/daitss/trunk/database/scripts
+END
+clean_tables.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/1335/daitss/trunk/database/scripts/clean_tables.sql
+END
+initial-data.sql
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/repos/!svn/ver/1390/daitss/trunk/database/scripts/initial-data.sql
+END

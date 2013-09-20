@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/1338/daitss/trunk/src/edu/fcla/daitss/entity
+END
+Relationship.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/entity/Relationship.java
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/entity/Event.java
+END
+InformationPackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1338/daitss/trunk/src/edu/fcla/daitss/entity/InformationPackage.java
+END
+IPList.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1333/daitss/trunk/src/edu/fcla/daitss/entity/IPList.java
+END
+Events.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/entity/Events.java
+END
+Relationships.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/entity/Relationships.java
+END
+IntEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/entity/IntEntity.java
+END
+SIPList.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/entity/SIPList.java
+END
+AIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1333/daitss/trunk/src/edu/fcla/daitss/entity/AIP.java
+END
+NoSuchIEIDException.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/entity/NoSuchIEIDException.java
+END
+Agreements.java
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/880/daitss/trunk/src/edu/fcla/daitss/entity/Agreements.java
+END
+SIP.java
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1333/daitss/trunk/src/edu/fcla/daitss/entity/SIP.java
+END
+GlobalFilePackage.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/entity/GlobalFilePackage.java
+END
+ArchiveEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/entity/ArchiveEntity.java
+END

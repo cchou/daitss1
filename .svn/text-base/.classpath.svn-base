@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/xmlvalidator.jar"/>
+	<classpathentry kind="lib" path="lib/mail.jar"/>
+	<classpathentry kind="lib" path="lib/activation.jar"/>
+	<classpathentry kind="lib" path="lib/ffident.jar"/>
+	<classpathentry kind="lib" path="lib/jhove.jar"/>
+	<classpathentry kind="lib" path="lib/jhove-module.jar"/>
+	<classpathentry kind="lib" path="lib/jhove-handler.jar"/>
+	<classpathentry kind="lib" path="lib/mysql-connector-java-3.1.12-bin.jar"/>
+	<classpathentry kind="lib" path="lib/pjx-1.4.0.jar"/>
+	<classpathentry kind="lib" path="lib/fcla-mxf2mets.jar"/>
+	<classpathentry kind="lib" path="lib/mets-1.4.jar"/>
+	<classpathentry kind="lib" path="lib/xbean-1.0.4.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/commons-codec-1.3.jar"/>
+	<classpathentry kind="lib" path="lib/commons-httpclient-3.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging-1.1.1.jar"/>
+	<classpathentry kind="lib" path="lib/jmserver.jar"/>
+	<classpathentry kind="lib" path="lib/poi-3.0.2-FINAL-20080319.jar"/>
+	<classpathentry kind="output" path="build"/>
+</classpath>

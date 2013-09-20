@@ -1,0 +1,156 @@
+#!/bin/bash
+
+
+# runs DAITSS withdraw
+
+export DAITSS_HOME=${DAITSS_HOME:=/opt/daitss}
+
+# print out the proper usage
+function usage {
+        echo "DAITSS, Copyright (C) 2007 University of Florida"
+        echo "DAITSS comes with ABSOLUTELY NO WARRANTY."
+        echo "This is free software, and you are welcome to redistribute it"
+        echo "under certain conditions."
+        echo ""
+        echo "Usage: withdraw [ -t TYPE ( archive | account ) ] [ -c CONTACTID ] [ -i IEID | -f FILE ]"
+        echo
+        echo "Options:"
+        echo
+        echo "-t: Required: Withdrawal type - valid arguments: account, archive"
+        echo "-c: Required: Contact ID - contact ID of individual requesting the withdrawal"
+        echo "-i: IEID number - IEID of package to withdraw"
+        echo "-f: Filename containing comma delimited list of IEIDs to withdraw"
+        echo
+        echo "-i or -f must be specified, but not both."
+}
+
+# calls withdrawal java command
+function call_java_command {
+    jars=$(find $DAITSS_HOME/lib/ -type f -name *.jar | tr '\n' ':')
+    properties="-Ddaitss.withdrawal.type=$type -Ddaitss.withdrawal.ieid=$ieid -Ddaitss.withdrawal.contactId=$contact_id"
+    class="edu.fcla.daitss.Withdrawal"
+    output_from_java=$(java $JVM_ARGS -cp $jars $properties $class 2>&1)
+}
+
+# parse command line args: type, contactid, account, ieid #, file
+while getopts "t:c:i:f:" options
+do
+    case $options in
+        t ) type=$OPTARG
+            ;;
+        c ) contact_id=$OPTARG
+            ;;
+        i ) ieid_type='single'
+            ieid=$OPTARG
+            ;;
+        f ) ieid_type='file'
+            filename=$OPTARG
+            ;;
+        * ) echo "Invalid option: $OPTARG"
+            usage
+            exit 1
+            ;;
+    esac
+done
+
+# parameter checking
+if [ -z "$type" ] ; then
+    echo "Error: Must specify withdrawal type";
+    echo
+    usage
+    exit 1
+fi
+
+if [ "$type" != "account" -a "$type" != "archive" ] ; then
+    echo "Error: Invalid withdrawal type. Valid withdrawal types: (account, archive)"
+    echo
+    usage
+    exit 1
+fi
+
+if [ -z "$contact_id" ] ; then
+    echo "Error: Must specify contact ID"
+    echo
+    usage
+    exit 1
+fi
+
+if [ ! -z "$ieid" -a ! -z "$filename" ] ; then
+    echo "Error: Cannot supply both a single IEID and a filename. Please supply only either one or the other"
+    echo
+    usage
+    exit 1
+fi
+
+if [ -z "$ieid" -a -z "$filename" ] ; then
+    echo "Error: Must supply either IEID number or a filename."
+    echo
+    usage
+    exit 1
+fi
+
+if [ ! -z "$filename" ] ; then
+    if [ ! -r "$filename" ] ; then
+        echo "Error: Access denied to file: $filename."
+        exit 1
+    elif [ ! -s "$filename" ] ; then
+        echo "Error: File: $filename either does not exist, or has zero length."
+        exit 1
+    elif [ -d "$filename" ] ; then
+        echo "Error: File: $filename is actually a directory. Please specify another."
+        exit 1
+    fi
+fi
+
+if [ "$ieid_type" == "single" ] ; then
+
+    echo "Withdrawing: $ieid"
+
+    call_java_command
+
+    case $? in
+        0 ) echo $ieid withdrawn
+            exit 0
+            ;;
+        1 ) echo $ieid failed withdrawal:
+            echo $output_from_java
+            exit 1
+            ;;
+        2 ) echo withdrawal crashed:
+            echo $output_from_java
+            exit 2
+            ;;
+    esac
+
+elif [ "$ieid_type" == "file" ] ; then
+
+
+    for ieid in $(sed -e 's/\s*,\s*/ /g' < $filename)
+    do
+        echo "Withdrawing: $ieid"
+
+        call_java_command
+
+        case $? in
+            0 ) echo $ieid withdrawn
+                ;;
+            1 ) echo $ieid failed withdrawal:
+                echo $output_from_java
+                echo
+                failed="$failed $ieid"
+                ;;
+            2 ) echo withdrawal crashed:
+                echo $output_from_java
+                echo
+                exit 2
+                ;;
+        esac
+    done
+
+    if [ ! -z "$failed" ] ; then
+        echo failed packages: $failed
+        exit 1
+    else
+        exit 0
+    fi
+fi

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1342/daitss/trunk/src/edu/fcla/daitss/format/image/tiff
+END
+TiffAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/TiffAnomalies.java
+END
+TiffDataTypes.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/TiffDataTypes.java
+END
+TiffTags.java
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/TiffTags.java
+END
+Tiff.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1342/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/Tiff.java
+END
+TiffRevisions.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/TiffRevisions.java
+END
+TiffImage.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/TiffImage.java
+END
+TiffProfiles.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/image/tiff/TiffProfiles.java
+END

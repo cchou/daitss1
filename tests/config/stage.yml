@@ -1,0 +1,33 @@
+# database options
+db:
+    username: root
+    password:
+    host: localhost
+    database: daitss
+
+# daitss options
+daitss-home:    /stage/opt/daitss
+data-dir:       /stage/var/daitss/
+globals-dir:    /stage/var/daitss/global/
+webcache-dir:   /stage/var/daitss/webcache/
+temp-dir:       /stage/var/daitss/tmp/
+logs-dir:       /stage/var/log/daitss/
+
+# workflow queues
+ingest:
+    in:     /stage/var/daitss/ingest/in/
+    work:   /stage/var/daitss/ingest/work/
+    out:    /stage/var/daitss/ingest/out/
+    reject: /stage/var/daitss/ingest/reject/
+reingest:
+    in:     /stage/var/daitss/ingest/rin/
+    work:   /stage/var/daitss/ingest/work/
+    out:    /stage/var/daitss/ingest/out/
+    reject: /stage/var/daitss/ingest/reject/
+prep:
+    in:     /stage/var/daitss/prep/in/
+    work:   /stage/var/daitss/prep/work/
+    out:    /stage/var/daitss/prep/out/
+    reject: /stage/var/daitss/prep/reject/
+disseminate:
+    out:    /stage/var/daitss/dissemination/out/

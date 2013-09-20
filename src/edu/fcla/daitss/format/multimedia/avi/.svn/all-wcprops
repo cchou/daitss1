@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi
+END
+AviFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi/AviFile.java
+END
+AviAudio.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi/AviAudio.java
+END
+AviVideo.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi/AviVideo.java
+END
+AviAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi/AviAnomalies.java
+END
+AviLimitations.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi/AviLimitations.java
+END
+AviQuirks.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/avi/AviQuirks.java
+END

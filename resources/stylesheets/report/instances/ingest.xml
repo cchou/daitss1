@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../daitss_report_xhtml.xsl"?>
+<REPORT xmlns="http://www.fcla.edu/dls/md/daitss/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitssReport.xsd">
+<INGEST IEID="E20050428_AAAAAC" INGEST_TIME="2005-04-28T14:05:39" PACKAGE="UF00003061">
+    <AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+    <FILES>
+        <FILE DFID="F20050428_AAAADZ" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="10.jpg" PRESERVATION="FULL" SIZE="124387">
+            <MESSAGE_DIGEST ALGORITHM="MD5">59d728cb99f54e6de56ad7692b0fd193</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">052e08cf4509869f911ef9914dc17b5787941073</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAEC" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="subdir/2.jpg" PRESERVATION="FULL" SIZE="350861">
+            <MESSAGE_DIGEST ALGORITHM="MD5">83ea9628b06f0e880ff5721b71777473</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">8493be577be678aad69de71f94e1e3058d979def</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAED" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="subdir/1.jpg" PRESERVATION="FULL" SIZE="99705">
+            <MESSAGE_DIGEST ALGORITHM="MD5">3127f9a30b176fbf49bdfa7ba2ab50f7</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">d8e66ca313ffe50e7a0ccc94b9379ce6d5478687</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAEO" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="10.tif" PRESERVATION="BIT" SIZE="1780458">
+            <MESSAGE_DIGEST ALGORITHM="MD5">528015b0c37acfc4c4565e0356ffacdb</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">600dccbba6616e9f31e9b1efe66f6db4526ec940</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAEP" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="1.tif" PRESERVATION="BIT" SIZE="1780458">
+            <MESSAGE_DIGEST ALGORITHM="MD5">54c3ff71e2d2e060ece1cf4c2355c281</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">6f4fea889edb7323e0ada1b0a761ef1abd4f1cd9</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAEQ" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="UF00003061.xml" PRESERVATION="FULL" SIZE="16109">
+            <MESSAGE_DIGEST ALGORITHM="MD5">4af40db504e5d275bc700158deabc5ca</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">6b71624323f88f4f1359e343252df7c520b7e0ec</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+            <BROKEN_LINK>METS.xsl</BROKEN_LINK>
+            <BROKEN_LINK>2.tif</BROKEN_LINK>
+            <BROKEN_LINK>3.tif</BROKEN_LINK>
+            <BROKEN_LINK>4.tif</BROKEN_LINK>
+            <BROKEN_LINK>5.tif</BROKEN_LINK>
+            <BROKEN_LINK>6.tif</BROKEN_LINK>
+            <BROKEN_LINK>7.tif</BROKEN_LINK>
+            <BROKEN_LINK>8.tif</BROKEN_LINK>
+            <BROKEN_LINK>9.tif</BROKEN_LINK>
+            <BROKEN_LINK>2.jpg</BROKEN_LINK>
+            <BROKEN_LINK>3.jpg</BROKEN_LINK>
+            <BROKEN_LINK>4.jpg</BROKEN_LINK>
+            <BROKEN_LINK>5.jpg</BROKEN_LINK>
+            <BROKEN_LINK>6.jpg</BROKEN_LINK>
+            <BROKEN_LINK>7.jpg</BROKEN_LINK>
+            <BROKEN_LINK>8.jpg</BROKEN_LINK>
+            <BROKEN_LINK>9.jpg</BROKEN_LINK>
+        </FILE>
+        <FILE DFID="F20050428_AAAAJV" GLOBAL="false" ORIGIN="DEPOSITOR"
+            PATH="seminole_music.pdf" PRESERVATION="FULL" SIZE="1306553">
+            <MESSAGE_DIGEST ALGORITHM="MD5">094011b1ae8b11abb114dd67bcbc0e4c</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">85daee01b2cdca7d58c25e34c4faff5e840060e8</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAJW" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/F20050428_AAAAJV_NORM.xml"
+            PRESERVATION="FULL" SIZE="3693">
+            <MESSAGE_DIGEST ALGORITHM="MD5">df9043985525ce8f122ff379a5c54280</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">a61a0d5d40b6b2c0cfa3c3857ed8fdc82bcad05f</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAJZ" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page1.tiff"
+            PRESERVATION="FULL" SIZE="3418458">
+            <MESSAGE_DIGEST ALGORITHM="MD5">ea30e7e876ec93a597058b1bd8fa2ad7</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">17b0fe522beddfc5dc4f1237376ee7c9915580ae</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAKA" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page2.tiff"
+            PRESERVATION="FULL" SIZE="3559082">
+            <MESSAGE_DIGEST ALGORITHM="MD5">e2e313e0b6a74f349574a25ca53f2dc4</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">486b8c35e6c286d32bbc3e895288d225c0b58c81</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAKB" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page3.tiff"
+            PRESERVATION="FULL" SIZE="3679082">
+            <MESSAGE_DIGEST ALGORITHM="MD5">4a2c338770559afaa733c602ec8e3ce5</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">585e257af9da92cdaeada87583dd34ea57c4c0f2</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAKC" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page4.tiff"
+            PRESERVATION="FULL" SIZE="3679082">
+            <MESSAGE_DIGEST ALGORITHM="MD5">a7d2a480a25ca6e8319793002bbe4851</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">4d95bfdc41eb14f9d05ebe62d39fbe8caddd568b</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAKD" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page5.tiff"
+            PRESERVATION="FULL" SIZE="17456582">
+            <MESSAGE_DIGEST ALGORITHM="MD5">35307a34c205856bc5081c4cf8488d3d</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">67bc4c5870dd00a3cc8d7b115b12220b2b6b371a</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAKE" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page6.tiff"
+            PRESERVATION="FULL" SIZE="3797208">
+            <MESSAGE_DIGEST ALGORITHM="MD5">4b829d909bfc349ed44efeb719346cec</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">cba324ae2dddb5dbc6a0bd047091dd79a4e93e88</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAKF" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/page7.tiff"
+            PRESERVATION="FULL" SIZE="3508458">
+            <MESSAGE_DIGEST ALGORITHM="MD5">6a13693df596bb82e09084cb33f65bfb</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">7c6171e145b8b007cfe4d3fb256813ab9858a6a1</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAPM" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="normalized_20050428135842/F20050428_AAAAJV_PDF_NORM_1/F20050428_AAAAJV_NORM_LOC.xml"
+            PRESERVATION="FULL" SIZE="3965">
+            <MESSAGE_DIGEST ALGORITHM="MD5">ec85dd733238e4736d4ebdd96bb44688</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">cc3cb12768ba52874664e753b3632c8e390d335a</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAPN" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="UF00003061_LOC.xml" PRESERVATION="FULL" SIZE="16908">
+            <MESSAGE_DIGEST ALGORITHM="MD5">76071bca5f7b7c246366cac366e5a185</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">fce190a59c884cf22f2eb54fada0888515a1a0a1</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+            <BROKEN_LINK>2.tif</BROKEN_LINK>
+            <BROKEN_LINK>3.tif</BROKEN_LINK>
+            <BROKEN_LINK>4.tif</BROKEN_LINK>
+            <BROKEN_LINK>5.tif</BROKEN_LINK>
+            <BROKEN_LINK>6.tif</BROKEN_LINK>
+            <BROKEN_LINK>7.tif</BROKEN_LINK>
+            <BROKEN_LINK>8.tif</BROKEN_LINK>
+            <BROKEN_LINK>9.tif</BROKEN_LINK>
+            <BROKEN_LINK>2.jpg</BROKEN_LINK>
+            <BROKEN_LINK>3.jpg</BROKEN_LINK>
+            <BROKEN_LINK>4.jpg</BROKEN_LINK>
+            <BROKEN_LINK>5.jpg</BROKEN_LINK>
+            <BROKEN_LINK>6.jpg</BROKEN_LINK>
+            <BROKEN_LINK>7.jpg</BROKEN_LINK>
+            <BROKEN_LINK>8.jpg</BROKEN_LINK>
+            <BROKEN_LINK>9.jpg</BROKEN_LINK>
+        </FILE>
+        <FILE DFID="F20050428_AAAAPU" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="GFP_20050428140520_LOC.xml" PRESERVATION="FULL" SIZE="1196530">
+            <MESSAGE_DIGEST ALGORITHM="MD5">eb72b94e9e24ee9be706ed70ed5ca234</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">4162f454383838d4d1e64e79c75b3798136356c9</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+        <FILE DFID="F20050428_AAAAPV" GLOBAL="false" ORIGIN="ARCHIVE"
+            PATH="AIP_20050428140425_LOC.xml" PRESERVATION="FULL" SIZE="163162">
+            <MESSAGE_DIGEST ALGORITHM="MD5">b268918d2695d33322eca7d410ad4c12</MESSAGE_DIGEST>
+            <MESSAGE_DIGEST ALGORITHM="SHA-1">825b79aa4f71fc290ac25905736c287dfe1155f3</MESSAGE_DIGEST>
+            <STORAGE>KRISSY</STORAGE>
+            <STORAGE>STANDARD</STORAGE>
+            <STORAGE>WHITE</STORAGE>
+            <EVENT OUTCOME="SUCCESS" TIME="2005-04-28T00:00:00">
+                <PROCEDURE>Checked for virus during DataFile creation</PROCEDURE>
+                <NOTE/>
+            </EVENT>
+        </FILE>
+    </FILES>
+</INGEST>
+</REPORT>

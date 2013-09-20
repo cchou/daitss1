@@ -1,0 +1,101 @@
+K 25
+svn:wc:ra_dav:version-url
+V 58
+/repos/!svn/ver/1393/daitss/trunk/src/edu/fcla/daitss/file
+END
+NoMdType1Exception.java
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/NoMdType1Exception.java
+END
+UnexpectedPackageStateException.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/UnexpectedPackageStateException.java
+END
+DataFileFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1393/daitss/trunk/src/edu/fcla/daitss/file/DataFileFactory.java
+END
+FileRole.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/FileRole.java
+END
+DataFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1251/daitss/trunk/src/edu/fcla/daitss/file/DataFile.java
+END
+Extension.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/Extension.java
+END
+Descriptor.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/Descriptor.java
+END
+TransformationFormat.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/TransformationFormat.java
+END
+DataFileValidator.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/DataFileValidator.java
+END
+UnknownFileTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/UnknownFileTypeException.java
+END
+UnsupportedMimeTypeException.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/UnsupportedMimeTypeException.java
+END
+Container.java
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/Container.java
+END
+ArchiveMessageDigest.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/repos/!svn/ver/1251/daitss/trunk/src/edu/fcla/daitss/file/ArchiveMessageDigest.java
+END
+Format.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/Format.java
+END
+MimeMediaType.java
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/file/MimeMediaType.java
+END
+MessageDigestCalculator.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/1251/daitss/trunk/src/edu/fcla/daitss/file/MessageDigestCalculator.java
+END

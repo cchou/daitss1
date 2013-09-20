@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 38
+/repos/!svn/ver/1201/daitss/trunk/sbin
+END
+make_filesystem
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/1201/daitss/trunk/sbin/make_filesystem
+END
+make_properties
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/repos/!svn/ver/1201/daitss/trunk/sbin/make_properties
+END
+migrate_database
+K 25
+svn:wc:ra_dav:version-url
+V 55
+/repos/!svn/ver/1201/daitss/trunk/sbin/migrate_database
+END

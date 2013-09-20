@@ -1,0 +1,3 @@
+delete-from-out-dir: true
+write-to-storage: true
+reports-mail-from: daitss@localhost

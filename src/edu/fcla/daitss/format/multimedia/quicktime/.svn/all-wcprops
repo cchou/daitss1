@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime
+END
+MediaAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/MediaAtom.java
+END
+MovieAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/MovieAtom.java
+END
+DataInformationAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/DataInformationAtom.java
+END
+Atom.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/Atom.java
+END
+SampleDescriptionAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/SampleDescriptionAtom.java
+END
+QuickTimeLimitations.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/QuickTimeLimitations.java
+END
+QuickTimeParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/QuickTimeParser.java
+END
+MediaHeaderAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/MediaHeaderAtom.java
+END
+MovieHeaderAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/MovieHeaderAtom.java
+END
+SampleTableAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/SampleTableAtom.java
+END
+MediaInfoAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/MediaInfoAtom.java
+END
+QuickTimeAudio.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/QuickTimeAudio.java
+END
+HandlerReferenceAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/HandlerReferenceAtom.java
+END
+QuickTimeVideo.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/QuickTimeVideo.java
+END
+QuickTimeAnomalies.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/QuickTimeAnomalies.java
+END
+TimeToSampleAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/TimeToSampleAtom.java
+END
+CompressedMovieAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/CompressedMovieAtom.java
+END
+TrackAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/TrackAtom.java
+END
+DataReference.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/DataReference.java
+END
+UserDataAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/UserDataAtom.java
+END
+QuickTime.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/QuickTime.java
+END
+DataReferenceAtoms.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/DataReferenceAtoms.java
+END
+TrackHeaderAtom.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/multimedia/quicktime/TrackHeaderAtom.java
+END

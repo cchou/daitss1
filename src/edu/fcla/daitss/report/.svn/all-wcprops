@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/repos/!svn/ver/1246/daitss/trunk/src/edu/fcla/daitss/report
+END
+Event.java
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/repos/!svn/ver/817/daitss/trunk/src/edu/fcla/daitss/report/Event.java
+END
+Reporter.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/report/Reporter.java
+END
+WithdrawalReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/repos/!svn/ver/817/daitss/trunk/src/edu/fcla/daitss/report/WithdrawalReport.java
+END
+AgreementInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/817/daitss/trunk/src/edu/fcla/daitss/report/AgreementInfo.java
+END
+Xmlable.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/report/Xmlable.java
+END
+MessageDigest.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/report/MessageDigest.java
+END
+Warning.java
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/817/daitss/trunk/src/edu/fcla/daitss/report/Warning.java
+END
+ErrorReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/report/ErrorReport.java
+END
+IngestReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/report/IngestReport.java
+END
+PackageReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/563/daitss/trunk/src/edu/fcla/daitss/report/PackageReport.java
+END
+DataFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/report/DataFile.java
+END
+Report.java
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/817/daitss/trunk/src/edu/fcla/daitss/report/Report.java
+END

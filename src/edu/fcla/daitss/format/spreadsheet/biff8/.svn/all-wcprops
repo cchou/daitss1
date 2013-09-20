@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/spreadsheet/biff8
+END
+RecordType.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/spreadsheet/biff8/RecordType.java
+END
+Worksheet.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/spreadsheet/biff8/Worksheet.java
+END
+ExternCountRecord.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/spreadsheet/biff8/ExternCountRecord.java
+END
+Workbook.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/spreadsheet/biff8/Workbook.java
+END
+BIFF8.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1201/daitss/trunk/src/edu/fcla/daitss/format/spreadsheet/biff8/BIFF8.java
+END

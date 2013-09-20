@@ -1,0 +1,82 @@
+#!/bin/bash
+
+# check for DAITSS_HOME
+if [ ! -d "$DAITSS_HOME" ] ; then
+	echo "DAITSS_HOME: '$DAITSS_HOME' is not a valid directory"
+	exit 1
+fi
+
+# check for daitss.properties
+config_file=$DAITSS_HOME/config/daitss.properties
+if [ ! -r "$config_file" ] ; then
+	echo "$config_file is does not exist or is not readable"
+	exit 1
+fi
+
+# extract a property
+get_daitss_property() {
+	property_name=$1
+	echo $(grep "^$1=" $config_file | sed -e "s/$1=\(.*\)$/\1/")
+}
+
+# mysql user/pass/database
+db_user=$(get_daitss_property DB_USER)
+db_passwd=$(get_daitss_property DB_PASSWD)
+db_database=$(get_daitss_property DB_CONNECTION_URL | sed -e 's/jdbc:mysql:\/\/.*\/\(.*\)\?.*/\1/')
+if [ -z $db_passwd ]
+	then
+	mysql_access_info="-u$db_user $db_database"
+
+	else
+	mysql_access_info="-u$db_user -p$db_passwd -D$db_database"
+fi
+
+# execute a query with tab delimited data comming back
+# TODO gracefully handle errors for these
+ask_mysql ()
+{
+	mysql $mysql_access_info --skip-column-names -s -e "$1"
+}
+
+load_mysql ()
+{
+	mysql $mysql_access_info < "$1"
+}
+
+# error checking for migration info
+if [ -z "$(ask_mysql "show tables like 'MIGRATION'")" ] ; then
+	echo "cannot migrate this database automatically"
+	echo "migration table does not exist"
+	echo "please migrate manually"
+	exit 1
+fi
+
+if [ "0" -gt "$(ask_mysql 'select count(*) from MIGRATION')" ] ; then
+	echo "cannot migrate this database automatically"
+	echo "no migration records exist"
+	echo "please migrate manually"
+	exit 1
+fi
+
+last_migration=$(ask_mysql 'select max(NUMBER) from MIGRATION')
+echo "database is at $last_migration"
+echo "applying migration(s):"
+applied=0
+for migration in $(find $DAITSS_HOME/database/migrations -name '[0-9]*.sql' | sort -n) ; do
+	number=$(basename $migration | sed -E -e 's/^([0-9]+)_.*$/\1/')
+	if [ $number -gt $last_migration ] ; then
+		echo "- $(basename $migration)"
+		applied=`expr $applied + 1`
+		load_mysql $migration
+		ask_mysql "insert into MIGRATION (NUMBER, TIME) VALUES ($number, NOW())"
+	fi
+done
+
+if [ $number -eq $last_migration ] ; then
+	echo "database is already up to date at $last_migration."
+elif [ $number -lt $last_migration ] ; then
+	echo "Warning: database still at $last_migration, but the latest migration available is $number."
+	echo "$DAITSS_HOME might contain an old or corrupt version of the daitss codebase."
+fi
+
+echo "$applied migrations applied"
