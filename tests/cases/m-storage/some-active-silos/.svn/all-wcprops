@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1285/daitss/trunk/tests/cases/m-storage/some-active-silos
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/m-storage/some-active-silos/run.rb
+END
+local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1285/daitss/trunk/tests/cases/m-storage/some-active-silos/local.sql
+END

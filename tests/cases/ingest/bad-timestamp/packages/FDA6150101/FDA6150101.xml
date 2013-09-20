@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fcla fda="yes"?>
+<?fcla dl="no"?>
+<METS:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:METS="http://www.loc.gov/METS/"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:palmm="http://www.fcla.edu/dls/md/palmm/"
+	xmlns:techmd="http://www.fcla.edu/dls/md/techmd/"
+	xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+	xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/"
+	xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+	http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd
+	http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+	http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+	http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd" 
+	OBJID="FDA6150101" 
+	TYPE="oral">
+	<METS:metsHdr ID="FDA6150101" CREATEDATE="2007-07-23 T08:11:00Z" LASTMODDATE="2007-07-23 T08:11:00Z">
+		<METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+			<METS:name>FIU Libraries' Digital Collections Center</METS:name>
+		</METS:agent>
+		<METS:agent ROLE="ARCHIVIST" TYPE="INDIVIDUAL">
+			<METS:name>Rogers, Jamie</METS:name>
+		</METS:agent>
+	</METS:metsHdr>
+	<METS:dmdSec ID="DMD1">
+		<METS:mdWrap MIMETYPE="text/xml" MDTYPE="DC">
+			<METS:xmlData>
+				<dc:title>Olavo Alen Interview</dc:title>
+			</METS:xmlData>
+		</METS:mdWrap>
+	</METS:dmdSec>
+	<METS:amdSec ID="AMD1">
+		<METS:techMD ID="TMD2">
+			<METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+				<METS:xmlData>
+					<daitss:daitss>
+						<daitss:MEDIA_TYPE>
+							<daitss:TYPE>application/msword</daitss:TYPE>
+							<daitss:DESCRIPTION>Microsoft Word </daitss:DESCRIPTION>
+						</daitss:MEDIA_TYPE>
+					</daitss:daitss>
+				</METS:xmlData>
+			</METS:mdWrap>
+		</METS:techMD>		
+		<METS:rightsMD ID="RMD1">
+			<METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="RIGHTSMD">
+				<METS:xmlData>
+					<rightsmd:copyrightStatement>Copyright 2007? All rights reserved.</rightsmd:copyrightStatement>
+				</METS:xmlData>
+			</METS:mdWrap>
+		</METS:rightsMD>
+		<METS:digiprovMD ID="DPMD1">
+			<METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+				<METS:xmlData>
+					<daitss:daitss>
+						<daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+					</daitss:daitss>
+				</METS:xmlData>
+			</METS:mdWrap>
+		</METS:digiprovMD>		
+	</METS:amdSec>
+	<METS:fileSec>
+		<METS:fileGrp>
+			<METS:file ID="FID2" MIMETYPE="application/msword" SEQ="1"
+					CREATED="2006-7-27 T14:47:00Z" SIZE="1802908360"
+					CHECKSUMTYPE="MD5"
+					CHECKSUM="9657f30d1a54aa1428b6c61b596fc351"
+					USE="TRANSCRIPT" ADMID="TMD2">
+					<METS:FLocat LOCTYPE="OTHER"
+					OTHERLOCTYPE="SYSTEM" xlink:href="FI06150101.doc"/>
+			</METS:file>
+		</METS:fileGrp>
+	</METS:fileSec>
+	<METS:structMap>
+		<METS:div ADMID="RMD1" DMDID="DMD1" TYPE="oral">
+			<METS:div LABEL="Interview Audio and Transcript">
+				<METS:fptr>
+					<METS:par>
+						<METS:area FILEID="FID2" />
+					</METS:par>
+				</METS:fptr>
+			</METS:div>			
+		</METS:div>
+	</METS:structMap>
+</METS:mets>

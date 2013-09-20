@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/email-subject-filename
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/email-subject-filename/run.rb
+END

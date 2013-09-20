@@ -1,0 +1,1 @@
+update SILO set active = false;

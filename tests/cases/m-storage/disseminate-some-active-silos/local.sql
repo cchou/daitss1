@@ -1,0 +1,1 @@
+update SILO set ACTIVE = FALSE where URL like '%silo-3';

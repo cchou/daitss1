@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:palmm="http://www.fcla.edu/dls/md/palmm/" xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/" xmlns:techmd="http://www.fcla.edu/dls/md/techmd/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LABEL="Challenging the Sovereign: Investigating Financial Globalization's Challenges to the State" OBJID="UFE0021053" TYPE="ETD" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+  <METS:metsHdr CREATEDATE="2007-11-26T08:21:08Z" ID="UFE0021053" LASTMODDATE="2007-11-26T08:21:08Z" RECORDSTATUS="NEW">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>UFRGP</METS:name>
+      <METS:note>projects=ETD</METS:note>
+      <METS:note>makerules=title,UF</METS:note>
+      <METS:note>server=TD</METS:note>
+      <METS:note>UMI=no</METS:note>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdWrap LABEL="Simple Dublin Core" MDTYPE="DC" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <dc:title>Challenging the Sovereign: Investigating Financial Globalization's Challenges to the State</dc:title>
+        <dc:date>2007</dc:date>
+        <dc:creator>Scalera, Jamie E</dc:creator>
+        <dc:publisher>University of Florida</dc:publisher>
+        <dc:subject>globalization, sovereignty, uk</dc:subject>
+        <dc:description>If there ever was a word to describe the 1990s, it would be globalization.  This phenomenon has been the subject of political and academic debates and inquiry, but few definitive conclusions about globalization have been reached.  Among the many debates surrounding globalization is the debate over the extent to which globalization represents a threat to state sovereignty.  The aim of this project has been to investigate this relationship with a particular focus on financial globalization as a challenge to state sovereignty.      Even though it was the initial goal of the researcher to join the chorus proclaiming the end of the sovereign state, the findings presented in this study cannot support that initial perspective.  Consequently, I argued that financial globalization has significantly change the pre-1990 conceptualization and practice of state sovereignty but has yet to present a challenge significant enough to completely undermine state sovereignty.  The challenges presented by financial globalization emphasized herein include information technology and the internet, non-state actors, speculation, crisis and contagion, and external pressures on domestic decision-making.  Each of these challenges are presented highlighting their impact on the domestic and international markets of the United Kingdom.  Then, state responses to these challenges both domestic and global are investigated paying particular attention to the response of the United Kingdom.  Britain's domestic responses focus primarily on the restructuring of the Treasury, the Bank of England, and the Financial Services Authority as a means to control technology, non-state actors, and speculation.  At the global level, the United Kingdom's participation in the Organization for Economic Cooperation and Development and the European Union are investigated as a means of controlling for contagion and external pressures.      In the end, the empirical evidence of the successful implementation and continuation of these responses to financial globalization suggest that states are able to maintain their sovereignty even in the face of serious challenges presented by financial globalization.  While the expression of state sovereignty in these examples was clearly different from previous years, this change in sovereignty does not signal an end or undermining of sovereignty; although, some scholars might see them as the same.  Instead, the changes in sovereignty are undertaken as a prerogative of the state?an expression in itself of the state's sovereignty?and do not signal an end to sovereignty.  Thus, at this point in time, financial globalization does not represent a fatal threat to state sovereignty.</dc:description>
+        <dc:language>EN</dc:language>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:dmdSec ID="DMD2">
+    <METS:mdWrap LABEL="PALMM Extensions" MDTYPE="OTHER" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <palmm:thesis>
+          <palmm:committeeChair>Brown, M. Leann</palmm:committeeChair>
+          <palmm:committeeMember>Oren, Ido</palmm:committeeMember>
+          <palmm:committeeMember>Nolan, Richard A.</palmm:committeeMember>
+          <palmm:graduationDate>2007-05-04</palmm:graduationDate>
+          <palmm:degree>M.A.</palmm:degree>
+          <palmm:degreeDiscipline>Political Science - International Relations;Political Science</palmm:degreeDiscipline>
+          <palmm:degreeGrantor>University of Florida</palmm:degreeGrantor>
+          <palmm:degreeLevel>Masters</palmm:degreeLevel>
+        </palmm:thesis>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:amdSec>
+    <METS:rightsMD ID="RMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="RIGHTSMD">
+        <METS:xmlData>
+          <rightsmd:accessCode>campus</rightsmd:accessCode>
+          <rightsmd:embargoEnd>2008-05-31</rightsmd:embargoEnd>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:rightsMD>
+    <METS:sourceMD ID="SMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="PALMM">
+        <METS:xmlData>
+          <palmm:entityDesc SOURCE="UF"/>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:sourceMD>
+    <METS:digiprovMD ID="DPMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp ID="FG1">
+      <METS:file ADMID="RMD1" CHECKSUM="7D5A60E1F9BF724E1DCD2587CA15FCF6" CREATED="2007-11-26T02:56:27" ID="F1" MIMETYPE="application/pdf" SEQ="1" SIZE="213646">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="scalera_j.pdf"/>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap ID="SM1">
+    <METS:div DMDID="DMD1" TYPE="ETD">
+      <METS:div LABEL="Challenging the Sovereign: Investigating Financial Globalization's Challenges to the State" ORDER="1" TYPE="main">
+        <METS:fptr FILEID="F1"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

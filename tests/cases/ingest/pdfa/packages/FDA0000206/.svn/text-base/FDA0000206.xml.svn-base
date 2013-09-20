@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<METS:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	   xmlns:METS="http://www.loc.gov/METS/"
+	   xmlns:dc="http://purl.org/dc/elements/1.1/"
+	   xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+	   xmlns:xlink="http://www.w3.org/1999/xlink"
+	   xmlns:palmm="http://www.fcla.edu/dls/md/palmm/"
+	   xmlns:techmd="http://www.fcla.edu/dls/md/techmd/"
+	   xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/"
+	   xsi:schemaLocation="http://www.loc.gov/METS/
+			       http://www.loc.gov/standards/mets/mets.xsd
+			       http://purl.org/dc/elements/1.1/
+			       http://dublincore.org/schemas/xmls/simpledc20021212.xsd
+			       http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+			       http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+			       http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd
+			       http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd"
+	   OBJID="UFE0000601"
+	   TYPE="ETD"
+	   LABEL="Diffusion of an Innovation: The Electronic Portfolio Project in the College of Education">
+
+<METS:metsHdr CREATEDATE="2003-05-14T09:40:36Z" LASTMODDATE="2003-05-14T09:40:36Z" ID="UFE0000601" RECORDSTATUS="NEW">
+	<METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+		<METS:name>UFRGP</METS:name>
+		<METS:note>projects=ETD</METS:note>
+		<METS:note>makerules=title,UF</METS:note>
+		<METS:note>server=TD</METS:note>
+	</METS:agent>
+</METS:metsHdr>
+<METS:dmdSec ID="DMD1">
+	<METS:mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Simple Dublin Core">
+		<METS:xmlData>
+			<dc:title>Diffusion of an Innovation: The Electronic Portfolio Project in the College of Education</dc:title>
+			<dc:date>2002</dc:date>
+			<dc:creator>Ring, Gail Lee Decker</dc:creator>
+			<dc:publisher>University of Florida</dc:publisher>
+			<dc:subject></dc:subject>
+			<dc:description>This study explored the diffusion of an innovation in the form of electronic portfolios in the Secondary Teacher Education Program in the College of Education at the University of Florida. Specifically, the study was designed to provide a model of innovation diffusion related to the implementation of e-portfolios in a college of education. In addition, the study examined the impact that developing, publishing, and maintaining web-based Portfolios had on preservice teachers over the course of their master s degree program. A qualitative study was conducted to reveal the facilitators in the implementation of the innovation. The participants in this study were students enrolled in the Secondary Education Program in the College of Education. The findings were drawn from an analysis of field notes, surveys, email correspondences, interviews, and student portfolios throughout the first year of the e-Portfolio Project implemented in the fall of 2000. The research findings are likely to provide the groundwork for colleges of education considering implementing a program wide innovation in the form of electronic portfolios and provide insights into the prospective teacher growth that occurs during the portfolio development process. This study investigated the implementation of an electronic portfolio project throughout a one-year secondary education graduate program. The results of this study indicate that a key factor in the innovation diffusion process is the involvement of all stakeholders. The quality of the students  portfolios reflects the level of faculty influence. In addition, the opportunity students have to engage in reflective practice is essential to a student s professional development. It was through the process of selecting an illustration, connecting it to a Florida Accomplished Practice, explaining the connection (written in the rationale statement), and making appropriate and necessary revisions that students became more inquiry oriented and more reflective. This study was successful in that it confirmed the innovation diffusion research of Rogers (1995) as it pertained to a college of education and it identified the facilitators of an e-Portfolio Project implementation. In addition, this study provides evidence from the preservice teacher s e-portfolios and exit interview that students demonstrated professional growth as a result of participating in this study.  </dc:description>
+			<dc:language>EN</dc:language>
+		</METS:xmlData>
+	</METS:mdWrap>
+</METS:dmdSec>
+
+<METS:dmdSec ID="DMD2">
+	<METS:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" LABEL="PALMM Extensions">
+	<METS:xmlData>
+		<palmm:thesis>
+			<palmm:committeeChair>Kantowski, Elenore L.</palmm:committeeChair>
+			<palmm:committeeMember>Foti, Sebastian L.</palmm:committeeMember>
+			<palmm:committeeMember>Hurt, Jeff A.</palmm:committeeMember>
+			<palmm:committeeMember>Clark, Mary Ann </palmm:committeeMember>
+			<palmm:graduationDate>2003-12-21</palmm:graduationDate>
+			<palmm:degree>Ph.D.</palmm:degree>
+			<palmm:degreeDiscipline>Teaching and Learning</palmm:degreeDiscipline>
+			<palmm:degreeGrantor>University of Florida</palmm:degreeGrantor>
+			<palmm:degreeLevel>Doctorate</palmm:degreeLevel>
+		</palmm:thesis>
+	</METS:xmlData>
+</METS:mdWrap>
+</METS:dmdSec>
+
+<METS:amdSec>
+	<METS:rightsMD ID="RMD1">
+		<METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="RIGHTSMD">
+			<METS:xmlData>
+				<rightsmd:accessCode>public</rightsmd:accessCode>
+			</METS:xmlData>
+		</METS:mdWrap>
+	</METS:rightsMD>
+	<METS:sourceMD ID="SMD1">
+		<METS:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="PALMM">
+			<METS:xmlData>
+				<palmm:entityDesc SOURCE="UF"/>									
+			</METS:xmlData>
+		</METS:mdWrap>
+	</METS:sourceMD>
+	<METS:digiprovMD ID="DPMD1">
+		<METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS"> 
+			<METS:xmlData> 
+				<daitss:daitss> 
+					<daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/> 
+				</daitss:daitss> 
+			</METS:xmlData> 
+		</METS:mdWrap>	
+	</METS:digiprovMD>
+</METS:amdSec>
+
+<METS:fileSec>
+	<METS:fileGrp ID="FG1">
+		<METS:file ID="F1" MIMETYPE="application/pdf" SEQ="1" CREATED="2003-04-16T11:01:00" SIZE="1077070" CHECKSUM="87659AA7BC214B42B35F663F84F13CC2" CHECKSUMTYPE="MD5" ADMID="RMD1">
+			<METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="ring_g.pdf"/>
+		</METS:file>
+		<METS:file ID="F2" MIMETYPE="video/avi" SEQ="2" CREATED="2002-12-09T03:35:00" SIZE="10748294" CHECKSUM="3E2DF30669D43ADF4B71DBB4509769FC" CHECKSUMTYPE="MD5" ADMID="RMD1">
+			<METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="rationale.avi"/>
+		</METS:file>
+	</METS:fileGrp>
+</METS:fileSec>
+<METS:structMap ID="SM1">
+	<METS:div TYPE="ETD" DMDID="DMD1">
+		<METS:div ORDER="1" TYPE="main" LABEL="Diffusion of an Innovation: The Electronic Portfolio Project in the College of Education">
+			<METS:fptr FILEID="F1"/>
+		</METS:div>
+		<METS:div ORDER="2" TYPE="section">
+			<METS:fptr FILEID="F2"/>
+		</METS:div>
+	</METS:div>
+</METS:structMap>
+
+</METS:mets>
+
+

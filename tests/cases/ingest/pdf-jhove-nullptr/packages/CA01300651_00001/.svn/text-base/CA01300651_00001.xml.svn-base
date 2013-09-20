@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?fcla fda="yes"?>
+<?fcla dl="no"?>
+<METS:mets OBJID="CA01300651_00001"
+    xmlns:METS="http://www.loc.gov/METS/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+    xsi:schemaLocation="http://www.loc.gov/METS/
+        http://www.loc.gov/standards/mets/mets.xsd 
+        http://www.loc.gov/mods/v3
+        http://www.loc.gov/standards/mods/v3/mods-3-2.xsd
+        
+        http://www.fcla.edu/dls/md/daitss/
+        http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+<METS:metsHdr CREATEDATE="2008-03-21T10:36:06Z" ID="CA01300651_00001" LASTMODDATE="2008-03-21T10:36:06Z" RECORDSTATUS="NEW">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION"> 
+        <METS:name>UF</METS:name>
+    </METS:agent>
+    <METS:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER"> 
+        <METS:name>Go UFDC - FDA Preparation Tool</METS:name>
+    </METS:agent>
+    <METS:agent ROLE="CREATOR" TYPE="INDIVIDUAL"> 
+        <METS:name>SMATHERSLIB\matmari</METS:name>
+    </METS:agent>
+</METS:metsHdr>
+<METS:dmdSec ID="DMD1">
+    <METS:mdWrap MDTYPE="MODS" MIMETYPE="text/xml" LABEL="Metadata Object Description Schema"> 
+        <METS:xmlData>
+            <mods:mods>
+                <mods:titleInfo>
+                    <mods:title>Act. No. 6572 … to establish the St. Croix East End Marine Park</mods:title>
+                </mods:titleInfo>
+                <mods:titleInfo type="alternative">
+                    <mods:title>Bill No. 24-0308, Twenty-fourth legislature of the Virgin Islands of the United States … to establish the St. Croix East End Marine Park</mods:title>
+                </mods:titleInfo>
+                <mods:name type="personal">
+                    <mods:namePart>United States Virgin Islands</mods:namePart>
+                    <mods:role>
+                          <mods:roleTerm authority="marcrelator">Creator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:originInfo>
+                    <mods:dateIssued>2002</mods:dateIssued>
+                </mods:originInfo>
+                <mods:language>
+                    <mods:languageTerm type="text">English</mods:languageTerm>
+                </mods:language>
+                <mods:subject authority="LCSH">
+                    <mods:topic>Caribbean</mods:topic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:hierarchicalGeographic>
+                          <mods:continent>North America</mods:continent>
+                          <mods:country>United States Virgin Islands</mods:country>
+                          <mods:island>Saint Croix</mods:island>
+                          <mods:area>East End Marine Park</mods:area>
+                    </mods:hierarchicalGeographic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:hierarchicalGeographic>
+                          <mods:area>Caribbean</mods:area>
+                    </mods:hierarchicalGeographic>
+                </mods:subject>
+                <mods:location>
+                    <mods:physicalLocation>University of Florida</mods:physicalLocation>
+                    <mods:physicalLocation type="code">UF</mods:physicalLocation>
+                </mods:location>
+            </mods:mods>
+        </METS:xmlData>
+    </METS:mdWrap>
+</METS:dmdSec>
+<METS:amdSec>
+    <METS:digiprovMD ID="AMD_DAITTS">
+        <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITTS">
+            <METS:xmlData>
+                <daitss:daitss>
+                    <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+                </daitss:daitss>
+            </METS:xmlData>
+        </METS:mdWrap>
+    </METS:digiprovMD>
+</METS:amdSec>
+<METS:fileSec> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="T1" MIMETYPE="text/plain" CHECKSUM="9442aa81f5f31f1c7dd0093deaa30556" CHECKSUMTYPE="MD5" SIZE="2122"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001.txt" /> 
+        </METS:file> 
+        <METS:file GROUPID="G2" ID="T2" MIMETYPE="text/plain" CHECKSUM="3773b162fc40c08a6a3094efe5bc6d68" CHECKSUMTYPE="MD5" SIZE="2525"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002.txt" /> 
+        </METS:file> 
+        <METS:file GROUPID="G3" ID="T3" MIMETYPE="text/plain" CHECKSUM="40cae4e0ff6e32c3b2a5615e9270b806" CHECKSUMTYPE="MD5" SIZE="2785"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003.txt" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="R1" MIMETYPE="text/x-pro" CHECKSUM="e1b41368e9d21008e5708b1341231c30" CHECKSUMTYPE="MD5" SIZE="45094"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001.pro" /> 
+        </METS:file> 
+        <METS:file GROUPID="G2" ID="R2" MIMETYPE="text/x-pro" CHECKSUM="43cda62a60cbccf5c6fdc08bdec36eb9" CHECKSUMTYPE="MD5" SIZE="54682"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002.pro" /> 
+        </METS:file> 
+        <METS:file GROUPID="G3" ID="R3" MIMETYPE="text/x-pro" CHECKSUM="f10be14d64dc41e5f47eb256ee1fea6e" CHECKSUMTYPE="MD5" SIZE="50866"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003.pro" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="E1" MIMETYPE="image/jp2" CHECKSUM="9f18c3f210d0c1a34d6e1795de392f54" CHECKSUMTYPE="MD5" SIZE="482399"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001.jp2" /> 
+        </METS:file> 
+        <METS:file GROUPID="G2" ID="E2" MIMETYPE="image/jp2" CHECKSUM="76c177acd0ce085a3e19f9607033f65e" CHECKSUMTYPE="MD5" SIZE="537906"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002.jp2" /> 
+        </METS:file> 
+        <METS:file GROUPID="G3" ID="E3" MIMETYPE="image/jp2" CHECKSUM="0fa8a2ec0d9d6829fa238864ca92d44e" CHECKSUMTYPE="MD5" SIZE="436334"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003.jp2" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="F1" MIMETYPE="image/tiff 6.0" CHECKSUM="734e2daa05a2151eaa3cef276a0b9630" CHECKSUMTYPE="MD5" SIZE="3882600"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001.tif" /> 
+        </METS:file> 
+        <METS:file GROUPID="G2" ID="F2" MIMETYPE="image/tiff 6.0" CHECKSUM="131e99320dd06154bfdfd247603d52ac" CHECKSUMTYPE="MD5" SIZE="4327584"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002.tif" /> 
+        </METS:file> 
+        <METS:file GROUPID="G3" ID="F3" MIMETYPE="image/tiff 6.0" CHECKSUM="c89b0b67a6a3d0370718e092c12bb2df" CHECKSUMTYPE="MD5" SIZE="3515164"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003.tif" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="J1" MIMETYPE="image/jpeg" CHECKSUM="cef7dc68e24cccbd8a64a68acb5cf617" CHECKSUMTYPE="MD5" SIZE="105025"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001.jpg" /> 
+        </METS:file> 
+        <METS:file GROUPID="G2" ID="J2" MIMETYPE="image/jpeg" CHECKSUM="4c9740d41d38505945b17ae0fc6d2df2" CHECKSUMTYPE="MD5" SIZE="114359"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002.jpg" /> 
+        </METS:file> 
+        <METS:file GROUPID="G3" ID="J3" MIMETYPE="image/jpeg" CHECKSUM="92cbfce0c5cb5762b8fc4802655dfbb8" CHECKSUMTYPE="MD5" SIZE="128523"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003.jpg" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file ID="UR2" MIMETYPE="image/jpeg" CHECKSUM="7bd5dc5e8d24df4621b4726ac2ff8e92" CHECKSUMTYPE="MD5" SIZE="9298"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001thm.jpg" /> 
+        </METS:file> 
+        <METS:file ID="UR1" MIMETYPE="application/pdf" CHECKSUM="b2e9ad7893f49af02459972d3f65306c" CHECKSUMTYPE="MD5" SIZE="789176"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="EEMPAct.pdf" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file ID="AR1" MIMETYPE="image/jpeg" CHECKSUM="3a0c8c285d27b08cb6167710b0f4b16b" CHECKSUMTYPE="MD5" SIZE="32356"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00001.QC.jpg" /> 
+        </METS:file> 
+        <METS:file ID="AR2" MIMETYPE="image/jpeg" CHECKSUM="f7a55d69b730268b9995fd58d6c3a709" CHECKSUMTYPE="MD5" SIZE="34318"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002.QC.jpg" /> 
+        </METS:file> 
+        <METS:file ID="AR3" MIMETYPE="image/jpeg" CHECKSUM="4c0faad1c4a35f45869f554de4d4a256" CHECKSUMTYPE="MD5" SIZE="10154"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00002thm.jpg" /> 
+        </METS:file> 
+        <METS:file ID="AR4" MIMETYPE="image/jpeg" CHECKSUM="84fabd768c37734013e6505582d74a99" CHECKSUMTYPE="MD5" SIZE="36581"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003.QC.jpg" /> 
+        </METS:file> 
+        <METS:file ID="AR5" MIMETYPE="image/jpeg" CHECKSUM="d5695945d5fe2129be41ca6eeeb129c4" CHECKSUMTYPE="MD5" SIZE="10594"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="00003thm.jpg" /> 
+        </METS:file> 
+        <METS:file ID="AR6" CHECKSUM="839a24480298003d7ec4d5fe044304b7" CHECKSUMTYPE="MD5" SIZE="12278"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="CA01300651_00001.mets" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+</METS:fileSec> 
+<METS:structMap ID="STRUCT1" TYPE="mixed"> 
+    <METS:div DMDID="DMD1" LABEL="Act. No. 6572 … to establish the St. Croix East End Marine Park" ORDER="0" TYPE="main"> 
+        <METS:div ID="D1" ORDER="1" TYPE="Main"> 
+            <METS:div ID="P1" LABEL="Page 1" ORDER="1" TYPE="Page"> 
+                <METS:fptr FILEID="F1" /> 
+                <METS:fptr FILEID="T1" /> 
+                <METS:fptr FILEID="R1" /> 
+                <METS:fptr FILEID="J1" /> 
+                <METS:fptr FILEID="E1" /> 
+            </METS:div> 
+            <METS:div ID="P2" LABEL="Page 2" ORDER="2" TYPE="Page"> 
+                <METS:fptr FILEID="F2" /> 
+                <METS:fptr FILEID="T2" /> 
+                <METS:fptr FILEID="R2" /> 
+                <METS:fptr FILEID="J2" /> 
+                <METS:fptr FILEID="E2" /> 
+            </METS:div> 
+            <METS:div ID="P3" LABEL="Page 3" ORDER="3" TYPE="Page"> 
+                <METS:fptr FILEID="F3" /> 
+                <METS:fptr FILEID="T3" /> 
+                <METS:fptr FILEID="R3" /> 
+                <METS:fptr FILEID="J3" /> 
+                <METS:fptr FILEID="E3" /> 
+            </METS:div> 
+        </METS:div> 
+    </METS:div>
+</METS:structMap>
+</METS:mets>

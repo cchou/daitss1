@@ -1,0 +1,1993 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE MXF SYSTEM "MXF.dtd">
+<MXF>
+    <package new="yes">
+        <packageDesc id="WF00000038">
+            <contrib creator="MXFClient, Frederic Barry">UWF</contrib>
+            <procInstr directory="D:\WF00000038\" derivatives="pdf/article" server="DL"></procInstr>
+            <formats>image/tiff 6.0, image/jpeg</formats>
+            <timestamp>20011115T224231Z</timestamp>
+        </packageDesc>
+        <entityDesc id="SNWF000005" type="serial" source="UWF">
+            <projects>FHP</projects>
+            <versionStatement>Electronic version created 2001, State University Sytem of Florida.</versionStatement>
+            <extRec pid="rk:AAA3556" sid="FCLANOTIS:QF"></extRec>
+            <bibDesc ns="dc=http://purl.org/dc">
+                <dc.title>The Pensacola Journal</dc.title>
+            </bibDesc>
+            <div type="volume" n="9">
+                <head>Volume IX (1906)</head>
+                <div type="issue" n="27">
+                    <head>Number 27 (February)</head>
+                    <div type="cover">
+                        <head>Front Cover</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="121585193">
+                                <filename>SNWF000005\9_27\cover1.tif</filename>
+                                <checksum type="MD5">2b3007ca981786affe7b1dfad8c4b262</checksum>
+                                <creationDate>20011115T244440Z</creationDate>
+                                <creationMethod software="UMAX MagicScan"></creationMethod>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8,8,8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="chunky"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>RGB</colorSpace>
+                                    <dimensions x="5517" y="7346"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="562829">
+                                <filename>SNWF000005\9_27\cover1.jpg</filename>
+                                <checksum type="MD5">1b91f46ba86527e4d70c4f93651bccc5</checksum>
+                                <creationDate>20011115T193850Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="121585193">
+                                        <filename>SNWF000005\9_27\cover1.tif</filename>
+                                        <checksum type="MD5">2b3007ca981786affe7b1dfad8c4b262</checksum>
+                                        <creationDate>20011115T244440Z</creationDate>
+                                        <creationMethod software="UMAX MagicScan"></creationMethod>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8,8,8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="chunky"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>RGB</colorSpace>
+                                            <dimensions x="5517" y="7346"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="121584937">
+                                <filename>SNWF000005\9_27\cover2.tif</filename>
+                                <checksum type="MD5">fce27e399b8d8441289b3c311677ffb2</checksum>
+                                <creationDate>20011115T245444Z</creationDate>
+                                <creationMethod software="UMAX MagicScan"></creationMethod>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8,8,8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="chunky"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>RGB</colorSpace>
+                                    <dimensions x="5517" y="7346"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="625025">
+                                <filename>SNWF000005\9_27\cover2.jpg</filename>
+                                <checksum type="MD5">088ee975db62d079ea9aaf2a862e1000</checksum>
+                                <creationDate>20011115T213154Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="121584937">
+                                        <filename>SNWF000005\9_27\cover2.tif</filename>
+                                        <checksum type="MD5">fce27e399b8d8441289b3c311677ffb2</checksum>
+                                        <creationDate>20011115T245444Z</creationDate>
+                                        <creationMethod software="UMAX MagicScan"></creationMethod>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8,8,8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="chunky"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>RGB</colorSpace>
+                                            <dimensions x="5517" y="7346"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Special Panama Canal Edition</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="4312156">
+                                <filename>SNWF000005\9_27\1.tif</filename>
+                                <checksum type="MD5">0ffd4b8ee95926366823206c09482f1a</checksum>
+                                <creationDate>20011113T203424Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>1</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>WhiteIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="356960">
+                                <filename>SNWF000005\9_27\1.jpg</filename>
+                                <checksum type="MD5">70cda49df09e5d88b96f41fe4e7eb114</checksum>
+                                <creationDate>20011113T203602Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="4312156">
+                                        <filename>SNWF000005\9_27\1.tif</filename>
+                                        <checksum type="MD5">0ffd4b8ee95926366823206c09482f1a</checksum>
+                                        <creationDate>20011113T203424Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>1</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>WhiteIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="4311732">
+                                <filename>SNWF000005\9_27\2.tif</filename>
+                                <checksum type="MD5">2d3323b6a32375fe76bd6a5871903a01</checksum>
+                                <creationDate>20011113T203720Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>1</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>WhiteIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="357434">
+                                <filename>SNWF000005\9_27\2.jpg</filename>
+                                <checksum type="MD5">20bc5bf161edf076e4c63066f40a27b9</checksum>
+                                <creationDate>20011113T203748Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="4311732">
+                                        <filename>SNWF000005\9_27\2.tif</filename>
+                                        <checksum type="MD5">2d3323b6a32375fe76bd6a5871903a01</checksum>
+                                        <creationDate>20011113T203720Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>1</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>WhiteIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="4311232">
+                                <filename>SNWF000005\9_27\3.tif</filename>
+                                <checksum type="MD5">d90c128437d93db2a3bf4a59878b4f56</checksum>
+                                <creationDate>20011113T203950Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>1</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>WhiteIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="255854">
+                                <filename>SNWF000005\9_27\3.jpg</filename>
+                                <checksum type="MD5">219b00ab432920a72c3c3070ffa8f64e</checksum>
+                                <creationDate>20011113T204004Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="4311232">
+                                        <filename>SNWF000005\9_27\3.tif</filename>
+                                        <checksum type="MD5">d90c128437d93db2a3bf4a59878b4f56</checksum>
+                                        <creationDate>20011113T203950Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>1</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>WhiteIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447788">
+                                <filename>SNWF000005\9_27\4.tif</filename>
+                                <checksum type="MD5">639e024784adfcbe3acd783a52c51032</checksum>
+                                <creationDate>20011113T204304Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="342695">
+                                <filename>SNWF000005\9_27\4.jpg</filename>
+                                <checksum type="MD5">631923b1db58a24ae57ecc3245e49dd1</checksum>
+                                <creationDate>20011113T204338Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447788">
+                                        <filename>SNWF000005\9_27\4.tif</filename>
+                                        <checksum type="MD5">639e024784adfcbe3acd783a52c51032</checksum>
+                                        <creationDate>20011113T204304Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447740">
+                                <filename>SNWF000005\9_27\5.tif</filename>
+                                <checksum type="MD5">aa1e9f485ecf1df3111dc925575f6d96</checksum>
+                                <creationDate>20011113T205546Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="325335">
+                                <filename>SNWF000005\9_27\5.jpg</filename>
+                                <checksum type="MD5">e8557d41a9c992a2e628eff164daa4dc</checksum>
+                                <creationDate>20011113T205554Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447740">
+                                        <filename>SNWF000005\9_27\5.tif</filename>
+                                        <checksum type="MD5">aa1e9f485ecf1df3111dc925575f6d96</checksum>
+                                        <creationDate>20011113T205546Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447336">
+                                <filename>SNWF000005\9_27\6.tif</filename>
+                                <checksum type="MD5">d65b9070eb08ac7126b595b45b4f05ad</checksum>
+                                <creationDate>20011113T205736Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="330494">
+                                <filename>SNWF000005\9_27\6.jpg</filename>
+                                <checksum type="MD5">adb94e61c2088ba71f9e181d80ec0ab3</checksum>
+                                <creationDate>20011113T205746Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447336">
+                                        <filename>SNWF000005\9_27\6.tif</filename>
+                                        <checksum type="MD5">d65b9070eb08ac7126b595b45b4f05ad</checksum>
+                                        <creationDate>20011113T205736Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447916">
+                                <filename>SNWF000005\9_27\7.tif</filename>
+                                <checksum type="MD5">b9e34b8e0677f35bc28581c63fb731f9</checksum>
+                                <creationDate>20011113T210146Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="336687">
+                                <filename>SNWF000005\9_27\7.jpg</filename>
+                                <checksum type="MD5">05cf8d3ce444868aa5b23d34c55e0ced</checksum>
+                                <creationDate>20011113T210156Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447916">
+                                        <filename>SNWF000005\9_27\7.tif</filename>
+                                        <checksum type="MD5">b9e34b8e0677f35bc28581c63fb731f9</checksum>
+                                        <creationDate>20011113T210146Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447320">
+                                <filename>SNWF000005\9_27\8.tif</filename>
+                                <checksum type="MD5">8bc081e1f16afc927d96707f2d36581a</checksum>
+                                <creationDate>20011113T205956Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="278008">
+                                <filename>SNWF000005\9_27\8.jpg</filename>
+                                <checksum type="MD5">ee1e9a682699169a735e32095f760794</checksum>
+                                <creationDate>20011113T210006Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447320">
+                                        <filename>SNWF000005\9_27\8.tif</filename>
+                                        <checksum type="MD5">8bc081e1f16afc927d96707f2d36581a</checksum>
+                                        <creationDate>20011113T205956Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>The Port of Pensacola and the Panama Canal</head>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                            <dc.creator>W. A. Blount, Jr.</dc.creator>
+                        </bibDesc>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447712">
+                                <filename>SNWF000005\9_27\9.tif</filename>
+                                <checksum type="MD5">b83a36f246d1a9971f7d11332232a884</checksum>
+                                <creationDate>20011113T211438Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="377959">
+                                <filename>SNWF000005\9_27\9.jpg</filename>
+                                <checksum type="MD5">6a68c54bea69e0d2ed4ca5858d76adec</checksum>
+                                <creationDate>20011113T211444Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447712">
+                                        <filename>SNWF000005\9_27\9.tif</filename>
+                                        <checksum type="MD5">b83a36f246d1a9971f7d11332232a884</checksum>
+                                        <creationDate>20011113T211438Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447636">
+                                <filename>SNWF000005\9_27\10.tif</filename>
+                                <checksum type="MD5">a017273077dbe7174ee8dac70705052c</checksum>
+                                <creationDate>20011113T211658Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="341980">
+                                <filename>SNWF000005\9_27\10.jpg</filename>
+                                <checksum type="MD5">1443ad0125b54b1320e64e0d465cbd26</checksum>
+                                <creationDate>20011113T211706Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447636">
+                                        <filename>SNWF000005\9_27\10.tif</filename>
+                                        <checksum type="MD5">a017273077dbe7174ee8dac70705052c</checksum>
+                                        <creationDate>20011113T211658Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Historic Pensacola</head>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                            <dc.creator>J. E. D. Yonge</dc.creator>
+                        </bibDesc>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447684">
+                                <filename>SNWF000005\9_27\11.tif</filename>
+                                <checksum type="MD5">dd5b6c8695d72daff4123c2e16390c79</checksum>
+                                <creationDate>20011113T211948Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="373822">
+                                <filename>SNWF000005\9_27\11.jpg</filename>
+                                <checksum type="MD5">a47956cbc06fdf01b57978ec5b957c52</checksum>
+                                <creationDate>20011113T211958Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447684">
+                                        <filename>SNWF000005\9_27\11.tif</filename>
+                                        <checksum type="MD5">dd5b6c8695d72daff4123c2e16390c79</checksum>
+                                        <creationDate>20011113T211948Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34448016">
+                                <filename>SNWF000005\9_27\12.tif</filename>
+                                <checksum type="MD5">bd81c191dc1f26bfddde51d9e88ca55f</checksum>
+                                <creationDate>20011113T212300Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="362000">
+                                <filename>SNWF000005\9_27\12.jpg</filename>
+                                <checksum type="MD5">b381e3fca96d5f19fed38777d8222e4a</checksum>
+                                <creationDate>20011113T212308Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34448016">
+                                        <filename>SNWF000005\9_27\12.tif</filename>
+                                        <checksum type="MD5">bd81c191dc1f26bfddde51d9e88ca55f</checksum>
+                                        <creationDate>20011113T212300Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447928">
+                                <filename>SNWF000005\9_27\13.tif</filename>
+                                <checksum type="MD5">3ef995481cdb72ca76f8ad31e44fd30f</checksum>
+                                <creationDate>20011113T214100Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="367250">
+                                <filename>SNWF000005\9_27\13.jpg</filename>
+                                <checksum type="MD5">cc8bbbe8c9e4269739019ae05b1b278d</checksum>
+                                <creationDate>20011113T214108Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447928">
+                                        <filename>SNWF000005\9_27\13.tif</filename>
+                                        <checksum type="MD5">3ef995481cdb72ca76f8ad31e44fd30f</checksum>
+                                        <creationDate>20011113T214100Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Well Known Floridians on Pensacola and the Canal</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447796">
+                                <filename>SNWF000005\9_27\14.tif</filename>
+                                <checksum type="MD5">96bf5ce58d030ea9165ab7cb3488e7bf</checksum>
+                                <creationDate>20011113T214730Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="369781">
+                                <filename>SNWF000005\9_27\14.jpg</filename>
+                                <checksum type="MD5">501c42078d6bb6dcd15d5e14cec6b673</checksum>
+                                <creationDate>20011113T214740Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447796">
+                                        <filename>SNWF000005\9_27\14.tif</filename>
+                                        <checksum type="MD5">96bf5ce58d030ea9165ab7cb3488e7bf</checksum>
+                                        <creationDate>20011113T214730Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>A Friend of Dick&apos;s</head>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                            <dc.creator>Nellie Cravey Gilmore</dc.creator>
+                        </bibDesc>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447924">
+                                <filename>SNWF000005\9_27\15.tif</filename>
+                                <checksum type="MD5">f929d9939eb9dbbde94aceb6333c94cc</checksum>
+                                <creationDate>20011113T215032Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="370100">
+                                <filename>SNWF000005\9_27\15.jpg</filename>
+                                <checksum type="MD5">e70159b2f05871b41fa455bbfabb020f</checksum>
+                                <creationDate>20011113T215042Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447924">
+                                        <filename>SNWF000005\9_27\15.tif</filename>
+                                        <checksum type="MD5">f929d9939eb9dbbde94aceb6333c94cc</checksum>
+                                        <creationDate>20011113T215032Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447900">
+                                <filename>SNWF000005\9_27\16.tif</filename>
+                                <checksum type="MD5">64df12dad8b058b68b4316a2dd6373d3</checksum>
+                                <creationDate>20011113T215300Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="357868">
+                                <filename>SNWF000005\9_27\16.jpg</filename>
+                                <checksum type="MD5">223c45e5518cba11837bb3a7cea63505</checksum>
+                                <creationDate>20011113T215310Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447900">
+                                        <filename>SNWF000005\9_27\16.tif</filename>
+                                        <checksum type="MD5">64df12dad8b058b68b4316a2dd6373d3</checksum>
+                                        <creationDate>20011113T215300Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447356">
+                                <filename>SNWF000005\9_27\17.tif</filename>
+                                <checksum type="MD5">cb8741fbe8d04bc057d0e0e680384a2d</checksum>
+                                <creationDate>20011113T221946Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="345848">
+                                <filename>SNWF000005\9_27\17.jpg</filename>
+                                <checksum type="MD5">59ad9cd72d795557e72d8f938be78e72</checksum>
+                                <creationDate>20011113T221954Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447356">
+                                        <filename>SNWF000005\9_27\17.tif</filename>
+                                        <checksum type="MD5">cb8741fbe8d04bc057d0e0e680384a2d</checksum>
+                                        <creationDate>20011113T221946Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447892">
+                                <filename>SNWF000005\9_27\18.tif</filename>
+                                <checksum type="MD5">4d19e575a6bdc82dd226502501f19a33</checksum>
+                                <creationDate>20011113T222308Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="341299">
+                                <filename>SNWF000005\9_27\18.jpg</filename>
+                                <checksum type="MD5">4f2775af0f6d043f12f5200fafcb0d05</checksum>
+                                <creationDate>20011113T222318Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447892">
+                                        <filename>SNWF000005\9_27\18.tif</filename>
+                                        <checksum type="MD5">4d19e575a6bdc82dd226502501f19a33</checksum>
+                                        <creationDate>20011113T222308Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>The Tragedy of the Missouri</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447976">
+                                <filename>SNWF000005\9_27\19.tif</filename>
+                                <checksum type="MD5">a8c2d42b0822d51e24ddcc5baca7e38e</checksum>
+                                <creationDate>20011113T224012Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="320233">
+                                <filename>SNWF000005\9_27\19.jpg</filename>
+                                <checksum type="MD5">d35cdfc45453a82c327f7dca1f29a780</checksum>
+                                <creationDate>20011113T224020Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447976">
+                                        <filename>SNWF000005\9_27\19.tif</filename>
+                                        <checksum type="MD5">a8c2d42b0822d51e24ddcc5baca7e38e</checksum>
+                                        <creationDate>20011113T224012Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Sugar Cane in West Florida</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447404">
+                                <filename>SNWF000005\9_27\20.tif</filename>
+                                <checksum type="MD5">b012a5c345ceb4eb57999e709a8958df</checksum>
+                                <creationDate>20011113T223410Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="336720">
+                                <filename>SNWF000005\9_27\20.jpg</filename>
+                                <checksum type="MD5">5148ec63472a289d15b74072ae0ee10d</checksum>
+                                <creationDate>20011113T223424Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447404">
+                                        <filename>SNWF000005\9_27\20.tif</filename>
+                                        <checksum type="MD5">b012a5c345ceb4eb57999e709a8958df</checksum>
+                                        <creationDate>20011113T223410Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447744">
+                                <filename>SNWF000005\9_27\21.tif</filename>
+                                <checksum type="MD5">2abcd2dc238bf81025e0aa4e55901b14</checksum>
+                                <creationDate>20011114T163756Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="344914">
+                                <filename>SNWF000005\9_27\21.jpg</filename>
+                                <checksum type="MD5">4da5cbb7c0ed4df916d2c10a571ee15d</checksum>
+                                <creationDate>20011114T163804Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447744">
+                                        <filename>SNWF000005\9_27\21.tif</filename>
+                                        <checksum type="MD5">2abcd2dc238bf81025e0aa4e55901b14</checksum>
+                                        <creationDate>20011114T163756Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Pensacola of Forty Years Ago</head>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                            <dc.creator>Senator Stephen R. Mallory</dc.creator>
+                        </bibDesc>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447860">
+                                <filename>SNWF000005\9_27\22.tif</filename>
+                                <checksum type="MD5">760a5215422f47d391b486c1fac3a10d</checksum>
+                                <creationDate>20011114T164212Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="352362">
+                                <filename>SNWF000005\9_27\22.jpg</filename>
+                                <checksum type="MD5">a1379d6b6bc54f1ec8aad5869d79ecf0</checksum>
+                                <creationDate>20011114T164224Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447860">
+                                        <filename>SNWF000005\9_27\22.tif</filename>
+                                        <checksum type="MD5">760a5215422f47d391b486c1fac3a10d</checksum>
+                                        <creationDate>20011114T164212Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447736">
+                                <filename>SNWF000005\9_27\23.tif</filename>
+                                <checksum type="MD5">42eb2c690a14a6b582e37d977b707c52</checksum>
+                                <creationDate>20011114T164706Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="336290">
+                                <filename>SNWF000005\9_27\23.jpg</filename>
+                                <checksum type="MD5">4b91c20882416a177a3bfa3a0ea75746</checksum>
+                                <creationDate>20011114T164716Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447736">
+                                        <filename>SNWF000005\9_27\23.tif</filename>
+                                        <checksum type="MD5">42eb2c690a14a6b582e37d977b707c52</checksum>
+                                        <creationDate>20011114T164706Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447448">
+                                <filename>SNWF000005\9_27\24.tif</filename>
+                                <checksum type="MD5">edece3b03a4a845533374ee2268fdd87</checksum>
+                                <creationDate>20011114T164406Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="310717">
+                                <filename>SNWF000005\9_27\24.jpg</filename>
+                                <checksum type="MD5">2a847e82d641410b73d18dfb16455ec4</checksum>
+                                <creationDate>20011114T164414Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447448">
+                                        <filename>SNWF000005\9_27\24.tif</filename>
+                                        <checksum type="MD5">edece3b03a4a845533374ee2268fdd87</checksum>
+                                        <creationDate>20011114T164406Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Pensacola the Fisherman&apos;s Paradise</head>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                            <dc.creator>Chas. H. Bliss</dc.creator>
+                        </bibDesc>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34448008">
+                                <filename>SNWF000005\9_27\25.tif</filename>
+                                <checksum type="MD5">000a4751afe98d4d8d599ed285697ec8</checksum>
+                                <creationDate>20011114T170654Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="349405">
+                                <filename>SNWF000005\9_27\25.jpg</filename>
+                                <checksum type="MD5">33f24f951c3dea6ec7b294cfa135d5a1</checksum>
+                                <creationDate>20011114T170704Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34448008">
+                                        <filename>SNWF000005\9_27\25.tif</filename>
+                                        <checksum type="MD5">000a4751afe98d4d8d599ed285697ec8</checksum>
+                                        <creationDate>20011114T170654Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447712">
+                                <filename>SNWF000005\9_27\26.tif</filename>
+                                <checksum type="MD5">07b9413f477f7d70941b9fbe381284eb</checksum>
+                                <creationDate>20011114T172042Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="334111">
+                                <filename>SNWF000005\9_27\26.jpg</filename>
+                                <checksum type="MD5">f8dd858641c339faf512f2ec7cb2b395</checksum>
+                                <creationDate>20011114T172052Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447712">
+                                        <filename>SNWF000005\9_27\26.tif</filename>
+                                        <checksum type="MD5">07b9413f477f7d70941b9fbe381284eb</checksum>
+                                        <creationDate>20011114T172042Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="35328948">
+                                <filename>SNWF000005\9_27\27.tif</filename>
+                                <checksum type="MD5">05e1592ab0379951ab6beae53eccbbaa</checksum>
+                                <creationDate>20011115T232426Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="5093" y="6936"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="346381">
+                                <filename>SNWF000005\9_27\27.jpg</filename>
+                                <checksum type="MD5">3f0b9f9e0c7cdf2f88cdf95b094248a0</checksum>
+                                <creationDate>20011115T232432Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="35328948">
+                                        <filename>SNWF000005\9_27\27.tif</filename>
+                                        <checksum type="MD5">05e1592ab0379951ab6beae53eccbbaa</checksum>
+                                        <creationDate>20011115T232426Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="5093" y="6936"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Annual Report to Chamber of Commerce</head>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                            <dc.creator>Secretary W. C. Jones</dc.creator>
+                        </bibDesc>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="35329312">
+                                <filename>SNWF000005\9_27\28.tif</filename>
+                                <checksum type="MD5">058ab703db56ceb033d70acac50071d7</checksum>
+                                <creationDate>20011115T232326Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="5093" y="6936"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="339797">
+                                <filename>SNWF000005\9_27\28.jpg</filename>
+                                <checksum type="MD5">0c5ae74869fa67dbf08d512521ad0e71</checksum>
+                                <creationDate>20011115T232334Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="35329312">
+                                        <filename>SNWF000005\9_27\28.tif</filename>
+                                        <checksum type="MD5">058ab703db56ceb033d70acac50071d7</checksum>
+                                        <creationDate>20011115T232326Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="5093" y="6936"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447560">
+                                <filename>SNWF000005\9_27\29.tif</filename>
+                                <checksum type="MD5">f318268798ed87535804443a9edbebb1</checksum>
+                                <creationDate>20011114T171254Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="347552">
+                                <filename>SNWF000005\9_27\29.jpg</filename>
+                                <checksum type="MD5">041f4d2bf36f9c937e4ff3d2d538b168</checksum>
+                                <creationDate>20011116T150642Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447560">
+                                        <filename>SNWF000005\9_27\29.tif</filename>
+                                        <checksum type="MD5">f318268798ed87535804443a9edbebb1</checksum>
+                                        <creationDate>20011114T171254Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34448204">
+                                <filename>SNWF000005\9_27\30.tif</filename>
+                                <checksum type="MD5">b55c56256c39049149ed2858200a439f</checksum>
+                                <creationDate>20011114T170912Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="349822">
+                                <filename>SNWF000005\9_27\30.jpg</filename>
+                                <checksum type="MD5">848975646ff6e2f9000cdce8628ca05f</checksum>
+                                <creationDate>20011115T233350Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34448204">
+                                        <filename>SNWF000005\9_27\30.tif</filename>
+                                        <checksum type="MD5">b55c56256c39049149ed2858200a439f</checksum>
+                                        <creationDate>20011114T170912Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447724">
+                                <filename>SNWF000005\9_27\31.tif</filename>
+                                <checksum type="MD5">694ba68acf38a3896e37c677a3ea27c4</checksum>
+                                <creationDate>20011114T175816Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="348236">
+                                <filename>SNWF000005\9_27\31.jpg</filename>
+                                <checksum type="MD5">a5aa6a84b23850239516d469be27730c</checksum>
+                                <creationDate>20011115T233428Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447724">
+                                        <filename>SNWF000005\9_27\31.tif</filename>
+                                        <checksum type="MD5">694ba68acf38a3896e37c677a3ea27c4</checksum>
+                                        <creationDate>20011114T175816Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447872">
+                                <filename>SNWF000005\9_27\32.tif</filename>
+                                <checksum type="MD5">cad49f32d40387b485f255107c90ae36</checksum>
+                                <creationDate>20011114T180342Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="352262">
+                                <filename>SNWF000005\9_27\32.jpg</filename>
+                                <checksum type="MD5">53d6c27c09e6c1bfabe6a6b716ac4e4c</checksum>
+                                <creationDate>20011116T144656Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447872">
+                                        <filename>SNWF000005\9_27\32.tif</filename>
+                                        <checksum type="MD5">cad49f32d40387b485f255107c90ae36</checksum>
+                                        <creationDate>20011114T180342Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447792">
+                                <filename>SNWF000005\9_27\33.tif</filename>
+                                <checksum type="MD5">6414c9b3b0f679989b721a4067a0f1f9</checksum>
+                                <creationDate>20011114T181156Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="336910">
+                                <filename>SNWF000005\9_27\33.jpg</filename>
+                                <checksum type="MD5">cdbf11835e0f841bb39636908c733ec7</checksum>
+                                <creationDate>20011116T144914Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447792">
+                                        <filename>SNWF000005\9_27\33.tif</filename>
+                                        <checksum type="MD5">6414c9b3b0f679989b721a4067a0f1f9</checksum>
+                                        <creationDate>20011114T181156Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="4311736">
+                                <filename>SNWF000005\9_27\34.tif</filename>
+                                <checksum type="MD5">133f665938e48a06b21b85d613f2af85</checksum>
+                                <creationDate>20011116T144546Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>1</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>WhiteIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="321431">
+                                <filename>SNWF000005\9_27\34.jpg</filename>
+                                <checksum type="MD5">3c84372a2496f0ba228f28b4ca6976d1</checksum>
+                                <creationDate>20011116T144600Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="4311736">
+                                        <filename>SNWF000005\9_27\34.tif</filename>
+                                        <checksum type="MD5">133f665938e48a06b21b85d613f2af85</checksum>
+                                        <creationDate>20011116T144546Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>1</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>WhiteIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447660">
+                                <filename>SNWF000005\9_27\35.tif</filename>
+                                <checksum type="MD5">fa75d1026b177b7dc75d806d3ccc45b0</checksum>
+                                <creationDate>20011114T184930Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="347566">
+                                <filename>SNWF000005\9_27\35.jpg</filename>
+                                <checksum type="MD5">262f3c3330f02a942308ca63f9ba0c1d</checksum>
+                                <creationDate>20011116T144514Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447660">
+                                        <filename>SNWF000005\9_27\35.tif</filename>
+                                        <checksum type="MD5">fa75d1026b177b7dc75d806d3ccc45b0</checksum>
+                                        <creationDate>20011114T184930Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447808">
+                                <filename>SNWF000005\9_27\36.tif</filename>
+                                <checksum type="MD5">2fc0890bf4b9dc8632943e721c54798e</checksum>
+                                <creationDate>20011114T211212Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="345072">
+                                <filename>SNWF000005\9_27\36.jpg</filename>
+                                <checksum type="MD5">06d219894990990196990334c49dcd95</checksum>
+                                <creationDate>20011116T144458Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447808">
+                                        <filename>SNWF000005\9_27\36.tif</filename>
+                                        <checksum type="MD5">2fc0890bf4b9dc8632943e721c54798e</checksum>
+                                        <creationDate>20011114T211212Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>The Gulf Transit Company</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447608">
+                                <filename>SNWF000005\9_27\37.tif</filename>
+                                <checksum type="MD5">9213d562a9775f43b4ebebf54d0e6108</checksum>
+                                <creationDate>20011114T185626Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="349370">
+                                <filename>SNWF000005\9_27\37.jpg</filename>
+                                <checksum type="MD5">07c4cc210b5c5476b6df3d097d99d841</checksum>
+                                <creationDate>20011116T144244Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447608">
+                                        <filename>SNWF000005\9_27\37.tif</filename>
+                                        <checksum type="MD5">9213d562a9775f43b4ebebf54d0e6108</checksum>
+                                        <creationDate>20011114T185626Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Scenes in and around Pensacola</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447940">
+                                <filename>SNWF000005\9_27\38.tif</filename>
+                                <checksum type="MD5">a22fad10ccc19e62ddca096d6cf202af</checksum>
+                                <creationDate>20011114T185748Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="301735">
+                                <filename>SNWF000005\9_27\38.jpg</filename>
+                                <checksum type="MD5">8b6305995f1e700689b55a0c0d21f06e</checksum>
+                                <creationDate>20011116T144232Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447940">
+                                        <filename>SNWF000005\9_27\38.tif</filename>
+                                        <checksum type="MD5">a22fad10ccc19e62ddca096d6cf202af</checksum>
+                                        <creationDate>20011114T185748Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447920">
+                                <filename>SNWF000005\9_27\39.tif</filename>
+                                <checksum type="MD5">d19b95364185cdb518f720c239dcd07c</checksum>
+                                <creationDate>20011114T212848Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="287862">
+                                <filename>SNWF000005\9_27\39.jpg</filename>
+                                <checksum type="MD5">e8897d857e2dec8be10e88723dccacf7</checksum>
+                                <creationDate>20011116T144230Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447920">
+                                        <filename>SNWF000005\9_27\39.tif</filename>
+                                        <checksum type="MD5">d19b95364185cdb518f720c239dcd07c</checksum>
+                                        <creationDate>20011114T212848Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34448352">
+                                <filename>SNWF000005\9_27\40.tif</filename>
+                                <checksum type="MD5">ca89448bd2a51dee757f9bb71d0ed828</checksum>
+                                <creationDate>20011114T213104Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="336513">
+                                <filename>SNWF000005\9_27\40.jpg</filename>
+                                <checksum type="MD5">939c29bf49f587c327c622b84c3b7705</checksum>
+                                <creationDate>20011116T150646Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34448352">
+                                        <filename>SNWF000005\9_27\40.tif</filename>
+                                        <checksum type="MD5">ca89448bd2a51dee757f9bb71d0ed828</checksum>
+                                        <creationDate>20011114T213104Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34448076">
+                                <filename>SNWF000005\9_27\41.tif</filename>
+                                <checksum type="MD5">d7985a2b594683c5a5683aae02d22e07</checksum>
+                                <creationDate>20011114T213800Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="316072">
+                                <filename>SNWF000005\9_27\41.jpg</filename>
+                                <checksum type="MD5">7e2cd9747a011bddad707d79d2e7d0cb</checksum>
+                                <creationDate>20011116T150726Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34448076">
+                                        <filename>SNWF000005\9_27\41.tif</filename>
+                                        <checksum type="MD5">d7985a2b594683c5a5683aae02d22e07</checksum>
+                                        <creationDate>20011114T213800Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447444">
+                                <filename>SNWF000005\9_27\42.tif</filename>
+                                <checksum type="MD5">f688582f3592b235db7b7159d282ce13</checksum>
+                                <creationDate>20011114T220146Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="302515">
+                                <filename>SNWF000005\9_27\42.jpg</filename>
+                                <checksum type="MD5">9269b14c57e5f5a52af90c00a4b71e94</checksum>
+                                <creationDate>20011116T150836Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447444">
+                                        <filename>SNWF000005\9_27\42.tif</filename>
+                                        <checksum type="MD5">f688582f3592b235db7b7159d282ce13</checksum>
+                                        <creationDate>20011114T220146Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447500">
+                                <filename>SNWF000005\9_27\43.tif</filename>
+                                <checksum type="MD5">0689b454afe88b216ba5d61457e43103</checksum>
+                                <creationDate>20011114T220652Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="297172">
+                                <filename>SNWF000005\9_27\43.jpg</filename>
+                                <checksum type="MD5">d34ef119a1f949ee030c8dde32038f09</checksum>
+                                <creationDate>20011116T150936Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447500">
+                                        <filename>SNWF000005\9_27\43.tif</filename>
+                                        <checksum type="MD5">0689b454afe88b216ba5d61457e43103</checksum>
+                                        <creationDate>20011114T220652Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447652">
+                                <filename>SNWF000005\9_27\44.tif</filename>
+                                <checksum type="MD5">7e82eb89701815aa221d31cac6e70ab1</checksum>
+                                <creationDate>20011114T220926Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="308846">
+                                <filename>SNWF000005\9_27\44.jpg</filename>
+                                <checksum type="MD5">88d25bd5239ce689c1edc897bc25aff8</checksum>
+                                <creationDate>20011116T151042Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447652">
+                                        <filename>SNWF000005\9_27\44.tif</filename>
+                                        <checksum type="MD5">7e82eb89701815aa221d31cac6e70ab1</checksum>
+                                        <creationDate>20011114T220926Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>Pensacola&apos;s Pure Water Supply</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447652">
+                                <filename>SNWF000005\9_27\45.tif</filename>
+                                <checksum type="MD5">0c83a22f3fc211b577456478b8739f90</checksum>
+                                <creationDate>20011114T215552Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="324746">
+                                <filename>SNWF000005\9_27\45.jpg</filename>
+                                <checksum type="MD5">0480c32b42d13755eef23f2d30ef968d</checksum>
+                                <creationDate>20011116T151342Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447652">
+                                        <filename>SNWF000005\9_27\45.tif</filename>
+                                        <checksum type="MD5">0c83a22f3fc211b577456478b8739f90</checksum>
+                                        <creationDate>20011114T215552Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="article">
+                        <head>The Saunders Mill Company</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447568">
+                                <filename>SNWF000005\9_27\46.tif</filename>
+                                <checksum type="MD5">fae0ec1dc154d2237e498c931948465c</checksum>
+                                <creationDate>20011114T222640Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="336375">
+                                <filename>SNWF000005\9_27\46.jpg</filename>
+                                <checksum type="MD5">ea14082034029901a536b4e18e7a361a</checksum>
+                                <creationDate>20011116T151506Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447568">
+                                        <filename>SNWF000005\9_27\46.tif</filename>
+                                        <checksum type="MD5">fae0ec1dc154d2237e498c931948465c</checksum>
+                                        <creationDate>20011114T222640Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447708">
+                                <filename>SNWF000005\9_27\47.tif</filename>
+                                <checksum type="MD5">24a7b4300ad8cf2822ee94d6e76e4ed0</checksum>
+                                <creationDate>20011114T223120Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="323063">
+                                <filename>SNWF000005\9_27\47.jpg</filename>
+                                <checksum type="MD5">6b651916e51e3857d1b8135acdeae363</checksum>
+                                <creationDate>20011116T151644Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447708">
+                                        <filename>SNWF000005\9_27\47.tif</filename>
+                                        <checksum type="MD5">24a7b4300ad8cf2822ee94d6e76e4ed0</checksum>
+                                        <creationDate>20011114T223120Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="advertisement">
+                        <head>Advertisements</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447780">
+                                <filename>SNWF000005\9_27\48.tif</filename>
+                                <checksum type="MD5">32ab2ac7ecf6b31f473936c4bde2871f</checksum>
+                                <creationDate>20011114T224334Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="319436">
+                                <filename>SNWF000005\9_27\48.jpg</filename>
+                                <checksum type="MD5">7f36dd0c7c80e4cca2c9b3b1a09a99b1</checksum>
+                                <creationDate>20011116T151824Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447780">
+                                        <filename>SNWF000005\9_27\48.tif</filename>
+                                        <checksum type="MD5">32ab2ac7ecf6b31f473936c4bde2871f</checksum>
+                                        <creationDate>20011114T224334Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447868">
+                                <filename>SNWF000005\9_27\49.tif</filename>
+                                <checksum type="MD5">33157cc814a93a35e4b454a0e5f9f6d7</checksum>
+                                <creationDate>20011114T225840Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="286669">
+                                <filename>SNWF000005\9_27\49.jpg</filename>
+                                <checksum type="MD5">0a1eac78905a217ddf28abbaf045594f</checksum>
+                                <creationDate>20011116T152104Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447868">
+                                        <filename>SNWF000005\9_27\49.tif</filename>
+                                        <checksum type="MD5">33157cc814a93a35e4b454a0e5f9f6d7</checksum>
+                                        <creationDate>20011114T225840Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="34447908">
+                                <filename>SNWF000005\9_27\50.tif</filename>
+                                <checksum type="MD5">fe56f68012f1c4f1d2f90d1944f993c1</checksum>
+                                <creationDate>20011114T230138Z</creationDate>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="unknown"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>BlackIsZero</colorSpace>
+                                    <dimensions x="4976" y="6922"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="296032">
+                                <filename>SNWF000005\9_27\50.jpg</filename>
+                                <checksum type="MD5">5d52272cf2b5adbd3777c6fccfd70c6d</checksum>
+                                <creationDate>20011116T152428Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="34447908">
+                                        <filename>SNWF000005\9_27\50.tif</filename>
+                                        <checksum type="MD5">fe56f68012f1c4f1d2f90d1944f993c1</checksum>
+                                        <creationDate>20011114T230138Z</creationDate>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="unknown"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>BlackIsZero</colorSpace>
+                                            <dimensions x="4976" y="6922"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                    <div type="cover">
+                        <head>Back Cover</head>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="121584937">
+                                <filename>SNWF000005\9_27\cover3.tif</filename>
+                                <checksum type="MD5">d66ba3d5dffc923c8fc932928451f991</checksum>
+                                <creationDate>20011115T</creationDate>
+                                <creationMethod software="UMAX MagicScan"></creationMethod>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8,8,8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="chunky"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>RGB</colorSpace>
+                                    <dimensions x="5517" y="7346"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="628966">
+                                <filename>SNWF000005\9_27\cover3.jpg</filename>
+                                <checksum type="MD5">e458e7fdd484106b07452ba7506c695e</checksum>
+                                <creationDate>20011115T213538Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="121584937">
+                                        <filename>SNWF000005\9_27\cover3.tif</filename>
+                                        <checksum type="MD5">d66ba3d5dffc923c8fc932928451f991</checksum>
+                                        <creationDate>20011115T</creationDate>
+                                        <creationMethod software="UMAX MagicScan"></creationMethod>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8,8,8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="chunky"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>RGB</colorSpace>
+                                            <dimensions x="5517" y="7346"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                        <div type="page">
+                            <file format="image/tiff 6.0" filesize="121584937">
+                                <filename>SNWF000005\9_27\cover4.tif</filename>
+                                <checksum type="MD5">c3a1e00400bef11f9e4a3a80918e67d6</checksum>
+                                <creationDate>20011115T251128Z</creationDate>
+                                <creationMethod software="UMAX MagicScan"></creationMethod>
+                                <compression name="Uncompressed"></compression>
+                                <image>
+                                    <bitDepth>8,8,8</bitDepth>
+                                    <storage segment="strip" planarConfiguration="chunky"></storage>
+                                    <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                    <colorSpace>RGB</colorSpace>
+                                    <dimensions x="5517" y="7346"></dimensions>
+                                </image>
+                            </file>
+                            <file format="image/jpeg" filesize="690013">
+                                <filename>SNWF000005\9_27\cover4.jpg</filename>
+                                <checksum type="MD5">225b5acb8077b6b54dfb55ee60fd1bfc</checksum>
+                                <creationDate>20011115T213642Z</creationDate>
+                                <!--<sourceInfo>
+                                    <file format="image/tiff 6.0" filesize="121584937">
+                                        <filename>SNWF000005\9_27\cover4.tif</filename>
+                                        <checksum type="MD5">c3a1e00400bef11f9e4a3a80918e67d6</checksum>
+                                        <creationDate>20011115T251128Z</creationDate>
+                                        <creationMethod software="UMAX MagicScan"></creationMethod>
+                                        <compression name="Uncompressed"></compression>
+                                        <image>
+                                            <bitDepth>8,8,8</bitDepth>
+                                            <storage segment="strip" planarConfiguration="chunky"></storage>
+                                            <samplingFrequency unit="inch" x="600" y="600"></samplingFrequency>
+                                            <colorSpace>RGB</colorSpace>
+                                            <dimensions x="5517" y="7346"></dimensions>
+                                        </image>
+                                    </file>
+                                </sourceInfo>-->
+                            </file>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </entityDesc>
+    </package>
+</MXF>

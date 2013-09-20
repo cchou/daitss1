@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/wave-multi-channels/packages/FDA0000200
+END
+6_Channel_ID.wav
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/wave-multi-channels/packages/FDA0000200/6_Channel_ID.wav
+END
+8_Channel_ID.wav
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/wave-multi-channels/packages/FDA0000200/8_Channel_ID.wav
+END
+4ch.wav
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/wave-multi-channels/packages/FDA0000200/4ch.wav
+END
+FDA0000200.xml
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/wave-multi-channels/packages/FDA0000200/FDA0000200.xml
+END

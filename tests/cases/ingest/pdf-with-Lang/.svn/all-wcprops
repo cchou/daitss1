@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/pdf-with-Lang
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/pdf-with-Lang/local.properties
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/pdf-with-Lang/run.rb
+END

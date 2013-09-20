@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/metadata-imagedepth-match/packages/FDA0000101
+END
+1.jpg
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/metadata-imagedepth-match/packages/FDA0000101/1.jpg
+END
+1.tif
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/metadata-imagedepth-match/packages/FDA0000101/1.tif
+END
+FDA0000101.xml
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/metadata-imagedepth-match/packages/FDA0000101/FDA0000101.xml
+END

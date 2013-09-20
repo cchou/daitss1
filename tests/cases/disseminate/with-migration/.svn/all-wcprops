@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1343/daitss/trunk/tests/cases/disseminate/with-migration
+END
+my.properties
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/repos/!svn/ver/1343/daitss/trunk/tests/cases/disseminate/with-migration/my.properties
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1343/daitss/trunk/tests/cases/disseminate/with-migration/run.rb
+END

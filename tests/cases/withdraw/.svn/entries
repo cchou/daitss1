@@ -1,0 +1,46 @@
+10
+
+dir
+1416
+http://daitss.fcla.edu/repos/daitss/trunk/tests/cases/withdraw
+http://daitss.fcla.edu/repos
+
+
+
+2009-03-31T19:38:45.717011Z
+1367
+manny
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e2ae85e3-cf20-0410-855b-be2d16f42433
+
+withdrawn-package
+dir
+
+good-package
+dir
+
+no-package
+dir
+
+no-authentication
+dir
+
+no-authorization
+dir
+
+multiple
+dir
+

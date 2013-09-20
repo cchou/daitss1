@@ -1,0 +1,7 @@
+
+
+init.sql is derived from primed-init.sql with one line change:
+
+ < INSERT INTO `OUTPUT_REQUEST` VALUES (1,'FDA',1,'FALSE','FALSE','FALSE');
+ ---
+ > INSERT INTO `OUTPUT_REQUEST` VALUES (1,'FDA',1,'TRUE','TRUE','TRUE');

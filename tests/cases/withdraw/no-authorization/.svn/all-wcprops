@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/repos/!svn/ver/1367/daitss/trunk/tests/cases/withdraw/no-authorization
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1367/daitss/trunk/tests/cases/withdraw/no-authorization/run.rb
+END

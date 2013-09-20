@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+<METS:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns:METS="http://www.loc.gov/METS/"
+xmlns:dc="http://purl.org/dc/elements/1.1/"
+
+xmlns:xlink="http://www.w3.org/1999/xlink"
+xmlns:palmm="http://www.fcla.edu/dls/md/palmm/"
+xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+xmlns:techmd="http://www.fcla.edu/dls/md/techmd/"
+xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/"
+xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd
+http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd
+http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd"
+OBJID="UFE0002242"
+TYPE="ETD"
+LABEL="Polarons and Impurities in Nickel Cobalt Oxide">
+
+<METS:metsHdr CREATEDATE="2004-01-21T08:24:51Z" LASTMODDATE="2004-01-21T08:24:51Z" ID="UFE0002242" RECORDSTATUS="NEW">
+	<METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+		<METS:name>UFRGP</METS:name>
+		<METS:note>projects=KANAPAHA</METS:note>
+		<METS:note>makerules=title,UF</METS:note>
+		<METS:note>server=TD</METS:note>
+	</METS:agent>
+</METS:metsHdr>
+<METS:dmdSec ID="DMD1">
+	<METS:mdWrap MIMETYPE="text/xml" MDTYPE="DC" LABEL="Simple Dublin Core">
+		<METS:xmlData>
+			<dc:title>Polarons and Impurities in Nickel Cobalt Oxide</dc:title>
+			<dc:date>2003</dc:date>
+			<dc:creator>Owings, Robert R</dc:creator>
+			<dc:publisher>University of Florida</dc:publisher>
+			<dc:subject>cobalt, disorder, infrared, itco, lithium, nickel, oxide, p, polaron, rhodium, tco, transparent, verwey</dc:subject>
+			<dc:description>The optical transparency from 0.3 to  &gt; 10 mm and the electrical conductivity of Ni sub x Co sub 3-x-y Li sub y O sub 4 and Ni sub x Co sub 3-x-y Rh  sub y O sub 4 films deposited by either planar magnetron sputter deposition or from nitrate solution were investigated.  The films had low optical transparencies (~15%) over the visible region (~300-800nm), but the transparency increased (~50-80%) at infrared wavelengths from 2 to 25 mm.  The DC electrical conductivity ranged from 10 to 500 Scm sup -1.  These unique properties result in conduction by p-type polarons.  Despite low mobility of polarons (~0.1 cm2V-1s-1), good conductivity results from high concentrations of small polarons  (~1022 cm-3).  For sputtered films, the conductivity was larger with a 50% O sub 2 - 50% Ar composition, at lower sputter gas pressures (2 versus 10 mTorr), and with smaller target-substrate distances (best at 5 cm).  The effects of composition are due to the resulting cation oxidation states, while the effects of pressure and substrate distance were attributed to more energetic sputtered particles causing increased mobility of surface adatoms on the depositing films.  Increased adatom mobility led to smooth films which were 20% more dense, and crystalline with a spinel structure.  Li additions to sputtered and solution deposited films of Ni sub x Co sub 3-x-y Li sub y O sub 4 were found to decrease and increase the electrical conductivity by less than a factor of two.  The decreased electrical conductivity for sputter deposited Ni sub x Co sub 3?x?y Li sub y O sub 4 films resulted from Li occupying interstitial sites, rather than substitutional sites in the lattice.  Surface segregation and Li2CO3 formation were found.  Quenching (~150 degrees C/min) produced higher conductivities (2x), while slow cooling (10 degrees C/min) resulted in lower conductivities after heat treatment at 375 degrees C for 10 minutes in air.  This was attributed to a larger concentration of polarons upon quenching.  Solution and sputter deposition of Ni sub x Co sub 3-x-y Rh sub y O sub 4 films were crystalline (spinel) and amorphous, respectively, and remained so with heat treatments up to 375 degrees C.  Electrical conductivities were ~350 Scm-1.  Transparency from 2 to 10 mm was ~10% higher than for nickel-cobalt oxide films.  A model was developed for the relationship between cation disorder and polaron formation affecting the activation energy of electrical conductivity.  Also, the physical limit of polaron concentration was used to project a maximum conductivity between 360 and 2400 Scm-1.    </dc:description>
+			<dc:language>EN</dc:language>
+		</METS:xmlData>
+	</METS:mdWrap>
+</METS:dmdSec>
+
+<METS:dmdSec ID="DMD2">
+	<METS:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" LABEL="PALMM Extensions">
+	<METS:xmlData>
+		<palmm:thesis>
+			<palmm:committeeChair>Holloway, Paul H.</palmm:committeeChair>
+			<palmm:committeeMember>Hummel, R E.</palmm:committeeMember>
+			<palmm:committeeMember>Norton, David P.</palmm:committeeMember>
+			<palmm:committeeMember>Sinnott, Susan B.</palmm:committeeMember>
+			<palmm:committeeMember>Hebard, Arthur F.</palmm:committeeMember>
+			<palmm:committeeMember>Exarhos, Gregory J.</palmm:committeeMember>
+			<palmm:graduationDate>2003-12-20</palmm:graduationDate>
+			<palmm:degree>Ph.D.</palmm:degree>
+			<palmm:degreeDiscipline>Materials Science and Engineering</palmm:degreeDiscipline>
+			<palmm:degreeGrantor>University of Florida</palmm:degreeGrantor>
+			<palmm:degreeLevel>Doctorate</palmm:degreeLevel>
+		</palmm:thesis>
+	</METS:xmlData>
+</METS:mdWrap>
+</METS:dmdSec>
+
+<METS:amdSec>
+	<METS:rightsMD ID="RMD1">
+		<METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="RIGHTSMD">
+			<METS:xmlData>
+				<rightsmd:accessCode>public</rightsmd:accessCode>
+			</METS:xmlData>
+		</METS:mdWrap>
+	</METS:rightsMD>
+	<METS:sourceMD ID="SMD1">
+		<METS:mdWrap MIMETYPE="text/xml" MDTYPE="OTHER" OTHERMDTYPE="PALMM">
+			<METS:xmlData>
+				<palmm:entityDesc SOURCE="UF"/>
+			</METS:xmlData>
+		</METS:mdWrap>
+	</METS:sourceMD>
+        <METS:digiprovMD ID="DPMD1">
+                <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS"> 
+                        <METS:xmlData> 
+                                <daitss:daitss> 
+                                        <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/> 
+                                </daitss:daitss> 
+                        </METS:xmlData> 
+                </METS:mdWrap>  
+        </METS:digiprovMD>
+</METS:amdSec>
+
+<METS:fileSec>
+	<METS:fileGrp ID="FG1">
+		<METS:file ID="F1" MIMETYPE="application/pdf" SEQ="1" CREATED="2003-11-24T12:36:18" SIZE="7545169" CHECKSUM="91478B753496976D158790DF3003903C" CHECKSUMTYPE="MD5" ADMID="RMD1">
+			<METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="owings_r.pdf"/>
+		</METS:file>
+		<METS:file ID="F2" MIMETYPE="video/avi" SEQ="2" CREATED="2003-11-22T12:01:27" SIZE="643880" CHECKSUM="9CF98DC54DD9AC15F2539286199F8539" CHECKSUMTYPE="MD5" ADMID="RMD1">
+			<METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="polaronmovie1.avi"/>
+		</METS:file>
+	</METS:fileGrp>
+</METS:fileSec>
+<METS:structMap ID="SM1">
+	<METS:div TYPE="ETD" DMDID="DMD1">
+		<METS:div ORDER="1" TYPE="main" LABEL="Polarons and Impurities in Nickel Cobalt Oxide">
+			<METS:fptr FILEID="F1"/>
+		</METS:div>
+		<METS:div ORDER="2" TYPE="section">
+			<METS:fptr FILEID="F2"/>
+		</METS:div>
+	</METS:div>
+</METS:structMap>
+
+</METS:mets>
+

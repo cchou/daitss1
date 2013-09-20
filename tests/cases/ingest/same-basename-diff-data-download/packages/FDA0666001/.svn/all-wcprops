@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download/packages/FDA0666001
+END
+ufdc2.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download/packages/FDA0666001/ufdc2.xsd
+END
+image.tiff
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download/packages/FDA0666001/image.tiff
+END
+FDA0666001.xml
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download/packages/FDA0666001/FDA0666001.xml
+END
+UF00003799_00001.mets
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download/packages/FDA0666001/UF00003799_00001.mets
+END

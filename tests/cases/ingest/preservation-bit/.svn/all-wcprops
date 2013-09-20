@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/preservation-bit
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/preservation-bit/run.rb
+END
+local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/preservation-bit/local.sql
+END
+Readme
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/preservation-bit/Readme
+END

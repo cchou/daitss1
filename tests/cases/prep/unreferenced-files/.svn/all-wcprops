@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/repos/!svn/ver/1236/daitss/trunk/tests/cases/prep/unreferenced-files
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1236/daitss/trunk/tests/cases/prep/unreferenced-files/run.rb
+END

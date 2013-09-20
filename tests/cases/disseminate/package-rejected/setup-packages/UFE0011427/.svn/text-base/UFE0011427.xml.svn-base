@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:palmm="http://www.fcla.edu/dls/md/palmm/" xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/" xmlns:techmd="http://www.fcla.edu/dls/md/techmd/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" LABEL="CMOS Intra-Chip Wireless Clock Distribution" OBJID="UFE0011427" TYPE="ETD" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd">
+  <METS:metsHdr CREATEDATE="2005-09-23T04:41:52Z" ID="UFE0011427" LASTMODDATE="2005-09-23T04:41:52Z" RECORDSTATUS="NEW">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>UFRGP</METS:name>
+      <METS:note>projects=ETD</METS:note>
+      <METS:note>makerules=title,UF</METS:note>
+      <METS:note>server=TD</METS:note>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdWrap LABEL="Simple Dublin Core" MDTYPE="DC" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <dc:title>CMOS Intra-Chip Wireless Clock Distribution</dc:title>
+        <dc:date>2005</dc:date>
+        <dc:creator>Guo, Xiaoling</dc:creator>
+        <dc:publisher>University of Florida</dc:publisher>
+        <dc:subject>clock, cmos, distribution, wireless</dc:subject>
+        <dc:description>Abstract of Dissertator Presented to the Graduate School  of the University of Florida in Partial Fulfillment of the  Requirements for the Degree of Doctor of Philosophy  cmos INTRA-CHIP WIRELESS CLOCK DISTRIBUTION      By  Xiaoling Guo  August 2005  Chair: Kenneth K. O  Major Department: Electrical and Computer Engineering      As the clock frequency and chip size of high-performance microprocessors increase, distributing clock signals across the chip becomes increasingly difficult due to increasing propagation delays and decreasing allowable clock skew. This dissertation presents the design, implementation, and demonstration of an intra-chip wireless clock distribution. The system consists of transmitters and receivers with on-chip antennas communicating via electromagnetic waves at the speed of light. A global clock signal is generated and broadcasted using a transmitting antenna. Clock receivers distributed throughout the chip detect the signal using on-chip antennas, amplify and divide it down to a local clock signal, and buffer and distribute the clock signals to the adjacent circuitry.       To synchronize all the receivers across the chip, a scheme using a transmitted global clock signal with 2-ns no transmission period and the programmable divider in receiver is proposed. The package (such as the heatsink) and on-chip metal structures can significantly affect the on-chip antenna characteristics. AlN, an insulator with high thermal conductivity is used to reduce the heatsink effects and increase the antenna pair gain ~ 8dB. A general design guideline is also proposed to reduce the on-chip metal structures' impact on the antenna performance. In addition, thinning the lossy substrates to 100mm increases the gain of an on-chip antenna pair with 1.0 cm separation by ~15dB.       A broadband low noise amplifier (LNA) preceding the programmable divider and detector in the receiver is demonstrated using a 8-level-metal 130-nm CMOS process. It has 20 dB voltage gain at 20.6 GHz, 5.5 dB noise figure and 4 GHz 3-dB bandwidth.       An intra-chip wireless clock distribution system is successfully demonstrated using on-chip antenna pairs, a clock receiver, and a clock transmitter. With 0.26-mm separation between the antenna pair, the system is working between 17 GHz and 18.7 GHz. The peak-to-peak jitter of the whole system (excluding VCO in transmitter) is 5.4ps, or ~1.21% of a local clock period. The programming bits of the divider is also successfully demonstrated at 18 GHz. Because of the divider programmability, the maximum skew of this system should be less than 1/16 of a local clock period, which is 6.25% of a local clock period. Using an off-chip power amplifier which increases the transmitter output power from 4 to 11dBm, the system is demonstrated at 2.5-mm separation between the transmitting antenna and the receiver. These measurement results demonstrate the synchronization scheme of the intra-chip wireless clock distribution system, and indicate that wireless approach can be a practical for clock distribution option in the future microprocessors.</dc:description>
+        <dc:language>EN</dc:language>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:dmdSec ID="DMD2">
+    <METS:mdWrap LABEL="PALMM Extensions" MDTYPE="OTHER" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <palmm:thesis>
+          <palmm:committeeChair>O, Kenneth K.</palmm:committeeChair>
+          <palmm:committeeMember>Fox, Robert M.</palmm:committeeMember>
+          <palmm:committeeMember>Lin, Jenshan</palmm:committeeMember>
+          <palmm:committeeMember>Peir, Jih-Kwon</palmm:committeeMember>
+          <palmm:graduationDate>2005-08-06</palmm:graduationDate>
+          <palmm:degree>Ph.D.</palmm:degree>
+          <palmm:degreeDiscipline>Electrical and Computer Engineering</palmm:degreeDiscipline>
+          <palmm:degreeGrantor>University of Florida</palmm:degreeGrantor>
+          <palmm:degreeLevel>Doctorate</palmm:degreeLevel>
+        </palmm:thesis>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:amdSec>
+    <METS:digiprovMD ID="DAITSS_AGREEMENT_INFO">
+      <METS:mdWrap MDTYPE="OTHER">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:amdSec>
+    <METS:rightsMD ID="RMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="RIGHTSMD">
+        <METS:xmlData>
+          <rightsmd:accessCode>public</rightsmd:accessCode>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:rightsMD>
+    <METS:sourceMD ID="SMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="PALMM">
+        <METS:xmlData>
+          <palmm:entityDesc SOURCE="UF"/>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:sourceMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp ID="FG1">
+      <METS:file ADMID="RMD1" CHECKSUM="664D0FBA0D43F1513DE01A671D1E890C" CHECKSUMTYPE="MD5" CREATED="2005-07-26T11:38:19" ID="F1" MIMETYPE="application/pdf" SEQ="1" SIZE="12372233">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="guo_x.pdf"/>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap ID="SM1">
+    <METS:div DMDID="DMD1" TYPE="ETD">
+      <METS:div LABEL="CMOS Intra-Chip Wireless Clock Distribution" ORDER="1" TYPE="main">
+        <METS:fptr FILEID="F1"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

@@ -1,0 +1,246 @@
+<?xml version="1.0"?>
+<!--<!DOCTYPE xs:schema PUBLIC "-//W3C//DTD XMLSCHEMA 200102//EN" "XMLSchema.dtd">-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.uflib.ufl.edu/digital/metadata/ufdc2/" targetNamespace="http://www.uflib.ufl.edu/digital/metadata/ufdc2/" elementFormDefault="qualified" attributeFormDefault="unqualified" xsi:schemaLocation="http://www.w3.org/2001/XMLSchema http://www.w3.org/2001/XMLSchema.xsd" version="2.0">
+	<xs:annotation>
+		<xs:documentation xml:lang="en">
+			Schema defining metadata elements to be used for UFDC projects. 	
+			This schema has been designed as an extension schema to the METS format. 
+			Components defined and declared here may be used in a METS mdWrap/xmlData section. 
+			Developer: Mark Sullivan (MarSull@uflib.ufl.edu)
+			Creation Date: 08/08/2005, Version 2.0 7/19/2007
+			See http:\\www.uflib.ufl.edu\digital\metadata\ufdc2\ufdc2.xml for complete remarks
+	    </xs:documentation>
+	</xs:annotation>
+	<xs:element name="procParam">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:choice minOccurs="1" maxOccurs="1">
+					<xs:sequence>
+						<xs:element name="Collection.Primary" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xs:element name="Collection.Alternate" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+						<xs:element name="SubCollection" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+					</xs:sequence>
+					<xs:sequence>
+						<xs:element name="Project.Primary" type="xs:string" minOccurs="1" maxOccurs="1" />
+						<xs:element name="Project.Alternate" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+					</xs:sequence>
+				</xs:choice>
+				<xs:element name="MainThumbnail" type="xs:string" minOccurs="0" maxOccurs="1" />
+				<xs:element name="Icon" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="Download" type="ufdcDownload" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="URL" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="AccessMethod" minOccurs="0" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:NMTOKEN">
+							<xs:enumeration value="UFDC" />
+							<xs:enumeration value="DOWNLOAD_ONLY" />
+							<xs:enumeration value="LINK_OUT" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="LockRecord" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+				<xs:element name="OcrAccuracy" type="xs:int" minOccurs="0" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="bibDesc">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="BibID" type="xs:string" minOccurs="1" maxOccurs="1" />
+				<xs:element name="VID" type="xs:string" minOccurs="1" maxOccurs="1" />
+				<xs:element name="Affiliation" type="ufdcAffiliation" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="Copyrighted" type="xs:boolean" minOccurs="0" maxOccurs="1" />
+				<xs:element name="FormattedCitation" type="xs:string" minOccurs="0" maxOccurs="1" />
+				<xs:element name="Holding" type="ufdcHolding" minOccurs="0" maxOccurs="1" />
+				<xs:element name="Source" type="ufdcSource" minOccurs="0" maxOccurs="1" />
+				<xs:element name="Temporal" type="ufdcTemporal" minOccurs="0" maxOccurs="unbounded" />
+				<xs:element name="Type" minOccurs="1" maxOccurs="1">
+					<xs:simpleType>
+						<xs:restriction base="xs:NMTOKEN">
+							<xs:enumeration value="AERIAL" />
+							<xs:enumeration value="ARTIFACT" />
+							<xs:enumeration value="BOOK" />
+							<xs:enumeration value="IMAGEMAP" />
+							<xs:enumeration value="MONOGRAPH" />
+							<xs:enumeration value="PHOTOGRAPH" />
+							<xs:enumeration value="POSTCARD" />
+							<xs:enumeration value="SERIAL" />
+							<xs:enumeration value="AUDIO" />
+							<xs:enumeration value="VIDEO" />
+							<xs:enumeration value="IMAGE" />
+							<xs:enumeration value="TEXT" />
+							<xs:enumeration value="NEWSPAPER" />
+							<xs:enumeration value="ARCHIVES" />
+							<xs:enumeration value="PROJECT" />
+						</xs:restriction>
+					</xs:simpleType>
+				</xs:element>
+				<xs:element name="SortDate" type="xs:string" minOccurs="0" maxOccurs="1" />
+				<xs:element name="SortTitle" type="xs:string" minOccurs="0" maxOccurs="1" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="serial">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="SerialHierarchy" type="ufdcSerialHierarchy" minOccurs="1" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:element name="gsa">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="gsaData" type="ufdcGsaData" minOccurs="0" maxOccurs="unbounded" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	<xs:complexType name="ufdcAffiliation">
+		<xs:choice maxOccurs="1">
+			<xs:element name="AffiliationTerm" type="xs:string" />
+			<xs:element name="HierarchicalAffiliation" type="ufdcAffiliationHierarchy" />
+		</xs:choice>
+		<xs:attribute name="nameid" type="xs:string" />
+	</xs:complexType>
+	<xs:complexType name="ufdcAffiliationHierarchy">
+		<xs:choice maxOccurs="unbounded">
+			<xs:element name="University" />
+			<xs:element name="Campus" />
+			<xs:element name="College" />
+			<xs:element name="Unit" />
+			<xs:element name="Department" />
+			<xs:element name="Institute" />
+			<xs:element name="Center" />
+			<xs:element name="Section" />
+			<xs:element name="Subsection" />
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="ufdcDownload">
+		<xs:choice>
+			<xs:element name="url">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="type" type="xs:string" />
+							<xs:attribute name="size" type="xs:string" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="fptr">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="FILEID" type="xs:string" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="name" type="xs:string" />
+		</xs:choice>
+	</xs:complexType>
+	<xs:complexType name="ufdcGsaData">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="namespace" type="xs:string" />
+				<xs:attribute name="element" type="xs:string" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ufdcHolding">
+		<xs:sequence>
+			<xs:element name="statement" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="code" type="xs:string" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="html" type="xs:string" minOccurs="0" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ufdcTemporal">
+		<xs:sequence>
+			<xs:element name="period" minOccurs="0" maxOccurs="unbounded">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="start" type="xs:gYear" />
+							<xs:attribute name="end" type="xs:gYear" />
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+		</xs:sequence>
+	</xs:complexType>
+	<xs:complexType name="ufdcSerialHierarchy">
+		<xs:simpleContent>
+			<xs:extension base="xs:string">
+				<xs:attribute name="level" type="xs:int" />
+				<xs:attribute name="order" type="xs:int" />
+			</xs:extension>
+		</xs:simpleContent>
+	</xs:complexType>
+	<xs:complexType name="ufdcSource">
+		<xs:sequence>
+			<xs:element name="statement" minOccurs="0" maxOccurs="1">
+				<xs:complexType>
+					<xs:simpleContent>
+						<xs:extension base="xs:string">
+							<xs:attribute name="code">
+								<xs:simpleType>
+									<xs:restriction base="xs:NMTOKEN">
+										<xs:enumeration value="AM" />
+										<xs:enumeration value="FAMU" />
+										<xs:enumeration value="UF" />
+										<xs:enumeration value="FSU" />
+										<xs:enumeration value="UWF" />
+										<xs:enumeration value="UNF" />
+										<xs:enumeration value="UCF" />
+										<xs:enumeration value="USF" />
+										<xs:enumeration value="FIU" />
+										<xs:enumeration value="MHM" />
+										<xs:enumeration value="MCPL" />
+										<xs:enumeration value="FLNG" />
+										<xs:enumeration value="ROSSICA" />
+										<xs:enumeration value="EK" />
+										<xs:enumeration value="CARICOM" />
+										<xs:enumeration value="ANH" />
+										<xs:enumeration value="AUF" />
+										<xs:enumeration value="BHPSE" />
+										<xs:enumeration value="BFIC" />
+										<xs:enumeration value="BNH" />
+										<xs:enumeration value="BNPHU" />
+										<xs:enumeration value="FUNGLODE" />
+										<xs:enumeration value="IFH" />
+										<xs:enumeration value="NLJ" />
+										<xs:enumeration value="PUCCMA" />
+										<xs:enumeration value="OAS" />
+										<xs:enumeration value="UOV" />
+										<xs:enumeration value="UVI" />
+										<xs:enumeration value="UNPHU" />
+										<xs:enumeration value="UWI" />
+										<xs:enumeration value="SWFLN" />
+										<xs:enumeration value="SW" />
+										<xs:enumeration value="FSA" />
+										<xs:enumeration value="FAU" />
+										<xs:enumeration value="FGCU" />
+										<xs:enumeration value="UM" />
+										<xs:enumeration value="JU" />
+										<xs:enumeration value="CPL" />
+										<xs:enumeration value="FNG" />
+										<xs:enumeration value="UASD" />
+										<xs:enumeration value="NLG" />
+										<xs:enumeration value="BFIC" />
+									</xs:restriction>
+								</xs:simpleType>
+							</xs:attribute>
+						</xs:extension>
+					</xs:simpleContent>
+				</xs:complexType>
+			</xs:element>
+			<xs:element name="html" type="xs:string" minOccurs="0" maxOccurs="1" />
+		</xs:sequence>
+	</xs:complexType>
+</xs:schema>

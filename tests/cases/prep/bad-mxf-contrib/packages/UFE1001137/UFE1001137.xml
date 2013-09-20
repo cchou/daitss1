@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?>
+<!DOCTYPE MXF SYSTEM "MXF.dtd">
+<MXF>
+    <package new="yes">
+        <packageDesc id="UFE1001137">
+            <contrib>RGP</contrib>
+            <procInstr makerules="etd" server="TD"></procInstr>
+            <formats>application/pdf</formats>
+            <timestamp>20021031113359</timestamp>
+        </packageDesc>
+
+             <entityDesc id="UFE1001137" type="monograph" source="UF">
+                    <projects>ETD</projects>
+                    <versionStatement>Electronic version created October 2002, University of Florida.</versionStatement>
+                        <bibDesc ns="dc=http://purl.org/dc">
+                                        
+        <dc.title>Characterization of the Molecular Basis of Type 1 Diabetes Using Linkage and Microarray Analysis</dc.title>
+        <dc.creator>ECKENRODE, SARAH E</dc.creator>  
+        <dc.description.abstract>Type 1 diabetes (T1D) is a common, complex disease resulting from the autoimmune destruction of the pancreatic beta cell. The etiology of the disease process
+ is thought to be the result of interactions among genetic and environmental factors. Linkage studies have identified over eighteen possible chromosomal regions that may contain T1D suscepti
+bility genes in both humans and nonobese diabetic (NOD) mice. To date, specific genes have been identified in only three of these regions. The development of therapeutics for the prevention 
+or cure of T1D requires the identification of the underlying genes. The goal of this study was to assess the genetic components of T1D using two different strategies. The first strategy, pos
+itional cloning, was used to narrow the region containing the human T1D susceptibility genes on Chromosome 11 (IDDM4). Fifteen microsatellite markers were typed in 382 affected sibpair famil
+ies. A 5 to 6 cM region contained the strongest linkage with markers D11S913 (MLS = 3.4) and D11S987 (P= 0.0004). These markers are located within D11S4205 and GALN. Two possible candidate g
+enes in this region (FADD and GALN) were assessed for linkage disequilibrium. No significant associations were found for these genes. The second strategy used microarray technology to analyz
+e differential splenic gene expression in NOD, NOD congenics, and NOD treated with insulin B chain (B9-23) or cyclophosphamide. Comparison of differentially expressed genes identified eight 
+genes that could play a role in the pathogenesis of type 1 diabetes. These genes included CD22, lymphocyte specific interferon regulatory factor (LSIRF), neuronal apoptosis inhibitory protei
+n 6 (Naip6), protein tyrosine phosphatase receptor type C (PTPRC), beta-2-microglobin (B2M), proliferating cell nuclear antigen (PCNA), astrocytic phosphoprotein 15 (PEA15), and hypoxia-indu
+cible factor 1 a (HIF1A). These candidate genes may be involved in the etiology of T1D.</dc.description.abstract>
+        <dc.publisher>University of Florida</dc.publisher>  
+        
+        <dc.rights>Public</dc.rights>
+        
+
+        <dc.date.issued>20020808</dc.date.issued>
+        
+        <dc.contributor>Dr. Jin-Xiong She</dc.contributor>
+        <dc.contributor.role>chair</dc.contributor.role>
+
+        <dc.type>Electronic Thesis or Dissertation</dc.type>  
+        <dc.language>en</dc.language>  
+        
+        <thesis.degree>Doctor of Philosophy</thesis.degree>
+        <thesis.degree.discipline>MSG</thesis.degree.discipline>
+        <thesis.degree.level>Doctor of Philosophy</thesis.degree.level>
+        <thesis.degree.grantor>University of Florida</thesis.degree.grantor>
+                    </bibDesc>
+
+                                <div type="main">
+                                <file format="application/pdf" filesize="1584603">
+                                <filename>PhinalDissertation.pdf</filename>
+                                </file>
+                                </div>
+
+
+
+               </entityDesc>
+    </package>
+</MXF>

@@ -1,0 +1,64 @@
+10
+
+dir
+1416
+http://daitss.fcla.edu/repos/daitss/trunk/tests/cases/disseminate
+http://daitss.fcla.edu/repos
+
+
+
+2010-01-08T19:24:11.800081Z
+1407
+manny
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6269862c-c372-0410-9525-b4d81bd48e51
+
+format-changed
+dir
+
+package-withdrawn
+dir
+
+good-package
+dir
+
+with-migration
+dir
+
+retired-silo
+dir
+
+no-package
+dir
+
+cleanup
+dir
+
+no-authentication
+dir
+
+no-authorization
+dir
+
+multiple
+dir
+
+wo-migration
+dir
+
+package-rejected
+dir
+

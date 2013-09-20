@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fcla fda="yes"?>
+<?fcla dl="yes"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" OBJID="UF00000006_00001" TYPE="photo" xsi:schemaLocation="http://www.loc.gov/METS/         http://www.loc.gov/standards/mets/mets.xsd          http://www.loc.gov/mods/v3         http://www.loc.gov/standards/mods/v3/mods-3-2.xsd                  http://www.fcla.edu/dls/md/daitss/         http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+  <METS:metsHdr CREATEDATE="2007-08-31T12:49:46Z" ID="UF00000006_00001" LASTMODDATE="2007-08-31T12:49:45Z" RECORDSTATUS="NEW">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>UF</METS:name>
+      <METS:note>server=IC</METS:note>
+      <METS:note>projects=MAP, MAPC</METS:note>
+    </METS:agent>
+    <METS:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <METS:name>Go UFDC - FDA Preparation Tool</METS:name>
+    </METS:agent>
+    <METS:agent ROLE="CREATOR" TYPE="INDIVIDUAL">
+      <METS:name>SMATHERSLIB\marsull</METS:name>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdWrap LABEL="Metadata Object Description Schema" MDTYPE="MODS" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <mods:mods>
+          <mods:titleInfo>
+            <mods:title>Begræbnissplatz der Opfer</mods:title>
+          </mods:titleInfo>
+          <mods:titleInfo type="alternative">
+            <mods:title>Burial place of the temple offerings.</mods:title>
+          </mods:titleInfo>
+          <mods:titleInfo type="alternative">
+            <mods:title>Burial place of the victims.</mods:title>
+          </mods:titleInfo>
+          <mods:titleInfo type="alternative">
+            <mods:title>Burial place of the victims.</mods:title>
+          </mods:titleInfo>
+          <mods:titleInfo type="alternative">
+            <mods:title>Burial place of the temple offerings.</mods:title>
+          </mods:titleInfo>
+          <mods:originInfo>
+            <mods:publisher>Tedsyt</mods:publisher>
+          </mods:originInfo>
+          <mods:language>
+            <mods:languageTerm type="text">GermanGerman</mods:languageTerm>
+          </mods:language>
+          <mods:identifier type="ALEPH">002356711</mods:identifier>
+          <mods:identifier type="NOTIS">AAA0655</mods:identifier>
+          <mods:identifier type="NOTIS">ALW1139</mods:identifier>
+          <mods:note>Title from upper margin.</mods:note>
+          <mods:note>Believed to have been published in: Allgemeine historie der reisen zu wasser und lande, v.13.</mods:note>
+          <mods:note>"No. 22"--right upper margin.</mods:note>
+          <mods:note>Believed to have been published in: Allgemeine historie der reisen zu wasser und lande, v.13.</mods:note>
+          <mods:note type="funding">Funded in part by the University of Florida, the Florida Heritage Project of the State University Libraries of Florida, the Institute for Museum and Library Services, and the U.S. Department of Education's TICFIA granting program.</mods:note>
+          <mods:subject>
+            <mods:topic>Human sacrifice</mods:topic>
+            <mods:topic>Pictorial works.</mods:topic>
+            <mods:geographic>Mexico</mods:geographic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>Pictorial works.</mods:topic>
+            <mods:topic>Antiquities</mods:topic>
+            <mods:geographic>Mexico</mods:geographic>
+          </mods:subject>
+          <mods:subject authority="LCSH">
+            <mods:topic>Caribbean -- Maps</mods:topic>
+          </mods:subject>
+          <mods:subject authority="LCSH">
+            <mods:topic>Maps</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:hierarchicalGeographic>
+              <mods:country>Mexico</mods:country>
+            </mods:hierarchicalGeographic>
+          </mods:subject>
+          <mods:relatedItem type="original">
+            <mods:physicalDescription>
+              <mods:extent>1 art print : copper engraving ; 15 x 19 cm.</mods:extent>
+            </mods:physicalDescription>
+          </mods:relatedItem>
+          <mods:location>
+            <mods:physicalLocation>George A. Smathers Libraries, University of Florida</mods:physicalLocation>
+            <mods:physicalLocation type="code">UF</mods:physicalLocation>
+          </mods:location>
+          <mods:accessCondition>All rights reserved, Board of Trustees of the University of Florida.</mods:accessCondition>
+        </mods:mods>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:amdSec>
+    <METS:digiprovMD ID="AMD_DAITTS">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITTS">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp>
+      <METS:file CHECKSUM="d6b7fd8be916ed24591656f1b65f1507" CHECKSUMTYPE="MD5" GROUPID="G1" ID="E1" MIMETYPE="image/jp2" SIZE="578472">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="UF00000006.jp2"/>
+      </METS:file>
+    </METS:fileGrp>
+    <METS:fileGrp>
+      <METS:file CHECKSUM="6067ada1f952bfde715f07afc3f599ec" CHECKSUMTYPE="MD5" GROUPID="G1" ID="J1" MIMETYPE="image/jpeg" SIZE="222885">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="UF00000006.jpg"/>
+      </METS:file>
+    </METS:fileGrp>
+    <METS:fileGrp>
+      <METS:file CHECKSUM="2b033133adc0d3d8c69390cfb6b892c9" CHECKSUMTYPE="MD5" ID="AR1" SIZE="13">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="processing.instr"/>
+      </METS:file>
+      <METS:file CHECKSUM="55dcceacf96b69da58b4cf85d33e299b" CHECKSUMTYPE="MD5" ID="AR2" MIMETYPE="image/jpeg" SIZE="73805">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="UF00000006.QC.jpg"/>
+      </METS:file>
+      <METS:file CHECKSUM="3ab7566b7c7bb8a23573cb5f79663cc4" CHECKSUMTYPE="MD5" ID="AR3" SIZE="9090">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="UF00000006_00001.mets"/>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap ID="STRUCT1" TYPE="mixed">
+    <METS:div DMDID="DMD1" LABEL="Begræbnissplatz der Opfer" ORDER="0" TYPE="main">
+      <METS:div ID="D1" ORDER="1" TYPE="Group">
+        <METS:div ID="P1" LABEL="Image 1" ORDER="1" TYPE="Page">
+          <METS:fptr FILEID="J1"/>
+          <METS:fptr FILEID="E1"/>
+        </METS:div>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

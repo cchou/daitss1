@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/repos/!svn/ver/1247/daitss/trunk/tests/cases/email/envelope-from-option
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/repos/!svn/ver/1247/daitss/trunk/tests/cases/email/envelope-from-option/local.properties
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/repos/!svn/ver/1247/daitss/trunk/tests/cases/email/envelope-from-option/run.rb
+END

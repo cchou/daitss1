@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1356/daitss/trunk/tests/cases/ingest/same-basename-diff-data-download/run.rb
+END

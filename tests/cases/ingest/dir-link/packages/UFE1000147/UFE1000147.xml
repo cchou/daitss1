@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:palmm="http://www.fcla.edu/dls/md/palmm/" xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/" xmlns:techmd="http://www.fcla.edu/dls/md/techmd/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LABEL="Design, Construction, and Control of an Autonomous Humanoid Robot" OBJID="UFE1000147" TYPE="monograph" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-0.xsd http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+  <METS:metsHdr CREATEDATE="2002-07-09T00:00:00Z" ID="UFE1000147" LASTMODDATE="2008-01-25T19:08:13Z" RECORDSTATUS="NEW">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>Florida Center for Library Automation</METS:name>
+    </METS:agent>
+    <METS:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <METS:name>MXF2METS</METS:name>
+    </METS:agent>
+    <METS:agent OTHERROLE="MXF CREATOR" ROLE="OTHER" TYPE="ORGANIZATION">
+      <METS:name>RGP</METS:name>
+      <METS:note>makerules=etd</METS:note>
+      <METS:note>server=TD</METS:note>
+      <METS:note>formats=application/pdf</METS:note>
+      <METS:note>projects=ETD</METS:note>
+    </METS:agent>
+    <METS:agent OTHERROLE="MXF CREATOR" OTHERTYPE="SOFTWARE" ROLE="OTHER" TYPE="OTHER">
+      <METS:name>MXF to METS Convertor</METS:name>
+    </METS:agent>
+    <METS:agent OTHERROLE="MXF CREATOR" ROLE="OTHER" TYPE="INDIVIDUAL">
+      <METS:name>Carol</METS:name>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdWrap xmlns:METS="http://www.loc.gov/METS/" MDTYPE="MODS" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:typeOfResource>text</mods:typeOfResource>
+          <mods:titleInfo>
+            <mods:title>Design, Construction, and Control of an Autonomous Humanoid Robot</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>NORTMAN, SCOTT D</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">creator</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name>
+            <mods:namePart>ARROYO , AMAURI</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">contributor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:originInfo>
+            <mods:publisher>University of Florida</mods:publisher>
+            <mods:dateIssued>20020504</mods:dateIssued>
+          </mods:originInfo>
+          <mods:language>
+            <mods:languageTerm authority="rfc3066" type="code">en</mods:languageTerm>
+          </mods:language>
+          <mods:genre>Electronic Thesis or Dissertation</mods:genre>
+          <mods:abstract>From the beginning of time, humans have attempted to recreate themselves, first as drawings on cave walls, then as statues, and finally as humanoid robots. Humanoid robots have been popularized by science fiction for decades through books and movies. Fortunately, with today's rapidly advancing technology, science fact is getting closer to science fiction. Humanoid robot research and development is a global phenomenon, with new projects emerging everyday. This paper details one of these humanoid projects. Information regarding the current state of the art is presented and discussed, and Pneuman, a humanoid robot, is discussed in detail. Design considerations, construction details, and control issues are presented and explained.</mods:abstract>
+          <mods:accessCondition type="useAndReproduction">Public - Available to anyone worldwide</mods:accessCondition>
+        </mods:mods>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:amdSec>
+    <METS:rightsMD ID="RMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="RIGHTSMD">
+        <METS:xmlData>
+          <rightsmd:versionStatement>Electronic version created July 2002, University of Florida.</rightsmd:versionStatement>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:rightsMD>
+    <METS:sourceMD ID="SMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="PALMM">
+        <METS:xmlData>
+          <palmm:entityDesc SOURCE="UF"/>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:sourceMD>
+  </METS:amdSec>
+  <METS:amdSec>
+    <METS:digiprovMD ID="DPMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp>
+      <METS:fileGrp>
+        <METS:file GROUPID="GID1" ID="FID1" MIMETYPE="application/pdf" SIZE="3506519">
+          <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="nortman_s.pdf"/>
+        </METS:file>
+      </METS:fileGrp>
+      <METS:fileGrp>
+        <METS:file ID="MXF">
+          <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="UFE1000147.xml.mxf"/>
+        </METS:file>
+      </METS:fileGrp>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap>
+    <METS:div ADMID="RMD1" DMDID="DMD1" LABEL="Design, Construction, and Control of an Autonomous Humanoid Robot" TYPE="monograph">
+      <METS:div TYPE="main">
+        <METS:fptr FILEID="FID1"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

@@ -1,0 +1,17 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1234/daitss/trunk/tests/cases/m-storage/bad_status_handling
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/repos/!svn/ver/1234/daitss/trunk/tests/cases/m-storage/bad_status_handling/run.rb
+END
+local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1234/daitss/trunk/tests/cases/m-storage/bad_status_handling/local.sql
+END

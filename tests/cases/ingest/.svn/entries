@@ -1,0 +1,241 @@
+10
+
+dir
+1416
+http://daitss.fcla.edu/repos/daitss/trunk/tests/cases/ingest
+http://daitss.fcla.edu/repos
+
+
+
+2009-11-04T16:21:41.746498Z
+1400
+carol
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+6269862c-c372-0410-9525-b4d81bd48e51
+
+normalization-pdf-unembedded-math-font
+dir
+
+metadata-mismatch
+dir
+
+wave-multi-channels
+dir
+
+text
+dir
+
+wave-alaw
+dir
+
+jpeg
+dir
+
+avi-cvid-pcms16le
+dir
+
+jp2
+dir
+
+global-broken-links
+dir
+
+indeterminate-virus
+dir
+
+mov-no-mdat
+dir
+
+pdf-fragmented-links
+dir
+
+pdf-optional-date-prefix
+dir
+
+pdf-pjx-nullptr
+dir
+
+wave-ulaw
+dir
+
+dir-link
+dir
+
+same-basename-diff-data
+dir
+
+pro-4.x-uf
+dir
+
+normalization-pdf-ghostscript-bug
+dir
+
+same-basename-diff-data-download
+dir
+
+preservation-full
+dir
+
+no-descriptor
+dir
+
+tiff
+dir
+
+mov-compressed-header
+dir
+
+uf-etd-test-1
+dir
+
+setup
+dir
+
+normalization-pdf-ms-fonts
+dir
+
+email-subject-filename
+dir
+
+mov-avc-pcm16be
+dir
+
+pdf-pjx-string-error
+dir
+
+pdf-jhove-arrayoutofbound
+dir
+
+checksum-mismatch
+dir
+
+pdf-actions
+dir
+
+mov-cvid-pcmu8
+dir
+
+wave-padded-info-chunk
+dir
+
+bad-timestamp
+dir
+
+same-basename-same-data
+dir
+
+no-checksum-type
+dir
+
+quote
+dir
+
+aip_r0_creation
+dir
+
+missing-mimetype
+dir
+
+pdf-with-Lang
+dir
+
+pdf-pages
+dir
+
+wave-pcm-s16le
+dir
+
+pdfa
+dir
+
+diff-basename-same-data
+dir
+
+cannot-determine-checksum-type
+dir
+
+pdf-1.7
+dir
+
+tiff-npe-iftds
+dir
+
+metadata-imagedepth-match
+dir
+
+pdf-jhove-nullptr
+dir
+
+has-virus
+dir
+
+normalization-pdf-undefined-resource
+dir
+
+tiff-no-max-strip
+dir
+
+ignored-links-column-truncation
+dir
+
+format-unknown
+dir
+
+pdf-cycled-outline
+dir
+
+invalid-timestamp
+dir
+
+mov-mjpa-qdm2
+dir
+
+avi-iv32-pcmu8
+dir
+
+csv
+dir
+
+avi-iv50-none
+dir
+
+preservation-bit
+dir
+
+mime-case-insensitive
+dir
+
+webcache
+dir
+
+jp2-with-anomaly
+dir
+
+invalid-intermediate-mets
+dir
+
+avi-mjpg-pcmu8
+dir
+
+text-utf8
+dir
+
+jpeg-unknown-variation
+dir
+
+mov-smc-none
+dir
+

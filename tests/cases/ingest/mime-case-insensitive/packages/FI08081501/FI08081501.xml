@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fcla fda="yes"?>
+<?fcla dl="no"?>
+
+<!-- Root element contains namespace declarations, prefix
+     associations, schema locations, EntityID and entity type -->
+<METS:mets xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:METS="http://www.loc.gov/METS/"
+	xmlns:xlink="http://www.w3.org/1999/xlink"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:palmm="http://www.fcla.edu/dls/md/palmm/"
+	xmlns:techmd="http://www.fcla.edu/dls/md/techmd/"
+	xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+	xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/"
+	xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd
+	http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd
+	http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+	http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+	http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd http://www.fcla.edu/dls/md/rightsmd/ 
+	http://www.fcla.edu/dls/md/rightsmd.xsd"
+	OBJID="FI08081501" 
+	TYPE="monograph">
+
+  <!--If specified, DAITSS expects an entity type (TYPE) from a
+      controlled vocabulary. Valid values are: aerial, artifact,
+      collection, map, monograph, multipart, photo, postcard,
+      serial, oral and unknown. TYPE is optional, so it can be
+      omitted if desired. -->
+  
+  
+  <!-- metsHdr element contains timestamps and package ID -->
+  <METS:metsHdr CREATEDATE="2008-09-22T10:56:00Z" ID="FI08081501" LASTMODDATE="2008-09-22T10:56:00Z">
+    
+    <!-- METS agent element for creator institution, includes notes for image type
+	 and FDA project code. Agent elements are optional. -->  
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>FIU</METS:name>
+    </METS:agent>
+	<METS:agent ROLE="ARCHIVIST" TYPE="INDIVIDUAL">
+      <METS:name>Rogers, Jamie</METS:name>
+    </METS:agent>
+  </METS:metsHdr>
+  
+  <!-- dmdSec section containing bibliographic information. (Refer to SIP Profile 9.4 J.R.)--> 
+  
+  
+  <!-- The only required descriptive metadata is title. However, it is best practice to include as much descriptive metadata as is practical. -->   
+  <METS:dmdSec ID="DMD1">
+   <METS:mdWrap MIMETYPE="text/xml" MDTYPE="DC">
+      <METS:xmlData>
+		<dc:title>ANTI-QUORUM SENSING AGENTS FROM SOUTH FLORIDA MEDICINAL PLANTS AND THEIR ATTENUATION OF PSEUDOMONAS AERUGINOSA PATHOGENICITY</dc:title>
+		<dc:language>EN</dc:language> <!-- ISO639.1 -->
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  
+  <!--ORDER OF MD SECS IS IMPORTANT (techMD, rightsMD, sourceMD, digiprovMD)-->
+  <!--amdSec contains numerous techMD sections, each uniquely identified-->
+  
+  <!-- techMD is optional, and is not used by DAITSS which extracts
+       its own comprehensive technical metadata.  You only need these
+       sections if you want to record some technical information for your
+       own future use.  Otherwise, leave them out.-->
+  
+  <!-- in this example, below there is an amdSec element containing 
+       techMD elements with technical metadata for the files in the
+       package. -->
+  <METS:amdSec>
+    <METS:techMD ID="TMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="TECHMD">
+        <METS:xmlData>
+	  	<daitss:daitss>
+	    <daitss:MEDIA_TYPE>
+		  <daitss:TYPE>application/msword</daitss:TYPE>
+	      <daitss:DESCRIPTION>Microsoft Word</daitss:DESCRIPTION>
+	    </daitss:MEDIA_TYPE>
+	  	</daitss:daitss>
+		</METS:xmlData>
+      </METS:mdWrap>
+    </METS:techMD>
+    
+    <METS:techMD ID="TMD2">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="TECHMD">
+        <METS:xmlData>
+	  	<daitss:daitss>
+	    <daitss:MEDIA_TYPE>
+		  <daitss:TYPE>application/PDF</daitss:TYPE>
+		  <daitss:DESCRIPTION>Portable Document Format (Adobe Acrobat)</daitss:DESCRIPTION>
+	    </daitss:MEDIA_TYPE>
+	  	</daitss:daitss>
+		</METS:xmlData>
+      </METS:mdWrap>
+    </METS:techMD>
+    
+    <!-- rightsMD and sourceMD are optional.  Below is a sample
+	 rightsMD section that includes copyright and version statements. -->
+    <METS:rightsMD ID="RMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="RIGHTSMD">
+        <METS:xmlData>
+          <rightsmd:versionStatement>??Copyright retained by the author(s). This work may be downloaded or printed for non-commercial educational and research use.??</rightsmd:versionStatement>
+	  <rightsmd:copyrightStatement>??Copyright 2006-2008??</rightsmd:copyrightStatement>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:rightsMD>
+
+  
+  <!-- For DAITSS processing, the digiprovMD section is 
+       required, and must minimally include the account and project code -->
+  
+  
+    <METS:digiprovMD ID="DPMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  
+  <!-- It is not necessary to create multiple file groups for 
+       each format included in the package, although it can be 
+       useful to do so to apply metadata sections to a group as a
+       whole. -->
+  
+  <!--file element includes some technical metadata. xlink:href 
+	    is used to point to content files using relative system
+	    paths. 
+	    Optional GROUPID is used to relate different
+	    representations of underlying content components 
+	    (wave files and word docs as transcripts). Optional SEQ
+	    attribute is also used. Notice references to extension
+	    metadata sections using ADMID attribute-->
+  <METS:fileSec>
+    <METS:fileGrp>
+        <METS:file ID="FID1" ADMID="TMD1" CHECKSUM="a4033c4f320056225e215117363ab4f9" CHECKSUMTYPE="MD5" CREATED="2008-10-22T10:07:00Z" MIMETYPE="application/msword" SIZE="61440" USE="HTML Metadata">
+          <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="FI08081501.doc"/>
+        </METS:file>
+        <METS:file ID="FID2" ADMID="TMD2" CHECKSUM="012186550850b6a29b1abd3a721e1452" CHECKSUMTYPE="MD5" CREATED="2008-10-22T10:05:00Z" MIMETYPE="application/PDF" SIZE="2630739" USE="Published document">
+          <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="FI08081501.pdf"/>
+        </METS:file>    
+    </METS:fileGrp>
+  </METS:fileSec>
+  
+  <!-- structMap section uses fptr tags to reference files. Also, dmdSecs referenced that apply to both files appear in top level div.-->
+  <METS:structMap>
+    <METS:div ADMID="RMD1" DMDID="DMD1">
+      <METS:div LABEL="Published Document and Metadata">
+          <METS:fptr FILEID="FID1"/>
+          <METS:fptr FILEID="FID2"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

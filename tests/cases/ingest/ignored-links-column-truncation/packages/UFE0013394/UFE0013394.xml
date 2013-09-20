@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:palmm="http://www.fcla.edu/dls/md/palmm/" xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/" xmlns:techmd="http://www.fcla.edu/dls/md/techmd/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" LABEL="Role of Stromal Cell-Derived Factor 1 in Proliferative Retinopathy" OBJID="UFE0013394" TYPE="ETD" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd">
+  <METS:metsHdr CREATEDATE="2006-06-06T05:42:28Z" ID="UFE0013394" LASTMODDATE="2006-06-06T05:42:28Z" RECORDSTATUS="NEW">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>UFRGP</METS:name>
+      <METS:note>projects=ETD</METS:note>
+      <METS:note>makerules=title,UF</METS:note>
+      <METS:note>server=TD</METS:note>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdWrap LABEL="Simple Dublin Core" MDTYPE="DC" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <dc:title>Role of Stromal Cell-Derived Factor 1 in Proliferative Retinopathy</dc:title>
+        <dc:date>2006</dc:date>
+        <dc:creator>Butler, Jason M</dc:creator>
+        <dc:publisher>University of Florida</dc:publisher>
+        <dc:subject>angiogenesis, bone, diabetic, endothelial, hematopoietic, neovascularization, retina, retinopathy, sdf1</dc:subject>
+        <dc:description>ROLE OF STROMAL CELL-DERIVED FACTOR 1 IN PROLIFERATIVE RETINOPATHY    By    Jason Mathew Butler  May 2006    Chair:  Edward W. Scott  Major Department:  Molecular Cell Biology    Diabetic retinopathy is the leading cause of blindness in working-age adults.  It is caused by oxygen starvation in the retina, inducing aberrant formation of blood vessels that destroy retinal architecture.  In humans, vitreal stromal cell-derived factor 1 (SDF-1) concentration increases as proliferative diabetic retinopathy progresses.  Treating patients with triamcinolone decreases SDF-1 levels in the vitreous and leads to marked visual improvement.  SDF-1 induces human retinal endothelial cells to increase expression of vascular cell adhesion molecule-1 (VCAM-1), a receptor for very late antigen-4 (VLA-4) found on many hematopoietic progenitors, and reduces tight cellular junctions by reducing occludin expression.  Both changes would serve to recruit both hematopoietic and endothelial progenitor cells along an SDF-1 gradient.  We have shown, using a murine model of proliferative adult retinopathy, that the majority of new vessels formed in response to oxygen starvation are of hematopoietic stem cell-derived endothelial progenitor cell origin.  We now show that the levels of SDF-1 found in human patients with proliferative retinopathy induce retinopathy in our murine model.  Intravitreal injection of blocking antibodies to SDF-1 prevents retinal neovascularization in our murine model, even in the presence of exogenous VEGF.       We further set out to elucidate how SDF-1 could be working mechanistically to promote neovascularization by analyzing our model at various time points.  Using immunohistochemistry and ELISA, we have shown that SDF-1 is upregulated in the bone marrow and the retina following ischemic insult.  The percentage of bone marrow-derived CD133+ cells increased in the circulating peripheral blood in response to the ischemic insult.  These bone marrow-derived CD133+ cells were positive for CXCR4 (the only known receptor for SDF-1) and possessed chemotatic activity toward a SDF-1 gradient.  Intravenous injection of bone marrow-derived CD133+/GFP+ cells following ischemic insult results in the recruitment and incorporation of these cells into the repairing vasculature of the retina.  These results demonstrate that SDF-1 can form a gradient sufficient to promote neovascularization and that the source of endothelial progenitor cells (EPC) that are recruited to the site of preretinal neovascularization could be distinguished by the cell surface marker CD133.  Together these data show that SDF-1 plays a major role in proliferative retinopathy and may be an ideal target to prevent proliferative retinopathy.</dc:description>
+        <dc:language>EN</dc:language>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:dmdSec ID="DMD2">
+    <METS:mdWrap LABEL="PALMM Extensions" MDTYPE="OTHER" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <palmm:thesis>
+          <palmm:committeeChair>Scott, Edward W.</palmm:committeeChair>
+          <palmm:committeeMember>Grant, Maria A.</palmm:committeeMember>
+          <palmm:committeeMember>Petersen, Bryon E.</palmm:committeeMember>
+          <palmm:committeeMember>Terada, Naohiro</palmm:committeeMember>
+          <palmm:committeeMember>Lewin, Alfred S.</palmm:committeeMember>
+          <palmm:graduationDate>2006-05-05</palmm:graduationDate>
+          <palmm:degree>Ph.D.</palmm:degree>
+          <palmm:degreeDiscipline>Molecular Cell Biology (IDP)</palmm:degreeDiscipline>
+          <palmm:degreeGrantor>University of Florida</palmm:degreeGrantor>
+          <palmm:degreeLevel>Doctorate</palmm:degreeLevel>
+        </palmm:thesis>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:amdSec>
+    <METS:digiprovMD ID="DAITSS_AGREEMENT_INFO">
+      <METS:mdWrap MDTYPE="OTHER">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:amdSec>
+    <METS:rightsMD ID="RMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="RIGHTSMD">
+        <METS:xmlData>
+          <rightsmd:accessCode>public</rightsmd:accessCode>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:rightsMD>
+    <METS:sourceMD ID="SMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="PALMM">
+        <METS:xmlData>
+          <palmm:entityDesc SOURCE="UF"/>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:sourceMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp ID="FG1">
+      <METS:file ADMID="RMD1" CHECKSUM="9ACC06C8A2E41AB0EE950655C78CB8F8" CHECKSUMTYPE="MD5" CREATED="2006-04-25T09:16:30" ID="F1" MIMETYPE="application/pdf" SEQ="1" SIZE="1194756">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="butler_j.pdf"/>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap ID="SM1">
+    <METS:div DMDID="DMD1" TYPE="ETD">
+      <METS:div LABEL="Role of Stromal Cell-Derived Factor 1 in Proliferative Retinopathy" ORDER="1" TYPE="main">
+        <METS:fptr FILEID="F1"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

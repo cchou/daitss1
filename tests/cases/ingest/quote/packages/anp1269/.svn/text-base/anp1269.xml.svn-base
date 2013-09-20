@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?fcla dl="no"?>
+<?fcla fda="yes"?>
+<?daitss account="UF"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:mods="http://www.loc.gov/mods/v3" xmlns:palmm="http://www.fcla.edu/dls/md/palmm/" xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/" xmlns:techmd="http://www.fcla.edu/dls/md/techmd/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" LABEL="A SYNTACTIC ANALYSIS OF SPATIAL CONFIGURATION TOWARDS
+THE UNDERSTANDING OF CONTINUITY AND CHANGE
+IN VERNACULAR LIVING SPACE:
+A CASE STUDY IN THE UPPER NORTHEAST OF THAILAND" OBJID="anp1269" TYPE="ETD" xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/version14/mets.xsd http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd http://www.loc.gov/mods/v3 http://www.loc.gov/standards/mods/v3/mods-3-0.xsd http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+  <METS:metsHdr CREATEDATE="2007-07-02T19:25:29Z" ID="anp1269" LASTMODDATE="2007-07-23T20:50:44Z" RECORDSTATUS="NEW">
+    <METS:agent OTHERROLE="MXF CREATOR" ROLE="OTHER" TYPE="ORGANIZATION">
+      <METS:name/>
+      <METS:note>directory=C:\Documents and Settings\ops\Desktop\single-descriptor\anp1269\</METS:note>
+      <METS:note>server=TD</METS:note>
+      <METS:note>formats=application/pdf</METS:note>
+      <METS:note>projects=ETD</METS:note>
+    </METS:agent>
+    <METS:agent OTHERROLE="MXF CREATOR" ROLE="OTHER" TYPE="INDIVIDUAL">
+      <METS:name>MXFClient 2.9.1</METS:name>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:dmdSec ID="DMD1">
+    <METS:mdWrap xmlns:METS="http://www.loc.gov/METS/" MDTYPE="MODS" MIMETYPE="text/xml">
+      <METS:xmlData>
+        <mods:mods xmlns:mods="http://www.loc.gov/mods/v3">
+          <mods:typeOfResource>software, multimedia</mods:typeOfResource>
+          <mods:titleInfo>
+            <mods:title>A SYNTACTIC ANALYSIS OF SPATIAL CONFIGURATION TOWARDS
+THE UNDERSTANDING OF CONTINUITY AND CHANGE
+IN VERNACULAR LIVING SPACE:
+A CASE STUDY IN THE UPPER NORTHEAST OF THAILAND</mods:title>
+          </mods:titleInfo>
+          <mods:name>
+            <mods:namePart>THUNGSAKUL NOPADON</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">creator</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:name>
+            <mods:namePart>R. Wayne Drummond</mods:namePart>
+            <mods:role>
+              <mods:roleTerm type="text">contributor</mods:roleTerm>
+            </mods:role>
+          </mods:name>
+          <mods:originInfo>
+            <mods:publisher>University of Florida</mods:publisher>
+            <mods:dateIssued>2001</mods:dateIssued>
+          </mods:originInfo>
+          <mods:note>In the last few decades vernacular houses in Thailand have changed as people are
+becoming physically and socially more integrated with the outside world. Vernacular
+houses being built now differ radically from traditional houses in many aspects, from
+their material and structure to style and appearance. Because of foreign influences from
+global modernization, vernacular houses being built in most areas of Thailand are
+becoming less influenced by existing traditions and more influenced by popular trends.
+This study aims to examine spatial patterns modified by the design of vernacular houses.
+It is hypothesized that while newer houses are more modern looking than those built in
+the past, the internal organization of both house types remains similar. The main
+questions for the investigation are how vernacular houses have developed their patterns to
+support the change of lifestyle, and how these patterns have been carried on.
+Syntactical studies were used to investigate changes regarding the spatial and
+functional organization of house samples. Forty-one houses were selected
+chronologically. The analysis of spatial configuration was based on two procedures:
+space syntax and cognitive research methods. Space syntax was applied to examine
+patterns established among samples through diagrams of house floor plans. Cognitive
+research methods revealed patterns of domestic experience regarding space-use patterns
+categorized by inhabitants. Data were grouped into nine primary spaces and analyzed for
+change: under floor, outdoor yard, toilet and bathing, food preparation, multiple uses,
+verandah, sleeping, eating and household services. The changes over time in spatial
+configuration and underlying functional structures were identified.
+The analysis of spatial configuration indicates a continuous transition of space-use
+pattern in accordance with the change of lifestyle, while the information from cultural
+content suggests the shift from familism to individualism. Spatial patterns from various
+house types not only illustrate different domestic experience but also identify the impact
+of physical transformation by the process of urbanization. Several suggestions for spatial
+alteration are given based on the examination of spatial patterns and domestic experience
+in order to develop design guidelines for a supportive housing design in the study area.</mods:note>
+          <mods:subject>
+            <mods:topic>configurational analysis</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>vernacular house</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>Thailand</mods:topic>
+          </mods:subject>
+          <mods:subject>
+            <mods:topic>spatial analysis</mods:topic>
+          </mods:subject>
+          <mods:accessCondition type="useAndReproduction">Public</mods:accessCondition>
+        </mods:mods>
+      </METS:xmlData>
+    </METS:mdWrap>
+  </METS:dmdSec>
+  <METS:amdSec>
+    <METS:rightsMD ID="RMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="RIGHTSMD">
+        <METS:xmlData>
+          <rightsmd:versionStatement>Electronic version created 2007, State University System of Florida.</rightsmd:versionStatement>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:rightsMD>
+    <METS:sourceMD ID="SMD1">
+      <METS:mdWrap MDTYPE="OTHER" MIMETYPE="text/xml" OTHERMDTYPE="PALMM">
+        <METS:xmlData>
+          <palmm:entityDesc SOURCE="UF"/>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:sourceMD>
+  </METS:amdSec>
+  <METS:amdSec>
+    <METS:digiprovMD ID="DPMD1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA"/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp>
+      <METS:fileGrp>
+        <METS:file CHECKSUM="14afb150e740c1b14be216566fa43df3" CHECKSUMTYPE="MD5" CREATED="2006-08-11T16:55:25Z" GROUPID="GID1" ID="FID1" MIMETYPE="application/pdf" SIZE="3640423">
+          <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="nopadon'sDSS.PDF"/>
+        </METS:file>
+      </METS:fileGrp>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap>
+    <METS:div ADMID="RMD1" DMDID="DMD1" LABEL="A SYNTACTIC ANALYSIS OF SPATIAL CONFIGURATION TOWARDS
+THE UNDERSTANDING OF CONTINUITY AND CHANGE
+IN VERNACULAR LIVING SPACE:
+A CASE STUDY IN THE UPPER NORTHEAST OF THAILAND" TYPE="ETD">
+      <METS:div TYPE="main">
+        <METS:fptr FILEID="FID1"/>
+      </METS:div>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

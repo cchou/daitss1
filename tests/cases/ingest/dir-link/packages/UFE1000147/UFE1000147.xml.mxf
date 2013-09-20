@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="ISO-8859-15" standalone="no"?>
+<!DOCTYPE MXF SYSTEM "MXF.dtd">
+<MXF>
+    <package new="yes">
+        <packageDesc id="UFE1000147">
+            <contrib>RGP</contrib>
+            <procInstr makerules="etd" server="TD"></procInstr>
+            <formats>application/pdf</formats>
+            <timestamp>20020709034724</timestamp>
+        </packageDesc>
+
+	     <entityDesc id="UFE1000147" type="monograph" source="UF">
+	            <projects>ETD</projects>
+	            <versionStatement>Electronic version created July 2002, University of Florida.</versionStatement>
+	      		<bibDesc ns="dc=http://purl.org/dc">
+					
+	<dc.title>Design, Construction, and Control of an Autonomous Humanoid Robot</dc.title>
+	<dc.creator>NORTMAN, SCOTT D</dc.creator>  
+	<dc.description.abstract>From the beginning of time, humans have attempted to recreate themselves, first as drawings on cave walls, then as statues, and finally as humanoid robots. Humanoid robots have been popularized by science fiction for decades through books and movies. Fortunately, with today&apos;s rapidly advancing technology, science fact is getting closer to science fiction. Humanoid robot research and development is a global phenomenon, with new projects emerging everyday. This paper details one of these humanoid projects. Information regarding the current state of the art is presented and discussed, and Pneuman, a humanoid robot, is discussed in detail. Design considerations, construction details, and control issues are presented and explained.</dc.description.abstract>
+	<dc.publisher>University of Florida</dc.publisher>  
+	
+	<dc.rights>Public - Available to anyone worldwide</dc.rights>
+	
+	<dc.date.issued>20020504</dc.date.issued>
+	
+	<dc.contributor>ARROYO , AMAURI</dc.contributor>
+	<dc.contributor.role>chair</dc.contributor.role>
+	<dc.contributor>NECHYBA , MICHAEL</dc.contributor>
+	<dc.contributor.role>committe_member</dc.contributor.role>
+	<dc.contributor>SCHWARTZ , ERIC</dc.contributor>
+	<dc.contributor.role>committe_member</dc.contributor.role>
+	<dc.type>Electronic Thesis or Dissertation</dc.type>  
+	<dc.language>en</dc.language>  
+	
+	<thesis.degree>MS</thesis.degree>
+	<thesis.degree.discipline>Electrical and Computer Engineering</thesis.degree.discipline>
+	<thesis.degree.level>Master of Science</thesis.degree.level>
+	<thesis.degree.grantor>University of Florida</thesis.degree.grantor>
+	            </bibDesc>
+				<div type="main">
+	            		<file format="application/pdf" filesize="3506519">
+	                	<filename>nortman_s.pdf</filename>
+	                        </file>
+	           	        </div>
+
+
+	       </entityDesc>
+    </package>
+</MXF>

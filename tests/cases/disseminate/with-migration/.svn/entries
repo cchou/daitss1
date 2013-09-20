@@ -1,0 +1,41 @@
+10
+
+dir
+1416
+http://daitss.fcla.edu/repos/daitss/trunk/tests/cases/disseminate/with-migration
+http://daitss.fcla.edu/repos
+
+
+
+2008-12-10T17:43:48.854337Z
+1343
+carol
+
+my.properties
+file
+
+
+
+
+2008-12-10T16:11:21.000000Z
+ca66180648500a40a82ab197a3b311f9
+2008-12-10T17:43:48.854337Z
+1343
+carol
+
+run.rb
+file
+
+
+
+
+2008-12-10T17:15:06.000000Z
+52d5034a9c41df92a91d17448d177f31
+2008-12-10T17:43:48.854337Z
+1343
+carol
+has-props
+
+setup-packages
+dir
+

@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/csv/packages/FDA0000200
+END
+fixedColumn.csv
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/csv/packages/FDA0000200/fixedColumn.csv
+END
+FDA0000200.xml
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/csv/packages/FDA0000200/FDA0000200.xml
+END
+quoted.csv
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/csv/packages/FDA0000200/quoted.csv
+END
+variablecolumn.csv
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/csv/packages/FDA0000200/variablecolumn.csv
+END

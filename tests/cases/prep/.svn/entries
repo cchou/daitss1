@@ -1,0 +1,61 @@
+10
+
+dir
+1416
+http://daitss.fcla.edu/repos/daitss/trunk/tests/cases/prep
+http://daitss.fcla.edu/repos
+
+
+
+2008-05-08T19:26:01.747475Z
+1236
+franco
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e2ae85e3-cf20-0410-855b-be2d16f42433
+
+create-descriptor
+dir
+
+md-type
+dir
+
+targzed
+dir
+
+rename-descriptor
+dir
+
+no-content
+dir
+
+unreferenced-files
+dir
+
+mxf-descriptor
+dir
+
+no-descriptor
+dir
+
+unknown-descriptor
+dir
+
+zipped
+dir
+
+bad-mxf-contrib
+dir
+

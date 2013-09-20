@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/checksum-mismatch/packages/FDA0000103
+END
+owings_r.pdf
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/checksum-mismatch/packages/FDA0000103/owings_r.pdf
+END
+polaronmovie1.avi
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/checksum-mismatch/packages/FDA0000103/polaronmovie1.avi
+END
+FDA0000103.xml
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/ingest/checksum-mismatch/packages/FDA0000103/FDA0000103.xml
+END

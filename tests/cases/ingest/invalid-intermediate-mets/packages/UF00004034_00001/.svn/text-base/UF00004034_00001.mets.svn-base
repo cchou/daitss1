@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?fcla fda="yes"?>
+<?fcla dl="yes"?>
+<METS:mets OBJID="UF00004034_00001"
+    TYPE="photo"
+    xmlns:METS="http://www.loc.gov/METS/"
+    xmlns:mods="http://www.loc.gov/mods/v3"
+    xmlns:ufdc="http://www.uflib.ufl.edu/digital/metadata/ufdc/"
+    xmlns:xlink="http://www.w3.org/1999/xlink"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xmlns:daitss="http://www.fcla.edu/dls/md/daitss/"
+    xsi:schemaLocation="http://www.loc.gov/METS/
+        http://www.loc.gov/standards/mets/mets.xsd 
+        http://www.loc.gov/mods/v3
+        http://www.loc.gov/mods/v3/mods-3-2.xsd
+        http://www.uflib.ufl.edu/digital/metadata/ufdc/
+        http://www.uflib.ufl.edu/digital/metadata/ufdc/ufdc.xsd        
+        http://www.fcla.edu/dls/md/daitss/
+        http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+<METS:metsHdr CREATEDATE="2006-12-11T11:52:54Z" ID="UF00004034_00001" LASTMODDATE="2007-05-07T08:49:15Z" RECORDSTATUS="REPLACEMENT">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION"> 
+        <METS:name>UF</METS:name>
+        <METS:note>server=IC</METS:note>
+        <METS:note>projects=MAP, MAPFL</METS:note>
+    </METS:agent>
+    <METS:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER"> 
+        <METS:name>PreQC Application, 3.5.3</METS:name>
+    </METS:agent>
+</METS:metsHdr>
+<METS:dmdSec ID="DMD1">
+    <METS:mdWrap MDTYPE="MODS" MIMETYPE="text/xml" LABEL="Metadata Object Description Schema"> 
+        <METS:xmlData>
+            <mods:mods>
+                <mods:titleInfo>
+                    <mods:title>Reconnoissance of vicinity of Cedar Keys, coast of Florida</mods:title>
+                </mods:titleInfo>
+                <mods:titleInfo type="alternative">
+                    <mods:title>Reconnaissance of vicinity of Cedar Keys, coast of Florida</mods:title>
+                </mods:titleInfo>
+                <mods:name type="personal">
+                    <mods:namePart>Gerdes, F. H.</mods:namePart>
+                    <mods:role>
+                          <mods:roleTerm authority="marcrelator">Creator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:name type="personal">
+                    <mods:namePart>Bache, A. D.  (Alexander Dallas)</mods:namePart>
+                    <mods:namePart type="date">1806-1867</mods:namePart>
+                    <mods:role>
+                          <mods:roleTerm authority="marcrelator">Creator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:name type="personal">
+                    <mods:namePart>United States Coast Survey.</mods:namePart>
+                    <mods:role>
+                          <mods:roleTerm authority="marcrelator">Creator</mods:roleTerm>
+                    </mods:role>
+                </mods:name>
+                <mods:originInfo>
+                    <mods:place>
+                           <mods:placeTerm type="text">United States</mods:placeTerm>
+                    </mods:place>
+                    <mods:publisher>s.n.,</mods:publisher>
+                    <mods:dateIssued>1851.</mods:dateIssued>
+                </mods:originInfo>
+                <mods:language>
+                    <mods:languageTerm type="text">English</mods:languageTerm>
+                </mods:language>
+                <mods:identifier type="ALEPH">002878841</mods:identifier>
+                <mods:identifier type="NOTIS">AAA5722</mods:identifier>
+                <mods:identifier type="NOTIS">APB0084</mods:identifier>
+                <mods:identifier type="OCLC">43666769</mods:identifier>
+                <mods:identifier type="NOTIS">AAA5722</mods:identifier>
+                <mods:identifier type="OCLC">43666769</mods:identifier>
+                <mods:note>Bathymetry shown by soundings in feet.</mods:note>
+                <mods:note>&quot;Sketch F. No. 4.&quot;</mods:note>
+                <mods:note>Includes text and table.</mods:note>
+                <mods:note type="funding">Funded in part by the University of Florida, the Florida Heritage Project of the State University Libraries of Florida, the Institute for Museum and Library Services, and the U.S. Department of Education's TICFIA granting program.</mods:note>
+                <mods:subject>
+                    <mods:topic>Islands</mods:topic>
+                    <mods:topic>Bathymetric maps.</mods:topic>
+                    <mods:geographic>Florida</mods:geographic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:topic>Nautical charts</mods:topic>
+                    <mods:geographic>Florida -- Cedar Key.</mods:geographic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:topic>Bathymetric maps.</mods:topic>
+                    <mods:geographic>Cedar Key (Fla.)</mods:geographic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:topic>Islands</mods:topic>
+                    <mods:topic>Bathymetric maps -- 1:300,000.</mods:topic>
+                    <mods:temporal>1851</mods:temporal>
+                    <mods:geographic>Florida</mods:geographic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:topic>Nautical charts</mods:topic>
+                    <mods:topic>1:300,000.</mods:topic>
+                    <mods:temporal>1851</mods:temporal>
+                    <mods:geographic>Florida -- Cedar Key</mods:geographic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:topic>Cedar Key (Fla.)</mods:topic>
+                    <mods:topic>Bathymetric maps -- 1:300,000.</mods:topic>
+                    <mods:temporal>1851</mods:temporal>
+                </mods:subject>
+                <mods:subject authority="LCSH">
+                    <mods:topic>Florida -- Maps</mods:topic>
+                </mods:subject>
+                <mods:subject authority="LCSH">
+                    <mods:topic>Maps</mods:topic>
+                </mods:subject>
+                <mods:subject>
+                    <mods:hierarchicalGeographic>
+                          <mods:continent>Florida</mods:continent>
+                    </mods:hierarchicalGeographic>
+                </mods:subject>
+                <mods:relatedItem type="original">
+                    <mods:physicalDescription>
+                        <mods:extent>1 map ; 25 x 24 cm.</mods:extent>
+                    </mods:physicalDescription>
+                </mods:relatedItem>
+                <mods:location>
+                    <mods:physicalLocation>George A. Smathers Libraries, University of Florida</mods:physicalLocation>
+                    <mods:physicalLocation type="code">UF</mods:physicalLocation>
+                </mods:location>
+                <mods:accessCondition>All rights reserved, Board of Trustees of the University of Florida.</mods:accessCondition>
+            </mods:mods>
+        </METS:xmlData>
+    </METS:mdWrap>
+</METS:dmdSec>
+<METS:dmdSec ID="DMD2">
+    <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="UFDC" MIMETYPE="text/xml" LABEL="University of Florida Digital Collections Metadata"> 
+        <METS:xmlData>
+            <ufdc:procParam>
+                <ufdc:Collection.Primary>MAP1</ufdc:Collection.Primary>
+                <ufdc:SubCollection>MAPFL</ufdc:SubCollection>
+                <ufdc:TextSearchable>true</ufdc:TextSearchable>
+                <ufdc:MainThumbnail>uf00004034thm.jpg</ufdc:MainThumbnail>
+                <ufdc:Icon>
+                    <ufdc:url name="UFMAP">UFMAP.gif</ufdc:url>
+                    <ufdc:url name="UFSPEC">UFSPEC.gif</ufdc:url>
+                    <ufdc:url name="DLOC">DLOC.gif</ufdc:url>
+                    <ufdc:url name="PALMM">PALMM.gif</ufdc:url>
+                </ufdc:Icon>
+            </ufdc:procParam>
+            <ufdc:bibDesc>
+                <ufdc:BibID>UF00004034</ufdc:BibID>
+                <ufdc:VID>00001</ufdc:VID>
+                <ufdc:Holding>
+                    <ufdc:statement code="UF">George A. Smathers Libraries, University of Florida</ufdc:statement>
+                    <ufdc:html>&lt;a href=&quot;http://www.uflib.ufl.edu&quot;&gt;George A. Smathers Libraries&lt;/a&gt;, &lt;a href=&quot;http://www.ufl.edu&quot;&gt;University of Florida&lt;/a&gt;</ufdc:html>
+                </ufdc:Holding>
+                <ufdc:Source>
+                    <ufdc:statement code="UF">University of Florida</ufdc:statement>
+                    <ufdc:html>&lt;a href=&quot;http://www.ufl.edu&quot;&gt;University of Florida&lt;/a&gt;</ufdc:html>
+                </ufdc:Source>
+                <ufdc:Type>IMAGE</ufdc:Type>
+            </ufdc:bibDesc>
+        </METS:xmlData>
+    </METS:mdWrap>
+</METS:dmdSec>
+<METS:amdSec>
+    <METS:digiprovMD ID="AMD_DAITTS">
+        <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITTS">
+            <METS:xmlData>
+                <daitss:daitss>
+                    <daitss:AGREEMENT_INFO ACCOUNT="UF" PROJECT="MAP1"/>
+                </daitss:daitss>
+            </METS:xmlData>
+        </METS:mdWrap>
+    </METS:digiprovMD>
+</METS:amdSec>
+<METS:fileSec> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="E1" MIMETYPE="image/jp2" CHECKSUM="b2e381c9ae56f97f5502524d5efd682b" CHECKSUMTYPE="MD5" SIZE="1165613"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="uf00004034.jp2" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="T1" MIMETYPE="text/plain" CHECKSUM="c2d24c49cb7e56bc4a031779d6564577" CHECKSUMTYPE="MD5" SIZE="2086"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="uf00004034.txt" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="F1" MIMETYPE="image/tiff 6.0" CHECKSUM="3ddfb41a9b8d0e8aace7c9648964f73d" CHECKSUMTYPE="MD5" SIZE="9339140"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="uf00004034.tif" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+    <METS:fileGrp> 
+        <METS:file GROUPID="G1" ID="J1" MIMETYPE="image/jpeg" CHECKSUM="20435e363d1b8040155e1153d27edbc7" CHECKSUMTYPE="MD5" SIZE="167183"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="uf00004034.jpg" /> 
+        </METS:file> 
+        <METS:file ID="J999999" MIMETYPE="image/jpeg" CHECKSUM="0e4c3f00c681a22cda60b65f54822553" CHECKSUMTYPE="MD5" SIZE="31258"> 
+            <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="uf00004034thm.jpg" /> 
+        </METS:file> 
+    </METS:fileGrp> 
+</METS:fileSec> 
+<METS:structMap ID="STRUCT1" TYPE="mixed"> 
+    <METS:div DMDID="DMD1 DMD2" LABEL="Reconnoissance of vicinity of Cedar Keys, coast of Florida" ORDER="0" TYPE="main"> 
+        <METS:div ID="D1" ORDER="1" TYPE="Group"> 
+            <METS:div ID="P1" LABEL="Image 1" ORDER="1" TYPE="Page"> 
+                <METS:fptr FILEID="F1" /> 
+                <METS:fptr FILEID="T1" /> 
+                <METS:fptr FILEID="J1" /> 
+                <METS:fptr FILEID="E1" /> 
+            </METS:div> 
+        </METS:div> 
+    </METS:div>
+</METS:structMap>
+<METS:behaviorSec ID="VIEWS" LABEL="Options available to the user for viewing this item" >
+    <METS:behavior GROUPID="VIEWS" ID="VIEW1" STRUCTID="STRUCT1" LABEL="Default View">
+        <METS:mechanism LABEL="Viewer for zoomable JPEG2000s" LOCTYPE="OTHER" OTHERLOCTYPE="UFDC Procedure" xlink:type="simple" xlink:title="JP2_Viewer" />
+    </METS:behavior>
+    <METS:behavior GROUPID="VIEWS" ID="VIEW2" STRUCTID="STRUCT1" LABEL="Alternate View">
+        <METS:mechanism LABEL="Viewer for JPEGs" LOCTYPE="OTHER" OTHERLOCTYPE="UFDC Procedure" xlink:type="simple" xlink:title="JPEG_Viewer" />
+    </METS:behavior>
+    <METS:behavior GROUPID="VIEWS" ID="VIEW3" STRUCTID="STRUCT1" LABEL="Alternate View">
+        <METS:mechanism LABEL="Related image viewer shows thumbnails for each image" LOCTYPE="OTHER" OTHERLOCTYPE="UFDC Procedure" xlink:type="simple" xlink:title="Related_Image_Viewer" />
+    </METS:behavior>
+</METS:behaviorSec>
+<METS:behaviorSec ID="INTERFACES" LABEL="Banners or interfaces which this resource can appear under" >
+    <METS:behavior GROUPID="INTERFACES" ID="INT1" STRUCTID="STRUCT1" LABEL="Default Interface">
+        <METS:mechanism LABEL="UFDC Interface" LOCTYPE="OTHER" OTHERLOCTYPE="UFDC Procedure" xlink:type="simple" xlink:title="UFDC_Interface_Loader" />
+    </METS:behavior>
+</METS:behaviorSec>
+</METS:mets>

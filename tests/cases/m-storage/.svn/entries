@@ -1,0 +1,55 @@
+10
+
+dir
+1416
+http://daitss.fcla.edu/repos/daitss/trunk/tests/cases/m-storage
+http://daitss.fcla.edu/repos
+
+
+
+2009-03-31T21:57:28.807493Z
+1368
+manny
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+e2ae85e3-cf20-0410-855b-be2d16f42433
+
+disseminate-no-active-silos
+dir
+
+some-active-silos
+dir
+
+disseminate
+dir
+
+disseminate-some-active-silos
+dir
+
+disseminate-some-active-silos-disjoint
+dir
+
+withdraw
+dir
+
+ingest
+dir
+
+no-active-silos
+dir
+
+bad_status_handling
+dir
+

@@ -1,0 +1,29 @@
+This test case test the bit-level preservation in DAITSS.  
+It ensures that the format transformations are not performed for bit-level
+preserved files.
+
+The init.sql file in this test case is minorly modified such that ingested files will be
+preserved as bit-level, instead of "full".  The modification is done in the inserted data 
+for the ARCHIVE_LOGIC where the default preservation level is set to "bit".  This modification 
+is necessary for the test case to be valid:
+
+
+*** ../../setup-files/simple-init.sql   2007-10-12 01:34:09.000000000 -0400
+--- init.sql    2007-10-12 15:33:31.000000000 -0400
+***************
+*** 202,208 ****
+  -- Dumping data for table `ARCHIVE_LOGIC`
+  --
+  
+! INSERT INTO `ARCHIVE_LOGIC` VALUES (1,1,'2007-04-05',NULL,'default','FULL');
+  INSERT INTO `ARCHIVE_LOGIC` VALUES (2,1,'2004-10-22',NULL,'text/plain','FULL');
+  INSERT INTO `ARCHIVE_LOGIC` VALUES (3,1,'2004-10-22',NULL,'text/x-pro','BIT');
+  
+--- 202,208 ----
+  -- Dumping data for table `ARCHIVE_LOGIC`
+  --
+  
+! INSERT INTO `ARCHIVE_LOGIC` VALUES (1,1,'2007-04-05',NULL,'default','BIT');
+  INSERT INTO `ARCHIVE_LOGIC` VALUES (2,1,'2004-10-22',NULL,'text/plain','FULL');
+  INSERT INTO `ARCHIVE_LOGIC` VALUES (3,1,'2004-10-22',NULL,'text/x-pro','BIT');
+  

@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/disseminate/no-package
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/disseminate/no-package/run.rb
+END

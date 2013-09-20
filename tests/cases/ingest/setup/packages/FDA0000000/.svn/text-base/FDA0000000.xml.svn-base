@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<METS:mets xmlns:METS="http://www.loc.gov/METS/" 
+           xmlns:daitss="http://www.fcla.edu/dls/md/daitss/" 
+           xmlns:dc="http://purl.org/dc/elements/1.1/" 
+           xmlns:palmm="http://www.fcla.edu/dls/md/palmm/" 
+           xmlns:rightsmd="http://www.fcla.edu/dls/md/rightsmd/" 
+           xmlns:techmd="http://www.fcla.edu/dls/md/techmd/" 
+           xmlns:xlink="http://www.w3.org/1999/xlink" 
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+           OBJID="FDA0000001" 
+           xsi:schemaLocation="http://www.loc.gov/METS/ http://www.loc.gov/standards/mets/mets.xsd 
+                               http://purl.org/dc/elements/1.1/ http://dublincore.org/schemas/xmls/simpledc20021212.xsd 
+                               http://www.fcla.edu/dls/md/techmd/ http://www.fcla.edu/dls/md/techmd.xsd
+                               http://www.fcla.edu/dls/md/palmm/ http://www.fcla.edu/dls/md/palmm.xsd
+                               http://www.fcla.edu/dls/md/rightsmd/ http://www.fcla.edu/dls/md/rightsmd.xsd
+                               http://www.fcla.edu/dls/md/daitss/ http://www.fcla.edu/dls/md/daitss/daitss.xsd">
+  <METS:metsHdr CREATEDATE="2006-09-09T18:23:40.110Z" ID="FDA0000000">
+    <METS:agent ROLE="CREATOR" TYPE="ORGANIZATION">
+      <METS:name>FDA</METS:name>
+    </METS:agent>
+    <METS:agent OTHERTYPE="SOFTWARE" ROLE="CREATOR" TYPE="OTHER">
+      <METS:name>edu.fcla.daitss.file.markupfile.METSDescriptor.Factory</METS:name>
+    </METS:agent>
+    <METS:agent ROLE="IPOWNER" TYPE="OTHER">
+      <METS:name>FDA</METS:name>
+    </METS:agent>
+  </METS:metsHdr>
+  <METS:amdSec>
+    <METS:digiprovMD ID="DP1">
+      <METS:mdWrap MDTYPE="OTHER" OTHERMDTYPE="DAITSS">
+        <METS:xmlData>
+          <daitss:daitss>
+            <daitss:AGREEMENT_INFO ACCOUNT="FDA" PROJECT="FDA" SUB_ACCOUNT=""/>
+          </daitss:daitss>
+        </METS:xmlData>
+      </METS:mdWrap>
+    </METS:digiprovMD>
+  </METS:amdSec>
+  <METS:fileSec>
+    <METS:fileGrp>
+      <METS:file CREATED="2006-09-09T18:23:40.401Z" ID="FID1" MIMETYPE="application/octet-stream">
+        <METS:FLocat LOCTYPE="OTHER" OTHERLOCTYPE="SYSTEM" xlink:href="nulls" xlink:type="simple"/>
+      </METS:file>
+    </METS:fileGrp>
+  </METS:fileSec>
+  <METS:structMap>
+    <METS:div>
+      <METS:fptr FILEID="FID1"/>
+    </METS:div>
+  </METS:structMap>
+</METS:mets>

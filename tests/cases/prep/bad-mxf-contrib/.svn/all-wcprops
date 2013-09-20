@@ -1,0 +1,11 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/prep/bad-mxf-contrib
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/repos/!svn/ver/1202/daitss/trunk/tests/cases/prep/bad-mxf-contrib/run.rb
+END

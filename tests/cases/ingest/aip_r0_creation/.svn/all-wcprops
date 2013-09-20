@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/repos/!svn/ver/1369/daitss/trunk/tests/cases/ingest/aip_r0_creation
+END
+local.properties
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/repos/!svn/ver/1230/daitss/trunk/tests/cases/ingest/aip_r0_creation/local.properties
+END
+run.rb
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/repos/!svn/ver/1369/daitss/trunk/tests/cases/ingest/aip_r0_creation/run.rb
+END
+local.sql
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/repos/!svn/ver/1230/daitss/trunk/tests/cases/ingest/aip_r0_creation/local.sql
+END
